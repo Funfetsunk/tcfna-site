@@ -1,0 +1,351 @@
+{
+ "source": "Summary of Important Locations, printed on Map A. Transcribed by hand.",
+ "note": "Alexandria/Cairo are Level Three fortifications, other Major Cities Level Two (TEC note 4). Hexes are canonical IDs as printed.",
+ "locations": [
+  {
+   "name": "Aboukir",
+   "hexes": [
+    "E3815"
+   ],
+   "offMap": false,
+   "majorCity": false,
+   "port": true,
+   "assignedGarrison": false,
+   "victoryCondition": false
+  },
+  {
+   "name": "Agadabia",
+   "hexes": [
+    "A2629"
+   ],
+   "offMap": false,
+   "majorCity": false,
+   "port": false,
+   "assignedGarrison": false,
+   "victoryCondition": true
+  },
+  {
+   "name": "Alexandria",
+   "hexes": [
+    "E3613",
+    "E3714"
+   ],
+   "offMap": false,
+   "majorCity": true,
+   "port": true,
+   "assignedGarrison": false,
+   "victoryCondition": true
+  },
+  {
+   "name": "Bardia",
+   "hexes": [
+    "C4321"
+   ],
+   "offMap": false,
+   "majorCity": true,
+   "port": true,
+   "assignedGarrison": true,
+   "victoryCondition": true
+  },
+  {
+   "name": "Benghazi",
+   "hexes": [
+    "A4827"
+   ],
+   "offMap": false,
+   "majorCity": true,
+   "port": true,
+   "assignedGarrison": false,
+   "victoryCondition": true
+  },
+  {
+   "name": "Benina",
+   "hexes": [
+    "A4829"
+   ],
+   "offMap": false,
+   "majorCity": false,
+   "port": false,
+   "assignedGarrison": true,
+   "victoryCondition": false
+  },
+  {
+   "name": "Bir Scheferzen",
+   "hexes": [
+    "C3419"
+   ],
+   "offMap": false,
+   "majorCity": false,
+   "port": false,
+   "assignedGarrison": true,
+   "victoryCondition": false
+  },
+  {
+   "name": "Bizerta",
+   "hexes": [],
+   "offMap": true,
+   "majorCity": false,
+   "port": true,
+   "assignedGarrison": false,
+   "victoryCondition": false
+  },
+  {
+   "name": "Cairo",
+   "hexes": [
+    "E1730",
+    "E1829",
+    "E1830",
+    "E1930",
+    "E1931"
+   ],
+   "offMap": false,
+   "majorCity": true,
+   "port": false,
+   "assignedGarrison": false,
+   "victoryCondition": true
+  },
+  {
+   "name": "Derna",
+   "hexes": [
+    "B5925"
+   ],
+   "offMap": false,
+   "majorCity": false,
+   "port": true,
+   "assignedGarrison": true,
+   "victoryCondition": true
+  },
+  {
+   "name": "el Agheila",
+   "hexes": [
+    "A1816"
+   ],
+   "offMap": false,
+   "majorCity": false,
+   "port": false,
+   "assignedGarrison": false,
+   "victoryCondition": true
+  },
+  {
+   "name": "el Grein",
+   "hexes": [
+    "C1715"
+   ],
+   "offMap": false,
+   "majorCity": false,
+   "port": false,
+   "assignedGarrison": true,
+   "victoryCondition": false
+  },
+  {
+   "name": "Fort Maddalena",
+   "hexes": [
+    "C3019"
+   ],
+   "offMap": false,
+   "majorCity": false,
+   "port": false,
+   "assignedGarrison": true,
+   "victoryCondition": true
+  },
+  {
+   "name": "Giarabub",
+   "hexes": [
+    "C1014"
+   ],
+   "offMap": false,
+   "majorCity": false,
+   "port": false,
+   "assignedGarrison": true,
+   "victoryCondition": true
+  },
+  {
+   "name": "Halfaya Pass",
+   "hexes": [
+    "C3922",
+    "C3821"
+   ],
+   "offMap": false,
+   "majorCity": false,
+   "port": false,
+   "assignedGarrison": false,
+   "victoryCondition": true
+  },
+  {
+   "name": "Helwan",
+   "hexes": [
+    "E1430"
+   ],
+   "offMap": false,
+   "majorCity": true,
+   "port": false,
+   "assignedGarrison": false,
+   "victoryCondition": false
+  },
+  {
+   "name": "Jalo",
+   "hexes": [
+    "B0513"
+   ],
+   "offMap": false,
+   "majorCity": false,
+   "port": false,
+   "assignedGarrison": false,
+   "victoryCondition": true
+  },
+  {
+   "name": "Marble Arch",
+   "hexes": [
+    "A2109"
+   ],
+   "offMap": false,
+   "majorCity": false,
+   "port": false,
+   "assignedGarrison": false,
+   "victoryCondition": true
+  },
+  {
+   "name": "Mechili",
+   "hexes": [
+    "B4921"
+   ],
+   "offMap": false,
+   "majorCity": false,
+   "port": false,
+   "assignedGarrison": true,
+   "victoryCondition": false
+  },
+  {
+   "name": "Mersa Brega",
+   "hexes": [
+    "A2021"
+   ],
+   "offMap": false,
+   "majorCity": false,
+   "port": false,
+   "assignedGarrison": false,
+   "victoryCondition": true
+  },
+  {
+   "name": "Mersa Matruh",
+   "hexes": [
+    "D3714"
+   ],
+   "offMap": false,
+   "majorCity": false,
+   "port": true,
+   "assignedGarrison": true,
+   "victoryCondition": true
+  },
+  {
+   "name": "Nofilia",
+   "hexes": [
+    "A2703"
+   ],
+   "offMap": false,
+   "majorCity": false,
+   "port": true,
+   "assignedGarrison": false,
+   "victoryCondition": false
+  },
+  {
+   "name": "Ras el Ali",
+   "hexes": [
+    "A2010"
+   ],
+   "offMap": false,
+   "majorCity": false,
+   "port": true,
+   "assignedGarrison": false,
+   "victoryCondition": false
+  },
+  {
+   "name": "Rosetta",
+   "hexes": [
+    "E4019"
+   ],
+   "offMap": false,
+   "majorCity": false,
+   "port": true,
+   "assignedGarrison": false,
+   "victoryCondition": false
+  },
+  {
+   "name": "Sidi Barrani",
+   "hexes": [
+    "C4131"
+   ],
+   "offMap": false,
+   "majorCity": false,
+   "port": false,
+   "assignedGarrison": false,
+   "victoryCondition": true
+  },
+  {
+   "name": "Sidi Omar",
+   "hexes": [
+    "C3618"
+   ],
+   "offMap": false,
+   "majorCity": false,
+   "port": false,
+   "assignedGarrison": false,
+   "victoryCondition": true
+  },
+  {
+   "name": "Siwa",
+   "hexes": [
+    "C0127"
+   ],
+   "offMap": false,
+   "majorCity": false,
+   "port": false,
+   "assignedGarrison": false,
+   "victoryCondition": true
+  },
+  {
+   "name": "Sollum",
+   "hexes": [
+    "C4021"
+   ],
+   "offMap": false,
+   "majorCity": false,
+   "port": true,
+   "assignedGarrison": false,
+   "victoryCondition": true
+  },
+  {
+   "name": "Soluch",
+   "hexes": [
+    "A4130"
+   ],
+   "offMap": false,
+   "majorCity": false,
+   "port": false,
+   "assignedGarrison": true,
+   "victoryCondition": false
+  },
+  {
+   "name": "Tobruk",
+   "hexes": [
+    "C4807"
+   ],
+   "offMap": false,
+   "majorCity": true,
+   "port": true,
+   "assignedGarrison": true,
+   "victoryCondition": true
+  },
+  {
+   "name": "Zuetina",
+   "hexes": [
+    "A2928"
+   ],
+   "offMap": false,
+   "majorCity": false,
+   "port": true,
+   "assignedGarrison": false,
+   "victoryCondition": false
+  }
+ ]
+}

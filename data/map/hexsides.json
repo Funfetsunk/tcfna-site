@@ -1,0 +1,17491 @@
+{
+"meta": {
+"status": "DRAFT - machine-extracted from the map scans; must be reviewed. See docs/map-data.md",
+"hex_id": "Sheet letter + CCRR as printed on the map (e.g. C4321 = Bardia).",
+"layout": "Flat-topped hexes in columns (as scanned). Odd columns sit half a hex towards lower row numbers.",
+"global_coords": "gcol = printed column (higher = further north); grow = 33*sheetIndex + printed row (higher = further east). Row 01 of a sheet is the same hex as row 34 of the previous sheet.",
+"neighbours": "odd gcol: (0,-1),(+1,-1),(+1,0),(0,+1),(-1,0),(-1,-1); even gcol: (0,-1),(+1,0),(+1,+1),(0,+1),(-1,+1),(-1,0) as (dcol,drow)",
+"partial_hex_rule": "Decision D5: any land makes a land hex; a non-clear terrain covering >= 1/4 of the land beats clear, largest share wins, costlier breaks ties. needsReview marks near-threshold and texture calls.",
+"terrain_values": [
+"clear",
+"rockgravel",
+"desert",
+"rough",
+"mountain",
+"saltmarsh",
+"delta",
+"heavyveg",
+"sea",
+"uncertain"
+],
+"hexside_values": {
+"escarpment": "thick escarpment hexside (up/down side NOT yet determined)",
+"road": "road crosses this hexside",
+"track": "track crosses this hexside",
+"railroad": "railroad crosses this hexside",
+"wadi": "wadi along hexside",
+"wire_candidate": "blue dashed line on Maps C/D - the Libya/Egypt frontier wire",
+"blue_line": "other blue hexside line - river, canal or wadi; classify by hand"
+},
+"not_extracted": [
+"ridge",
+"slope",
+"escarpment up/down direction",
+"major/minor river",
+"unfinished road/railroad",
+"villages/birs, oases, airfields, ports, major cities (see locations.json)",
+"Malta inset (Map A)"
+]
+},
+"hexsides": [
+{
+"between": [
+"A0106",
+"A0107"
+],
+"wadi": 0.87
+},
+{
+"between": [
+"A0106",
+"A0206"
+],
+"wadi": 0.93
+},
+{
+"between": [
+"A0112",
+"A0211"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A0117",
+"A0216"
+],
+"track": true
+},
+{
+"between": [
+"A0127",
+"A0227"
+],
+"track": true
+},
+{
+"between": [
+"A0205",
+"A0306"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"A0211",
+"A0312"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A0216",
+"A0316"
+],
+"track": true
+},
+{
+"between": [
+"A0224",
+"A0225"
+],
+"track": true
+},
+{
+"between": [
+"A0227",
+"A0327"
+],
+"road": true
+},
+{
+"between": [
+"A0305",
+"A0306"
+],
+"wadi": 0.87
+},
+{
+"between": [
+"A0312",
+"A0411"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A0323",
+"A0422"
+],
+"road": true
+},
+{
+"between": [
+"A0326",
+"A0426"
+],
+"track": true
+},
+{
+"between": [
+"A0405",
+"A0506"
+],
+"wadi": 0.67
+},
+{
+"between": [
+"A0411",
+"A0512"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A0417",
+"A0418"
+],
+"track": true
+},
+{
+"between": [
+"A0418",
+"A0419"
+],
+"track": true
+},
+{
+"between": [
+"A0419",
+"A0420"
+],
+"track": true
+},
+{
+"between": [
+"A0420",
+"A0421"
+],
+"track": true
+},
+{
+"between": [
+"A0505",
+"A0506"
+],
+"wadi": 0.87
+},
+{
+"between": [
+"A0512",
+"A0611"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A0605",
+"A0706"
+],
+"wadi": 0.8
+},
+{
+"between": [
+"A0610",
+"A0611"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A0610",
+"A0710"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A0616",
+"A0717"
+],
+"track": true
+},
+{
+"between": [
+"A0703",
+"A0704"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A0703",
+"A0802"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A0704",
+"A0705"
+],
+"track": true
+},
+{
+"between": [
+"A0705",
+"A0706"
+],
+"track": true,
+"wadi": 0.87
+},
+{
+"between": [
+"A0706",
+"A0707"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A0707",
+"A0708"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A0707",
+"A0807"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A0708",
+"A0709"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A0709",
+"A0710"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A0717",
+"A0817"
+],
+"track": true
+},
+{
+"between": [
+"A0802",
+"A0903"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A0807",
+"A0808"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A0808",
+"A0908"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A0816",
+"A0817"
+],
+"road": true
+},
+{
+"between": [
+"A0817",
+"A0818"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A0903",
+"A1002"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A0905",
+"A1005"
+],
+"wadi": 0.67
+},
+{
+"between": [
+"A0908",
+"A1008"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A0916",
+"A1015"
+],
+"track": true
+},
+{
+"between": [
+"A1002",
+"A1103"
+],
+"track": true
+},
+{
+"between": [
+"A1004",
+"A1005"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"A1004",
+"A1105"
+],
+"wadi": 0.8
+},
+{
+"between": [
+"A1008",
+"A1108"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A1103",
+"A1203"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A1104",
+"A1105"
+],
+"wadi": 0.93
+},
+{
+"between": [
+"A1105",
+"A1204"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"A1108",
+"A1208"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A1118",
+"A1217"
+],
+"road": true
+},
+{
+"between": [
+"A1203",
+"A1303"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A1204",
+"A1305"
+],
+"wadi": 0.53
+},
+{
+"between": [
+"A1208",
+"A1308"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A1217",
+"A1318"
+],
+"track": true
+},
+{
+"between": [
+"A1301",
+"A1302"
+],
+"wadi": 0.6
+},
+{
+"between": [
+"A1301",
+"A1401"
+],
+"wadi": 0.93
+},
+{
+"between": [
+"A1302",
+"A1401"
+],
+"wadi": 0.93
+},
+{
+"between": [
+"A1302",
+"A1402"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"A1303",
+"A1402"
+],
+"wadi": 0.6
+},
+{
+"between": [
+"A1303",
+"A1403"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A1304",
+"A1404"
+],
+"wadi": 0.6
+},
+{
+"between": [
+"A1308",
+"A1408"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A1318",
+"A1319"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A1318",
+"A1417"
+],
+"road": true
+},
+{
+"between": [
+"A1318",
+"A1418"
+],
+"track": true
+},
+{
+"between": [
+"A1320",
+"A1321"
+],
+"wadi": 0.67
+},
+{
+"between": [
+"A1321",
+"A1420"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"A1321",
+"A1421"
+],
+"wadi": 0.67
+},
+{
+"between": [
+"A1402",
+"A1403"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"A1403",
+"A1503"
+],
+"track": true,
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A1403",
+"A1504"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"A1408",
+"A1508"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A1411",
+"A1511"
+],
+"track": true
+},
+{
+"between": [
+"A1417",
+"A1517"
+],
+"road": true
+},
+{
+"between": [
+"A1418",
+"A1518"
+],
+"road": true
+},
+{
+"between": [
+"A1423",
+"A1524"
+],
+"wadi": 0.8
+},
+{
+"between": [
+"A1424",
+"A1524"
+],
+"wadi": 0.67
+},
+{
+"between": [
+"A1424",
+"A1525"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"A1428",
+"A1529"
+],
+"track": true
+},
+{
+"between": [
+"A1431",
+"A1532"
+],
+"track": true
+},
+{
+"between": [
+"A1503",
+"A1504"
+],
+"wadi": 0.53
+},
+{
+"between": [
+"A1503",
+"A1603"
+],
+"wadi": 0.8,
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A1508",
+"A1607"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A1510",
+"A1609"
+],
+"wadi": 0.67
+},
+{
+"between": [
+"A1510",
+"A1610"
+],
+"wadi": 0.47
+},
+{
+"between": [
+"A1511",
+"A1512"
+],
+"wadi": 0.93
+},
+{
+"between": [
+"A1511",
+"A1610"
+],
+"wadi": 0.6
+},
+{
+"between": [
+"A1511",
+"A1611"
+],
+"wadi": 0.53
+},
+{
+"between": [
+"A1512",
+"A1513"
+],
+"wadi": 0.6
+},
+{
+"between": [
+"A1517",
+"A1616"
+],
+"road": true
+},
+{
+"between": [
+"A1526",
+"A1625"
+],
+"wadi": 0.67
+},
+{
+"between": [
+"A1526",
+"A1626"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"A1603",
+"A1703"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A1606",
+"A1607"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A1606",
+"A1706"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A1606",
+"A1707"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"A1610",
+"A1711"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"A1611",
+"A1711"
+],
+"wadi": 0.87
+},
+{
+"between": [
+"A1616",
+"A1716"
+],
+"road": true
+},
+{
+"between": [
+"A1624",
+"A1625"
+],
+"track": true
+},
+{
+"between": [
+"A1625",
+"A1626"
+],
+"track": true
+},
+{
+"between": [
+"A1626",
+"A1627"
+],
+"wadi": 0.87
+},
+{
+"between": [
+"A1627",
+"A1727"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"A1627",
+"A1728"
+],
+"wadi": 0.87
+},
+{
+"between": [
+"A1628",
+"A1728"
+],
+"wadi": 0.87
+},
+{
+"between": [
+"A1628",
+"A1729"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"A1630",
+"A1730"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"A1703",
+"A1803"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A1706",
+"A1805"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A1710",
+"A1711"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"A1714",
+"A1715"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A1714",
+"A1813"
+],
+"road": true
+},
+{
+"between": [
+"A1715",
+"A1716"
+],
+"road": true
+},
+{
+"between": [
+"A1716",
+"A1816"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A1717",
+"A1718"
+],
+"road": true
+},
+{
+"between": [
+"A1717",
+"A1816"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A1718",
+"A1719"
+],
+"road": true
+},
+{
+"between": [
+"A1719",
+"A1819"
+],
+"road": true
+},
+{
+"between": [
+"A1725",
+"A1825"
+],
+"track": true
+},
+{
+"between": [
+"A1730",
+"A1731"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"A1731",
+"A1830"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"A1731",
+"A1831"
+],
+"wadi": 0.93
+},
+{
+"between": [
+"A1732",
+"A1832"
+],
+"track": true
+},
+{
+"between": [
+"A1803",
+"A1903"
+],
+"track": true
+},
+{
+"between": [
+"A1805",
+"A1906"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A1809",
+"A1810"
+],
+"road": true
+},
+{
+"between": [
+"A1809",
+"A1910"
+],
+"wadi": 0.6
+},
+{
+"between": [
+"A1810",
+"A1910"
+],
+"track": true
+},
+{
+"between": [
+"A1813",
+"A1913"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A1818",
+"A1819"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A1819",
+"A1820"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A1819",
+"A1920"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A1820",
+"A1920"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A1820",
+"A1921"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A1825",
+"A1926"
+],
+"track": true
+},
+{
+"between": [
+"A1831",
+"A1832"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"A1832",
+"A1933"
+],
+"road": true
+},
+{
+"between": [
+"A1834",
+"A1934"
+],
+"track": true
+},
+{
+"between": [
+"A1903",
+"A2003"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A1906",
+"A1907"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"A1906",
+"A2005"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A1907",
+"A1908"
+],
+"wadi": 0.67
+},
+{
+"between": [
+"A1908",
+"A2007"
+],
+"track": true,
+"wadi": 0.8
+},
+{
+"between": [
+"A1908",
+"A2008"
+],
+"wadi": 0.67
+},
+{
+"between": [
+"A1911",
+"A1912"
+],
+"road": true
+},
+{
+"between": [
+"A1911",
+"A2010"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A1912",
+"A1913"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A1920",
+"A1921"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A1921",
+"A2021"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A1931",
+"A1932"
+],
+"road": true
+},
+{
+"between": [
+"A1932",
+"A1933"
+],
+"wadi": 0.67
+},
+{
+"between": [
+"A1932",
+"A2032"
+],
+"road": true
+},
+{
+"between": [
+"A2003",
+"A2104"
+],
+"track": true
+},
+{
+"between": [
+"A2005",
+"A2105"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2006",
+"A2106"
+],
+"wadi": 0.93
+},
+{
+"between": [
+"A2010",
+"A2110"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2021",
+"A2022"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2022",
+"A2123"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2024",
+"A2025"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2024",
+"A2124"
+],
+"road": true
+},
+{
+"between": [
+"A2025",
+"A2126"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2029",
+"A2130"
+],
+"road": true
+},
+{
+"between": [
+"A2104",
+"A2203"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2105",
+"A2204"
+],
+"track": true
+},
+{
+"between": [
+"A2106",
+"A2107"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"A2106",
+"A2206"
+],
+"wadi": 0.53
+},
+{
+"between": [
+"A2109",
+"A2110"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2109",
+"A2208"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2123",
+"A2124"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2126",
+"A2127"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2127",
+"A2128"
+],
+"road": true
+},
+{
+"between": [
+"A2128",
+"A2228"
+],
+"road": true
+},
+{
+"between": [
+"A2133",
+"A2232"
+],
+"track": true
+},
+{
+"between": [
+"A2202",
+"A2203"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2202",
+"A2302"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2203",
+"A2204"
+],
+"track": true
+},
+{
+"between": [
+"A2203",
+"A2304"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2205",
+"A2206"
+],
+"wadi": 0.6
+},
+{
+"between": [
+"A2206",
+"A2306"
+],
+"wadi": 0.53
+},
+{
+"between": [
+"A2208",
+"A2308"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2224",
+"A2325"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2228",
+"A2329"
+],
+"road": true
+},
+{
+"between": [
+"A2234",
+"B2302"
+],
+"track": true
+},
+{
+"between": [
+"A2301",
+"A2302"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2304",
+"A2403"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2306",
+"A2307"
+],
+"wadi": 0.67
+},
+{
+"between": [
+"A2307",
+"A2308"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2307",
+"A2406"
+],
+"wadi": 0.67,
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2329",
+"A2429"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2331",
+"A2332"
+],
+"road": true
+},
+{
+"between": [
+"A2331",
+"A2430"
+],
+"road": true
+},
+{
+"between": [
+"A2403",
+"A2404"
+],
+"wadi": 0.6
+},
+{
+"between": [
+"A2403",
+"A2504"
+],
+"wadi": 0.73,
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2405",
+"A2406"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2405",
+"A2505"
+],
+"road": true
+},
+{
+"between": [
+"A2406",
+"A2506"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2429",
+"A2529"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2430",
+"A2530"
+],
+"track": true
+},
+{
+"between": [
+"A2503",
+"A2504"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"A2504",
+"A2603"
+],
+"wadi": 0.53,
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2505",
+"A2604"
+],
+"road": true
+},
+{
+"between": [
+"A2506",
+"A2605"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2529",
+"A2629"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2530",
+"A2629"
+],
+"track": true
+},
+{
+"between": [
+"A2603",
+"A2704"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2604",
+"A2704"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2629",
+"A2630"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2629",
+"A2730"
+],
+"road": true
+},
+{
+"between": [
+"A2630",
+"A2631"
+],
+"track": true
+},
+{
+"between": [
+"A2630",
+"A2731"
+],
+"track": true
+},
+{
+"between": [
+"A2631",
+"A2632"
+],
+"track": true
+},
+{
+"between": [
+"A2632",
+"A2633"
+],
+"track": true
+},
+{
+"between": [
+"A2634",
+"B2602"
+],
+"road": true
+},
+{
+"between": [
+"A2703",
+"A2704"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2730",
+"A2829"
+],
+"road": true
+},
+{
+"between": [
+"A2731",
+"A2831"
+],
+"track": true
+},
+{
+"between": [
+"A2829",
+"A2929"
+],
+"road": true
+},
+{
+"between": [
+"A2829",
+"A2930"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2831",
+"A2932"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2928",
+"A2929"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2929",
+"A3029"
+],
+"road": true
+},
+{
+"between": [
+"A2930",
+"A3030"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A2932",
+"A3032"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A3029",
+"A3129"
+],
+"road": true
+},
+{
+"between": [
+"A3030",
+"A3031"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A3031",
+"A3131"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A3032",
+"A3033"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A3033",
+"A3034"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A3033",
+"A3133"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A3034",
+"B3002"
+],
+"road": true
+},
+{
+"between": [
+"A3129",
+"A3229"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A3131",
+"A3231"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A3133",
+"A3134"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A3134",
+"A3233"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A3229",
+"A3329"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A3230",
+"A3330"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A3231",
+"A3331"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A3232",
+"A3233"
+],
+"track": true
+},
+{
+"between": [
+"A3232",
+"A3332"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A3233",
+"A3234"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A3233",
+"A3333"
+],
+"track": true
+},
+{
+"between": [
+"A3233",
+"A3334"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A3234",
+"B3102"
+],
+"track": true
+},
+{
+"between": [
+"A3234",
+"B3302"
+],
+"track": true
+},
+{
+"between": [
+"A3329",
+"A3330"
+],
+"track": true
+},
+{
+"between": [
+"A3329",
+"A3428"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A3329",
+"A3429"
+],
+"road": true
+},
+{
+"between": [
+"A3330",
+"A3331"
+],
+"track": true
+},
+{
+"between": [
+"A3331",
+"A3332"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A3331",
+"A3430"
+],
+"track": true
+},
+{
+"between": [
+"A3333",
+"A3432"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A3334",
+"A3433"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A3429",
+"A3529"
+],
+"road": true
+},
+{
+"between": [
+"A3430",
+"A3531"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A3432",
+"A3532"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A3433",
+"A3534"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A3528",
+"A3627"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A3529",
+"A3629"
+],
+"road": true
+},
+{
+"between": [
+"A3531",
+"A3630"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A3532",
+"A3631"
+],
+"track": true
+},
+{
+"between": [
+"A3534",
+"A3633"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A3627",
+"A3727"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A3629",
+"A3729"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A3630",
+"A3731"
+],
+"track": true
+},
+{
+"between": [
+"A3631",
+"A3732"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A3633",
+"A3734"
+],
+"track": true
+},
+{
+"between": [
+"A3727",
+"A3827"
+],
+"road": true
+},
+{
+"between": [
+"A3729",
+"A3828"
+],
+"road": true
+},
+{
+"between": [
+"A3731",
+"A3831"
+],
+"track": true
+},
+{
+"between": [
+"A3732",
+"A3831"
+],
+"track": true
+},
+{
+"between": [
+"A3734",
+"A3833"
+],
+"track": true
+},
+{
+"between": [
+"A3827",
+"A3928"
+],
+"track": true
+},
+{
+"between": [
+"A3828",
+"A3928"
+],
+"road": true
+},
+{
+"between": [
+"A3831",
+"A3931"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A3833",
+"A3933"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A3833",
+"A3934"
+],
+"escarpment": 0.6,
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A3927",
+"A4026"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A3928",
+"A4027"
+],
+"road": true
+},
+{
+"between": [
+"A3929",
+"A4028"
+],
+"track": true
+},
+{
+"between": [
+"A3929",
+"A4029"
+],
+"track": true
+},
+{
+"between": [
+"A3931",
+"A4030"
+],
+"track": true
+},
+{
+"between": [
+"A3932",
+"A3933"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A3933",
+"A3934"
+],
+"escarpment": 0.67,
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A3933",
+"A4032"
+],
+"track": true
+},
+{
+"between": [
+"A3933",
+"A4033"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"A3934",
+"A4033"
+],
+"track": true,
+"wadi": 0.87
+},
+{
+"between": [
+"A3934",
+"B3902"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4027",
+"A4127"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4028",
+"A4128"
+],
+"track": true
+},
+{
+"between": [
+"A4029",
+"A4130"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4030",
+"A4130"
+],
+"track": true,
+"railroad": true
+},
+{
+"between": [
+"A4031",
+"A4032"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4031",
+"A4131"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4032",
+"A4033"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"A4032",
+"A4132"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4032",
+"A4133"
+],
+"escarpment": 0.93
+},
+{
+"between": [
+"A4033",
+"A4133"
+],
+"track": true,
+"wadi": 0.93
+},
+{
+"between": [
+"A4034",
+"B4002"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"A4127",
+"A4128"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4127",
+"A4227"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4128",
+"A4129"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4129",
+"A4130"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4129",
+"A4228"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4130",
+"A4131"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4130",
+"A4229"
+],
+"railroad": true
+},
+{
+"between": [
+"A4130",
+"A4230"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4131",
+"A4132"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4132",
+"A4133"
+],
+"escarpment": 0.73,
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4132",
+"A4231"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4132",
+"A4232"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"A4133",
+"A4232"
+],
+"track": true,
+"wadi": 0.8
+},
+{
+"between": [
+"A4227",
+"A4327"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4228",
+"A4328"
+],
+"track": true
+},
+{
+"between": [
+"A4228",
+"A4329"
+],
+"track": true
+},
+{
+"between": [
+"A4229",
+"A4329"
+],
+"railroad": true
+},
+{
+"between": [
+"A4230",
+"A4330"
+],
+"track": true
+},
+{
+"between": [
+"A4231",
+"A4232"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"A4231",
+"A4331"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4231",
+"A4332"
+],
+"escarpment": 0.8
+},
+{
+"between": [
+"A4232",
+"A4233"
+],
+"wadi": 0.8
+},
+{
+"between": [
+"A4232",
+"A4333"
+],
+"track": true
+},
+{
+"between": [
+"A4233",
+"A4333"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"A4234",
+"A4334"
+],
+"track": true
+},
+{
+"between": [
+"A4234",
+"B4102"
+],
+"road": true,
+"wadi": 0.47
+},
+{
+"between": [
+"A4327",
+"A4427"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4328",
+"A4428"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4329",
+"A4330"
+],
+"track": true
+},
+{
+"between": [
+"A4329",
+"A4429"
+],
+"railroad": true
+},
+{
+"between": [
+"A4330",
+"A4430"
+],
+"track": true
+},
+{
+"between": [
+"A4331",
+"A4332"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"A4331",
+"A4431"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4332",
+"A4431"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"A4332",
+"A4432"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"A4333",
+"A4432"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"A4333",
+"A4433"
+],
+"track": true
+},
+{
+"between": [
+"A4334",
+"A4433"
+],
+"track": true
+},
+{
+"between": [
+"A4427",
+"A4527"
+],
+"track": true,
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4428",
+"A4528"
+],
+"track": true
+},
+{
+"between": [
+"A4429",
+"A4430"
+],
+"track": true
+},
+{
+"between": [
+"A4429",
+"A4529"
+],
+"track": true,
+"railroad": true
+},
+{
+"between": [
+"A4429",
+"A4530"
+],
+"escarpment": 0.8
+},
+{
+"between": [
+"A4430",
+"A4431"
+],
+"track": true
+},
+{
+"between": [
+"A4430",
+"A4530"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"A4430",
+"A4531"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"A4431",
+"A4432"
+],
+"escarpment": 0.93,
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4431",
+"A4531"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"A4431",
+"A4532"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"A4432",
+"A4433"
+],
+"track": true
+},
+{
+"between": [
+"A4432",
+"A4532"
+],
+"track": true
+},
+{
+"between": [
+"A4527",
+"A4627"
+],
+"road": true
+},
+{
+"between": [
+"A4528",
+"A4627"
+],
+"track": true
+},
+{
+"between": [
+"A4529",
+"A4530"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"A4529",
+"A4628"
+],
+"track": true,
+"railroad": true
+},
+{
+"between": [
+"A4529",
+"A4629"
+],
+"track": true
+},
+{
+"between": [
+"A4530",
+"A4629"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"A4532",
+"A4632"
+],
+"track": true
+},
+{
+"between": [
+"A4627",
+"A4728"
+],
+"road": true,
+"blue_line": 0.53
+},
+{
+"between": [
+"A4628",
+"A4728"
+],
+"track": true,
+"railroad": true
+},
+{
+"between": [
+"A4628",
+"A4729"
+],
+"wadi": 0.67
+},
+{
+"between": [
+"A4629",
+"A4630"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"A4629",
+"A4729"
+],
+"wadi": 0.8
+},
+{
+"between": [
+"A4629",
+"A4730"
+],
+"track": true
+},
+{
+"between": [
+"A4630",
+"A4730"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"A4630",
+"A4731"
+],
+"wadi": 0.93
+},
+{
+"between": [
+"A4631",
+"A4731"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"A4631",
+"A4732"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"A4632",
+"A4733"
+],
+"track": true
+},
+{
+"between": [
+"A4634",
+"B4502"
+],
+"wadi": 0.87
+},
+{
+"between": [
+"A4634",
+"B4602"
+],
+"road": true,
+"wadi": 1.0
+},
+{
+"between": [
+"A4634",
+"B4702"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"A4728",
+"A4827"
+],
+"road": true,
+"track": true,
+"railroad": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4730",
+"A4731"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"A4730",
+"A4830"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4731",
+"A4732"
+],
+"wadi": 0.53
+},
+{
+"between": [
+"A4731",
+"A4831"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4732",
+"A4831"
+],
+"wadi": 0.67
+},
+{
+"between": [
+"A4732",
+"A4832"
+],
+"wadi": 0.67
+},
+{
+"between": [
+"A4733",
+"A4833"
+],
+"track": true
+},
+{
+"between": [
+"A4827",
+"A4828"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4828",
+"A4829"
+],
+"track": true,
+"railroad": true
+},
+{
+"between": [
+"A4828",
+"A4928"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4829",
+"A4830"
+],
+"track": true,
+"railroad": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4829",
+"A4930"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4830",
+"A4831"
+],
+"track": true,
+"railroad": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4830",
+"A4930"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"A4831",
+"A4832"
+],
+"railroad": true,
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4832",
+"A4933"
+],
+"railroad": true,
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4834",
+"A4934"
+],
+"track": true
+},
+{
+"between": [
+"A4834",
+"B4702"
+],
+"track": true
+},
+{
+"between": [
+"A4928",
+"A4929"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4929",
+"A5029"
+],
+"road": true
+},
+{
+"between": [
+"A4930",
+"A4931"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"A4930",
+"A5030"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4931",
+"A5030"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"A4933",
+"A4934"
+],
+"track": true,
+"blue_line": 0.47,
+"railroad": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A4934",
+"A5033"
+],
+"track": true
+},
+{
+"between": [
+"A4934",
+"B4902"
+],
+"track": true,
+"railroad": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A5029",
+"A5130"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A5030",
+"A5031"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"A5030",
+"A5131"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A5031",
+"A5131"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"A5033",
+"A5034"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A5034",
+"B5102"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A5130",
+"A5230"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A5131",
+"A5132"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"A5132",
+"A5231"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"A5132",
+"A5232"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"A5133",
+"A5232"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"A5230",
+"A5231"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A5231",
+"A5232"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A5231",
+"A5332"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A5232",
+"A5233"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"A5233",
+"A5333"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"A5332",
+"A5432"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A5333",
+"A5334"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"A5333",
+"A5432"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A5333",
+"A5433"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"A5432",
+"A5433"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"A5432",
+"A5533"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A5433",
+"A5533"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"A5433",
+"A5534"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"A5434",
+"A5534"
+],
+"escarpment": 0.8,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A5434",
+"B5502"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"A5533",
+"A5534"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A5534",
+"B5502"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"A5534",
+"B5601"
+],
+"wadi": 0.47
+},
+{
+"between": [
+"B0405",
+"B0506"
+],
+"track": true
+},
+{
+"between": [
+"B0707",
+"B0708"
+],
+"road": true
+},
+{
+"between": [
+"B0806",
+"B0906"
+],
+"track": true
+},
+{
+"between": [
+"B0811",
+"B0911"
+],
+"track": true
+},
+{
+"between": [
+"B0906",
+"B1005"
+],
+"track": true
+},
+{
+"between": [
+"B0911",
+"B1010"
+],
+"track": true
+},
+{
+"between": [
+"B0934",
+"B1033"
+],
+"track": true
+},
+{
+"between": [
+"B0934",
+"C0902"
+],
+"road": true
+},
+{
+"between": [
+"B1013",
+"B1114"
+],
+"track": true
+},
+{
+"between": [
+"B1033",
+"B1133"
+],
+"track": true
+},
+{
+"between": [
+"B1114",
+"B1214"
+],
+"track": true
+},
+{
+"between": [
+"B1133",
+"B1134"
+],
+"track": true
+},
+{
+"between": [
+"B1134",
+"C1102"
+],
+"road": true
+},
+{
+"between": [
+"B1211",
+"B1312"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"B1213",
+"B1314"
+],
+"wadi": 0.6
+},
+{
+"between": [
+"B1234",
+"C1202"
+],
+"road": true
+},
+{
+"between": [
+"B1304",
+"B1403"
+],
+"track": true
+},
+{
+"between": [
+"B1312",
+"B1411"
+],
+"wadi": 0.6
+},
+{
+"between": [
+"B1313",
+"B1413"
+],
+"wadi": 0.47
+},
+{
+"between": [
+"B1333",
+"B1432"
+],
+"road": true
+},
+{
+"between": [
+"B1403",
+"B1503"
+],
+"track": true
+},
+{
+"between": [
+"B1408",
+"B1509"
+],
+"road": true
+},
+{
+"between": [
+"B1412",
+"B1413"
+],
+"wadi": 0.67
+},
+{
+"between": [
+"B1412",
+"B1513"
+],
+"wadi": 0.6
+},
+{
+"between": [
+"B1429",
+"B1430"
+],
+"road": true
+},
+{
+"between": [
+"B1429",
+"B1530"
+],
+"track": true
+},
+{
+"between": [
+"B1431",
+"B1432"
+],
+"track": true
+},
+{
+"between": [
+"B1503",
+"B1602"
+],
+"track": true
+},
+{
+"between": [
+"B1507",
+"B1508"
+],
+"track": true
+},
+{
+"between": [
+"B1508",
+"B1509"
+],
+"track": true
+},
+{
+"between": [
+"B1509",
+"B1510"
+],
+"track": true
+},
+{
+"between": [
+"B1511",
+"B1610"
+],
+"road": true
+},
+{
+"between": [
+"B1511",
+"B1611"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"B1516",
+"B1616"
+],
+"track": true
+},
+{
+"between": [
+"B1606",
+"B1706"
+],
+"road": true
+},
+{
+"between": [
+"B1608",
+"B1708"
+],
+"track": true
+},
+{
+"between": [
+"B1610",
+"B1611"
+],
+"wadi": 0.8
+},
+{
+"between": [
+"B1616",
+"B1617"
+],
+"track": true
+},
+{
+"between": [
+"B1616",
+"B1717"
+],
+"track": true
+},
+{
+"between": [
+"B1617",
+"B1618"
+],
+"track": true
+},
+{
+"between": [
+"B1620",
+"B1721"
+],
+"track": true
+},
+{
+"between": [
+"B1629",
+"B1730"
+],
+"track": true
+},
+{
+"between": [
+"B1711",
+"B1810"
+],
+"road": true
+},
+{
+"between": [
+"B1714",
+"B1813"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"B1717",
+"B1816"
+],
+"road": true
+},
+{
+"between": [
+"B1721",
+"B1820"
+],
+"track": true
+},
+{
+"between": [
+"B1723",
+"B1724"
+],
+"railroad": true
+},
+{
+"between": [
+"B1730",
+"B1829"
+],
+"road": true
+},
+{
+"between": [
+"B1808",
+"B1908"
+],
+"track": true
+},
+{
+"between": [
+"B1810",
+"B1811"
+],
+"wadi": 0.8
+},
+{
+"between": [
+"B1810",
+"B1911"
+],
+"track": true
+},
+{
+"between": [
+"B1813",
+"B1814"
+],
+"wadi": 0.47
+},
+{
+"between": [
+"B1820",
+"B1921"
+],
+"road": true
+},
+{
+"between": [
+"B1908",
+"B2007"
+],
+"track": true
+},
+{
+"between": [
+"B1910",
+"B1911"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"B1911",
+"B2010"
+],
+"road": true
+},
+{
+"between": [
+"B1911",
+"B2011"
+],
+"track": true
+},
+{
+"between": [
+"B1913",
+"B1914"
+],
+"wadi": 0.53
+},
+{
+"between": [
+"B1917",
+"B2017"
+],
+"track": true
+},
+{
+"between": [
+"B1922",
+"B1923"
+],
+"track": true
+},
+{
+"between": [
+"B1923",
+"B1924"
+],
+"track": true
+},
+{
+"between": [
+"B1924",
+"B1925"
+],
+"track": true
+},
+{
+"between": [
+"B1925",
+"B1926"
+],
+"road": true
+},
+{
+"between": [
+"B1927",
+"B2027"
+],
+"track": true
+},
+{
+"between": [
+"B2017",
+"B2118"
+],
+"track": true
+},
+{
+"between": [
+"B2027",
+"B2128"
+],
+"track": true
+},
+{
+"between": [
+"B2029",
+"B2130"
+],
+"road": true
+},
+{
+"between": [
+"B2110",
+"B2111"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"B2118",
+"B2217"
+],
+"road": true
+},
+{
+"between": [
+"B2130",
+"B2229"
+],
+"track": true
+},
+{
+"between": [
+"B2210",
+"B2311"
+],
+"road": true
+},
+{
+"between": [
+"B2214",
+"B2315"
+],
+"track": true
+},
+{
+"between": [
+"B2217",
+"B2318"
+],
+"road": true
+},
+{
+"between": [
+"B2302",
+"B2402"
+],
+"road": true
+},
+{
+"between": [
+"B2311",
+"B2410"
+],
+"track": true,
+"wadi": 0.47
+},
+{
+"between": [
+"B2316",
+"B2416"
+],
+"road": true
+},
+{
+"between": [
+"B2329",
+"B2429"
+],
+"track": true
+},
+{
+"between": [
+"B2402",
+"B2503"
+],
+"road": true
+},
+{
+"between": [
+"B2403",
+"B2503"
+],
+"wadi": 0.93
+},
+{
+"between": [
+"B2405",
+"B2505"
+],
+"track": true
+},
+{
+"between": [
+"B2410",
+"B2411"
+],
+"wadi": 0.53
+},
+{
+"between": [
+"B2414",
+"B2514"
+],
+"wadi": 0.47
+},
+{
+"between": [
+"B2429",
+"B2529"
+],
+"track": true
+},
+{
+"between": [
+"B2430",
+"B2531"
+],
+"track": true
+},
+{
+"between": [
+"B2503",
+"B2504"
+],
+"wadi": 0.93
+},
+{
+"between": [
+"B2503",
+"B2603"
+],
+"track": true
+},
+{
+"between": [
+"B2504",
+"B2603"
+],
+"wadi": 0.53
+},
+{
+"between": [
+"B2505",
+"B2604"
+],
+"track": true
+},
+{
+"between": [
+"B2505",
+"B2605"
+],
+"wadi": 0.47
+},
+{
+"between": [
+"B2506",
+"B2605"
+],
+"wadi": 0.6
+},
+{
+"between": [
+"B2517",
+"B2518"
+],
+"track": true
+},
+{
+"between": [
+"B2518",
+"B2618"
+],
+"road": true
+},
+{
+"between": [
+"B2528",
+"B2529"
+],
+"track": true
+},
+{
+"between": [
+"B2529",
+"B2530"
+],
+"track": true
+},
+{
+"between": [
+"B2531",
+"B2631"
+],
+"track": true
+},
+{
+"between": [
+"B2602",
+"B2702"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B2603",
+"B2704"
+],
+"track": true
+},
+{
+"between": [
+"B2604",
+"B2704"
+],
+"road": true
+},
+{
+"between": [
+"B2604",
+"B2705"
+],
+"road": true
+},
+{
+"between": [
+"B2610",
+"B2711"
+],
+"track": true
+},
+{
+"between": [
+"B2618",
+"B2718"
+],
+"road": true
+},
+{
+"between": [
+"B2626",
+"B2726"
+],
+"road": true
+},
+{
+"between": [
+"B2629",
+"B2730"
+],
+"road": true
+},
+{
+"between": [
+"B2631",
+"B2732"
+],
+"track": true
+},
+{
+"between": [
+"B2704",
+"B2803"
+],
+"track": true
+},
+{
+"between": [
+"B2705",
+"B2706"
+],
+"road": true
+},
+{
+"between": [
+"B2706",
+"B2707"
+],
+"road": true
+},
+{
+"between": [
+"B2711",
+"B2810"
+],
+"road": true
+},
+{
+"between": [
+"B2718",
+"B2818"
+],
+"track": true
+},
+{
+"between": [
+"B2725",
+"B2726"
+],
+"road": true
+},
+{
+"between": [
+"B2730",
+"B2830"
+],
+"track": true
+},
+{
+"between": [
+"B2732",
+"B2832"
+],
+"track": true
+},
+{
+"between": [
+"B2803",
+"B2903"
+],
+"road": true
+},
+{
+"between": [
+"B2823",
+"B2923"
+],
+"road": true
+},
+{
+"between": [
+"B2830",
+"B2931"
+],
+"track": true
+},
+{
+"between": [
+"B2832",
+"B2933"
+],
+"track": true
+},
+{
+"between": [
+"B2903",
+"B3002"
+],
+"road": true
+},
+{
+"between": [
+"B2907",
+"B3007"
+],
+"track": true
+},
+{
+"between": [
+"B2922",
+"B2923"
+],
+"road": true
+},
+{
+"between": [
+"B2931",
+"B3031"
+],
+"track": true
+},
+{
+"between": [
+"B2933",
+"B3033"
+],
+"road": true
+},
+{
+"between": [
+"B3002",
+"B3003"
+],
+"road": true
+},
+{
+"between": [
+"B3002",
+"B3102"
+],
+"track": true
+},
+{
+"between": [
+"B3004",
+"B3005"
+],
+"track": true
+},
+{
+"between": [
+"B3007",
+"B3108"
+],
+"track": true
+},
+{
+"between": [
+"B3010",
+"B3111"
+],
+"road": true
+},
+{
+"between": [
+"B3020",
+"B3021"
+],
+"road": true
+},
+{
+"between": [
+"B3020",
+"B3120"
+],
+"road": true
+},
+{
+"between": [
+"B3031",
+"B3132"
+],
+"track": true
+},
+{
+"between": [
+"B3033",
+"B3134"
+],
+"track": true
+},
+{
+"between": [
+"B3217",
+"B3317"
+],
+"road": true
+},
+{
+"between": [
+"B3232",
+"B3333"
+],
+"track": true
+},
+{
+"between": [
+"B3302",
+"B3402"
+],
+"road": true
+},
+{
+"between": [
+"B3316",
+"B3317"
+],
+"road": true
+},
+{
+"between": [
+"B3333",
+"B3432"
+],
+"track": true
+},
+{
+"between": [
+"B3402",
+"B3503"
+],
+"road": true
+},
+{
+"between": [
+"B3411",
+"B3412"
+],
+"track": true
+},
+{
+"between": [
+"B3411",
+"B3511"
+],
+"road": true
+},
+{
+"between": [
+"B3415",
+"B3515"
+],
+"road": true
+},
+{
+"between": [
+"B3432",
+"B3533"
+],
+"road": true
+},
+{
+"between": [
+"B3503",
+"B3603"
+],
+"track": true
+},
+{
+"between": [
+"B3513",
+"B3613"
+],
+"road": true
+},
+{
+"between": [
+"B3515",
+"B3614"
+],
+"track": true
+},
+{
+"between": [
+"B3533",
+"B3632"
+],
+"road": true
+},
+{
+"between": [
+"B3603",
+"B3704"
+],
+"track": true
+},
+{
+"between": [
+"B3614",
+"B3715"
+],
+"road": true
+},
+{
+"between": [
+"B3632",
+"B3733"
+],
+"track": true
+},
+{
+"between": [
+"B3704",
+"B3804"
+],
+"track": true
+},
+{
+"between": [
+"B3715",
+"B3814"
+],
+"track": true
+},
+{
+"between": [
+"B3715",
+"B3815"
+],
+"track": true
+},
+{
+"between": [
+"B3727",
+"B3826"
+],
+"wadi": 0.47
+},
+{
+"between": [
+"B3733",
+"B3833"
+],
+"track": true
+},
+{
+"between": [
+"B3804",
+"B3905"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B3805",
+"B3906"
+],
+"wadi": 0.8
+},
+{
+"between": [
+"B3815",
+"B3816"
+],
+"track": true
+},
+{
+"between": [
+"B3825",
+"B3826"
+],
+"wadi": 0.53
+},
+{
+"between": [
+"B3825",
+"B3926"
+],
+"wadi": 0.53
+},
+{
+"between": [
+"B3826",
+"B3927"
+],
+"wadi": 0.6
+},
+{
+"between": [
+"B3827",
+"B3927"
+],
+"wadi": 0.47
+},
+{
+"between": [
+"B3833",
+"B3934"
+],
+"track": true
+},
+{
+"between": [
+"B3902",
+"B3903"
+],
+"track": true
+},
+{
+"between": [
+"B3903",
+"B3904"
+],
+"wadi": 1.0,
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B3903",
+"B4003"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B3904",
+"B3905"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B3904",
+"B4004"
+],
+"track": true,
+"wadi": 0.73
+},
+{
+"between": [
+"B3906",
+"B3907"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"B3907",
+"B4006"
+],
+"wadi": 0.67
+},
+{
+"between": [
+"B4003",
+"B4004"
+],
+"wadi": 0.87
+},
+{
+"between": [
+"B4004",
+"B4005"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B4004",
+"B4104"
+],
+"wadi": 0.53
+},
+{
+"between": [
+"B4004",
+"B4105"
+],
+"road": true
+},
+{
+"between": [
+"B4005",
+"B4006"
+],
+"track": true
+},
+{
+"between": [
+"B4006",
+"B4007"
+],
+"track": true,
+"wadi": 0.6
+},
+{
+"between": [
+"B4007",
+"B4008"
+],
+"track": true
+},
+{
+"between": [
+"B4007",
+"B4107"
+],
+"wadi": 0.67
+},
+{
+"between": [
+"B4007",
+"B4108"
+],
+"track": true
+},
+{
+"between": [
+"B4009",
+"B4010"
+],
+"road": true
+},
+{
+"between": [
+"B4018",
+"B4019"
+],
+"road": true
+},
+{
+"between": [
+"B4019",
+"B4020"
+],
+"track": true
+},
+{
+"between": [
+"B4020",
+"B4021"
+],
+"track": true
+},
+{
+"between": [
+"B4024",
+"B4025"
+],
+"wadi": 0.6
+},
+{
+"between": [
+"B4024",
+"B4125"
+],
+"wadi": 0.53
+},
+{
+"between": [
+"B4034",
+"C4102"
+],
+"road": true
+},
+{
+"between": [
+"B4103",
+"B4104"
+],
+"wadi": 0.67
+},
+{
+"between": [
+"B4103",
+"B4202"
+],
+"road": true
+},
+{
+"between": [
+"B4104",
+"B4105"
+],
+"wadi": 0.67
+},
+{
+"between": [
+"B4105",
+"B4205"
+],
+"track": true
+},
+{
+"between": [
+"B4107",
+"B4108"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B4108",
+"B4109"
+],
+"track": true
+},
+{
+"between": [
+"B4108",
+"B4207"
+],
+"wadi": 0.53
+},
+{
+"between": [
+"B4109",
+"B4110"
+],
+"road": true
+},
+{
+"between": [
+"B4111",
+"B4112"
+],
+"track": true
+},
+{
+"between": [
+"B4112",
+"B4113"
+],
+"track": true
+},
+{
+"between": [
+"B4113",
+"B4213"
+],
+"track": true
+},
+{
+"between": [
+"B4124",
+"B4125"
+],
+"wadi": 0.53
+},
+{
+"between": [
+"B4124",
+"B4224"
+],
+"wadi": 0.47
+},
+{
+"between": [
+"B4203",
+"B4303"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"B4204",
+"B4205"
+],
+"wadi": 0.8
+},
+{
+"between": [
+"B4205",
+"B4305"
+],
+"wadi": 0.47
+},
+{
+"between": [
+"B4205",
+"B4306"
+],
+"track": true
+},
+{
+"between": [
+"B4207",
+"B4208"
+],
+"wadi": 0.47
+},
+{
+"between": [
+"B4207",
+"B4308"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"B4208",
+"B4309"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"B4210",
+"B4211"
+],
+"road": true
+},
+{
+"between": [
+"B4211",
+"B4212"
+],
+"road": true
+},
+{
+"between": [
+"B4212",
+"B4213"
+],
+"track": true
+},
+{
+"between": [
+"B4223",
+"B4224"
+],
+"track": true,
+"railroad": true
+},
+{
+"between": [
+"B4223",
+"B4323"
+],
+"track": true
+},
+{
+"between": [
+"B4224",
+"B4225"
+],
+"track": true
+},
+{
+"between": [
+"B4225",
+"B4226"
+],
+"track": true
+},
+{
+"between": [
+"B4226",
+"B4227"
+],
+"road": true
+},
+{
+"between": [
+"B4227",
+"B4228"
+],
+"road": true
+},
+{
+"between": [
+"B4228",
+"B4229"
+],
+"track": true
+},
+{
+"between": [
+"B4229",
+"B4230"
+],
+"track": true
+},
+{
+"between": [
+"B4234",
+"B4334"
+],
+"track": true
+},
+{
+"between": [
+"B4234",
+"C4102"
+],
+"track": true
+},
+{
+"between": [
+"B4302",
+"B4303"
+],
+"wadi": 0.67
+},
+{
+"between": [
+"B4302",
+"B4402"
+],
+"track": true
+},
+{
+"between": [
+"B4303",
+"B4304"
+],
+"wadi": 0.67
+},
+{
+"between": [
+"B4303",
+"B4403"
+],
+"wadi": 0.6
+},
+{
+"between": [
+"B4305",
+"B4306"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"B4305",
+"B4405"
+],
+"wadi": 0.8
+},
+{
+"between": [
+"B4307",
+"B4308"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"B4308",
+"B4407"
+],
+"wadi": 0.6
+},
+{
+"between": [
+"B4309",
+"B4310"
+],
+"wadi": 0.87
+},
+{
+"between": [
+"B4309",
+"B4409"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B4313",
+"B4413"
+],
+"track": true
+},
+{
+"between": [
+"B4314",
+"B4315"
+],
+"track": true
+},
+{
+"between": [
+"B4315",
+"B4316"
+],
+"road": true
+},
+{
+"between": [
+"B4317",
+"B4318"
+],
+"track": true
+},
+{
+"between": [
+"B4332",
+"B4432"
+],
+"track": true
+},
+{
+"between": [
+"B4333",
+"B4432"
+],
+"road": true
+},
+{
+"between": [
+"B4403",
+"B4503"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"B4404",
+"B4405"
+],
+"wadi": 0.47
+},
+{
+"between": [
+"B4405",
+"B4505"
+],
+"wadi": 0.67
+},
+{
+"between": [
+"B4407",
+"B4408"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B4407",
+"B4508"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"B4408",
+"B4409"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B4409",
+"B4509"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"B4413",
+"B4513"
+],
+"wadi": 0.87
+},
+{
+"between": [
+"B4413",
+"B4514"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"B4423",
+"B4523"
+],
+"track": true
+},
+{
+"between": [
+"B4426",
+"B4427"
+],
+"track": true
+},
+{
+"between": [
+"B4427",
+"B4428"
+],
+"track": true
+},
+{
+"between": [
+"B4430",
+"B4431"
+],
+"track": true
+},
+{
+"between": [
+"B4431",
+"B4432"
+],
+"track": true,
+"railroad": true
+},
+{
+"between": [
+"B4431",
+"B4532"
+],
+"blue_line": 0.53
+},
+{
+"between": [
+"B4432",
+"B4532"
+],
+"blue_line": 0.73
+},
+{
+"between": [
+"B4434",
+"B4534"
+],
+"road": true,
+"track": true
+},
+{
+"between": [
+"B4503",
+"B4504"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B4504",
+"B4603"
+],
+"wadi": 0.6
+},
+{
+"between": [
+"B4505",
+"B4506"
+],
+"wadi": 0.8
+},
+{
+"between": [
+"B4506",
+"B4605"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"B4507",
+"B4508"
+],
+"wadi": 0.53
+},
+{
+"between": [
+"B4508",
+"B4607"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"B4509",
+"B4510"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B4510",
+"B4609"
+],
+"wadi": 0.53
+},
+{
+"between": [
+"B4512",
+"B4513"
+],
+"wadi": 0.53
+},
+{
+"between": [
+"B4512",
+"B4612"
+],
+"wadi": 0.53
+},
+{
+"between": [
+"B4517",
+"B4518"
+],
+"wadi": 0.6
+},
+{
+"between": [
+"B4517",
+"B4616"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"B4517",
+"B4617"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B4519",
+"B4619"
+],
+"track": true
+},
+{
+"between": [
+"B4533",
+"B4534"
+],
+"track": true
+},
+{
+"between": [
+"B4534",
+"C4502"
+],
+"track": true
+},
+{
+"between": [
+"B4605",
+"B4606"
+],
+"wadi": 0.93
+},
+{
+"between": [
+"B4606",
+"B4706"
+],
+"wadi": 0.67
+},
+{
+"between": [
+"B4607",
+"B4608"
+],
+"track": true,
+"wadi": 0.67
+},
+{
+"between": [
+"B4608",
+"B4708"
+],
+"wadi": 0.47
+},
+{
+"between": [
+"B4609",
+"B4610"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B4610",
+"B4710"
+],
+"wadi": 0.87
+},
+{
+"between": [
+"B4611",
+"B4612"
+],
+"wadi": 0.87
+},
+{
+"between": [
+"B4611",
+"B4712"
+],
+"wadi": 0.47
+},
+{
+"between": [
+"B4616",
+"B4617"
+],
+"wadi": 0.67
+},
+{
+"between": [
+"B4616",
+"B4717"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B4617",
+"B4717"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B4619",
+"B4720"
+],
+"track": true,
+"wadi": 0.8
+},
+{
+"between": [
+"B4625",
+"B4725"
+],
+"track": true
+},
+{
+"between": [
+"B4706",
+"B4707"
+],
+"wadi": 0.8
+},
+{
+"between": [
+"B4707",
+"B4806"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"B4708",
+"B4709"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"B4709",
+"B4808"
+],
+"wadi": 0.6
+},
+{
+"between": [
+"B4710",
+"B4711"
+],
+"wadi": 0.93
+},
+{
+"between": [
+"B4710",
+"B4810"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B4711",
+"B4810"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B4715",
+"B4716"
+],
+"wadi": 0.53
+},
+{
+"between": [
+"B4715",
+"B4815"
+],
+"wadi": 0.67
+},
+{
+"between": [
+"B4716",
+"B4717"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B4716",
+"B4816"
+],
+"wadi": 0.53
+},
+{
+"between": [
+"B4717",
+"B4718"
+],
+"wadi": 0.93
+},
+{
+"between": [
+"B4718",
+"B4817"
+],
+"wadi": 0.8
+},
+{
+"between": [
+"B4719",
+"B4818"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B4719",
+"B4819"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B4722",
+"B4821"
+],
+"track": true
+},
+{
+"between": [
+"B4725",
+"B4824"
+],
+"track": true
+},
+{
+"between": [
+"B4734",
+"B4833"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B4806",
+"B4807"
+],
+"road": true
+},
+{
+"between": [
+"B4806",
+"B4907"
+],
+"wadi": 0.87
+},
+{
+"between": [
+"B4807",
+"B4808"
+],
+"road": true
+},
+{
+"between": [
+"B4808",
+"B4809"
+],
+"track": true,
+"wadi": 0.8
+},
+{
+"between": [
+"B4808",
+"B4909"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"B4809",
+"B4810"
+],
+"track": true,
+"wadi": 0.93
+},
+{
+"between": [
+"B4810",
+"B4811"
+],
+"track": true,
+"wadi": 0.87
+},
+{
+"between": [
+"B4810",
+"B4910"
+],
+"wadi": 0.53
+},
+{
+"between": [
+"B4811",
+"B4911"
+],
+"wadi": 0.87
+},
+{
+"between": [
+"B4813",
+"B4814"
+],
+"track": true
+},
+{
+"between": [
+"B4814",
+"B4815"
+],
+"track": true,
+"wadi": 0.6
+},
+{
+"between": [
+"B4814",
+"B4915"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B4815",
+"B4816"
+],
+"track": true,
+"wadi": 0.47
+},
+{
+"between": [
+"B4816",
+"B4817"
+],
+"road": true
+},
+{
+"between": [
+"B4816",
+"B4916"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"B4817",
+"B4818"
+],
+"track": true,
+"wadi": 0.87
+},
+{
+"between": [
+"B4817",
+"B4918"
+],
+"wadi": 0.87
+},
+{
+"between": [
+"B4818",
+"B4819"
+],
+"track": true,
+"wadi": 0.87
+},
+{
+"between": [
+"B4819",
+"B4919"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B4821",
+"B4921"
+],
+"track": true,
+"railroad": true
+},
+{
+"between": [
+"B4824",
+"B4924"
+],
+"track": true
+},
+{
+"between": [
+"B4832",
+"B4932"
+],
+"track": true,
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B4832",
+"B4933"
+],
+"road": true
+},
+{
+"between": [
+"B4833",
+"B4834"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"B4834",
+"B4934"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B4834",
+"C4802"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B4834",
+"C4902"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B4902",
+"B4903"
+],
+"track": true
+},
+{
+"between": [
+"B4902",
+"B5002"
+],
+"railroad": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B4906",
+"B4907"
+],
+"track": true,
+"wadi": 0.8
+},
+{
+"between": [
+"B4907",
+"B5006"
+],
+"wadi": 0.87
+},
+{
+"between": [
+"B4908",
+"B4909"
+],
+"track": true,
+"wadi": 1.0
+},
+{
+"between": [
+"B4908",
+"B5008"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B4910",
+"B4911"
+],
+"track": true,
+"wadi": 0.73
+},
+{
+"between": [
+"B4910",
+"B5010"
+],
+"wadi": 0.93
+},
+{
+"between": [
+"B4911",
+"B4912"
+],
+"track": true,
+"wadi": 0.93
+},
+{
+"between": [
+"B4911",
+"B5010"
+],
+"track": true
+},
+{
+"between": [
+"B4912",
+"B5011"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B4914",
+"B4915"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B4914",
+"B5014"
+],
+"wadi": 0.53
+},
+{
+"between": [
+"B4916",
+"B4917"
+],
+"wadi": 0.87
+},
+{
+"between": [
+"B4916",
+"B5016"
+],
+"wadi": 0.87
+},
+{
+"between": [
+"B4917",
+"B4918"
+],
+"road": true,
+"wadi": 1.0
+},
+{
+"between": [
+"B4919",
+"B4920"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B4919",
+"B5019"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B4920",
+"B4921"
+],
+"track": true
+},
+{
+"between": [
+"B4921",
+"B4922"
+],
+"road": true
+},
+{
+"between": [
+"B4921",
+"B5020"
+],
+"track": true
+},
+{
+"between": [
+"B4924",
+"B5023"
+],
+"track": true
+},
+{
+"between": [
+"B4932",
+"B4933"
+],
+"railroad": true
+},
+{
+"between": [
+"B4932",
+"B5031"
+],
+"road": true
+},
+{
+"between": [
+"B4933",
+"B4934"
+],
+"road": true
+},
+{
+"between": [
+"B4934",
+"C4902"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5002",
+"B5103"
+],
+"railroad": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5006",
+"B5007"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B5007",
+"B5008"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B5009",
+"B5010"
+],
+"wadi": 0.87
+},
+{
+"between": [
+"B5009",
+"B5110"
+],
+"wadi": 0.87
+},
+{
+"between": [
+"B5010",
+"B5110"
+],
+"track": true
+},
+{
+"between": [
+"B5011",
+"B5012"
+],
+"escarpment": 0.6,
+"wadi": 0.93
+},
+{
+"between": [
+"B5013",
+"B5014"
+],
+"wadi": 0.47
+},
+{
+"between": [
+"B5013",
+"B5114"
+],
+"wadi": 0.93
+},
+{
+"between": [
+"B5015",
+"B5016"
+],
+"wadi": 0.93
+},
+{
+"between": [
+"B5015",
+"B5116"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B5017",
+"B5117"
+],
+"road": true
+},
+{
+"between": [
+"B5018",
+"B5019"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B5018",
+"B5119"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B5019",
+"B5020"
+],
+"road": true
+},
+{
+"between": [
+"B5020",
+"B5021"
+],
+"track": true,
+"wadi": 0.8
+},
+{
+"between": [
+"B5020",
+"B5121"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B5031",
+"B5131"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5102",
+"B5202"
+],
+"track": true
+},
+{
+"between": [
+"B5103",
+"B5202"
+],
+"railroad": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5109",
+"B5110"
+],
+"wadi": 0.8
+},
+{
+"between": [
+"B5109",
+"B5209"
+],
+"wadi": 0.8
+},
+{
+"between": [
+"B5110",
+"B5111"
+],
+"track": true
+},
+{
+"between": [
+"B5113",
+"B5114"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"B5113",
+"B5213"
+],
+"wadi": 0.93
+},
+{
+"between": [
+"B5118",
+"B5218"
+],
+"road": true
+},
+{
+"between": [
+"B5119",
+"B5218"
+],
+"wadi": 0.67
+},
+{
+"between": [
+"B5120",
+"B5121"
+],
+"wadi": 0.93
+},
+{
+"between": [
+"B5120",
+"B5220"
+],
+"track": true,
+"wadi": 0.87
+},
+{
+"between": [
+"B5122",
+"B5221"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B5123",
+"B5222"
+],
+"track": true
+},
+{
+"between": [
+"B5125",
+"B5225"
+],
+"track": true
+},
+{
+"between": [
+"B5126",
+"B5127"
+],
+"wadi": 0.87
+},
+{
+"between": [
+"B5126",
+"B5226"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"B5127",
+"B5227"
+],
+"wadi": 0.67
+},
+{
+"between": [
+"B5128",
+"B5227"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"B5128",
+"B5228"
+],
+"wadi": 0.67
+},
+{
+"between": [
+"B5129",
+"B5130"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5129",
+"B5228"
+],
+"wadi": 0.87
+},
+{
+"between": [
+"B5129",
+"B5229"
+],
+"wadi": 0.6
+},
+{
+"between": [
+"B5130",
+"B5131"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5130",
+"B5229"
+],
+"track": true,
+"wadi": 0.47,
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5202",
+"B5303"
+],
+"track": true,
+"railroad": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5208",
+"B5209"
+],
+"wadi": 0.87
+},
+{
+"between": [
+"B5211",
+"B5311"
+],
+"track": true
+},
+{
+"between": [
+"B5212",
+"B5213"
+],
+"track": true
+},
+{
+"between": [
+"B5217",
+"B5218"
+],
+"track": true,
+"wadi": 0.73
+},
+{
+"between": [
+"B5218",
+"B5319"
+],
+"track": true,
+"wadi": 0.73
+},
+{
+"between": [
+"B5219",
+"B5220"
+],
+"track": true,
+"wadi": 0.87
+},
+{
+"between": [
+"B5219",
+"B5319"
+],
+"wadi": 0.53
+},
+{
+"between": [
+"B5221",
+"B5222"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B5222",
+"B5223"
+],
+"wadi": 0.87
+},
+{
+"between": [
+"B5222",
+"B5322"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"B5223",
+"B5224"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B5223",
+"B5323"
+],
+"wadi": 0.93
+},
+{
+"between": [
+"B5224",
+"B5324"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B5225",
+"B5226"
+],
+"wadi": 0.93
+},
+{
+"between": [
+"B5227",
+"B5328"
+],
+"wadi": 0.47
+},
+{
+"between": [
+"B5228",
+"B5328"
+],
+"wadi": 0.8
+},
+{
+"between": [
+"B5228",
+"B5329"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B5229",
+"B5329"
+],
+"wadi": 0.87
+},
+{
+"between": [
+"B5229",
+"B5330"
+],
+"track": true,
+"wadi": 0.73,
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5303",
+"B5403"
+],
+"track": true,
+"railroad": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5318",
+"B5319"
+],
+"wadi": 0.8
+},
+{
+"between": [
+"B5319",
+"B5320"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B5319",
+"B5419"
+],
+"wadi": 0.93
+},
+{
+"between": [
+"B5320",
+"B5321"
+],
+"track": true
+},
+{
+"between": [
+"B5321",
+"B5322"
+],
+"track": true
+},
+{
+"between": [
+"B5322",
+"B5323"
+],
+"track": true,
+"wadi": 0.87
+},
+{
+"between": [
+"B5323",
+"B5324"
+],
+"wadi": 0.8
+},
+{
+"between": [
+"B5323",
+"B5423"
+],
+"wadi": 0.47
+},
+{
+"between": [
+"B5324",
+"B5423"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B5325",
+"B5424"
+],
+"wadi": 0.53
+},
+{
+"between": [
+"B5327",
+"B5427"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B5330",
+"B5429"
+],
+"road": true
+},
+{
+"between": [
+"B5330",
+"B5430"
+],
+"railroad": true
+},
+{
+"between": [
+"B5402",
+"B5502"
+],
+"escarpment": 0.93
+},
+{
+"between": [
+"B5402",
+"B5503"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"B5403",
+"B5503"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"B5403",
+"B5504"
+],
+"track": true,
+"railroad": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5404",
+"B5405"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5404",
+"B5504"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5405",
+"B5406"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5406",
+"B5407"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5407",
+"B5408"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5407",
+"B5508"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5408",
+"B5409"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5409",
+"B5410"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5410",
+"B5411"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5411",
+"B5512"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5418",
+"B5518"
+],
+"road": true
+},
+{
+"between": [
+"B5419",
+"B5520"
+],
+"road": true
+},
+{
+"between": [
+"B5421",
+"B5521"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"B5421",
+"B5522"
+],
+"wadi": 0.87
+},
+{
+"between": [
+"B5422",
+"B5423"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"B5422",
+"B5522"
+],
+"wadi": 0.8
+},
+{
+"between": [
+"B5425",
+"B5526"
+],
+"road": true
+},
+{
+"between": [
+"B5426",
+"B5427"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B5427",
+"B5527"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B5427",
+"B5528"
+],
+"wadi": 0.87
+},
+{
+"between": [
+"B5429",
+"B5529"
+],
+"road": true
+},
+{
+"between": [
+"B5430",
+"B5530"
+],
+"railroad": true
+},
+{
+"between": [
+"B5502",
+"B5503"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5503",
+"B5504"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5504",
+"B5505"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5504",
+"B5603"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"B5504",
+"B5604"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"B5505",
+"B5604"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"B5505",
+"B5605"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5508",
+"B5608"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5512",
+"B5513"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5513",
+"B5514"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5514",
+"B5614"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5519",
+"B5618"
+],
+"wadi": 0.73
+},
+{
+"between": [
+"B5519",
+"B5619"
+],
+"wadi": 0.53
+},
+{
+"between": [
+"B5520",
+"B5619"
+],
+"track": true,
+"wadi": 0.53
+},
+{
+"between": [
+"B5520",
+"B5620"
+],
+"wadi": 0.53
+},
+{
+"between": [
+"B5523",
+"B5524"
+],
+"road": true
+},
+{
+"between": [
+"B5526",
+"B5527"
+],
+"road": true
+},
+{
+"between": [
+"B5526",
+"B5625"
+],
+"track": true
+},
+{
+"between": [
+"B5529",
+"B5628"
+],
+"road": true
+},
+{
+"between": [
+"B5529",
+"B5629"
+],
+"wadi": 0.67
+},
+{
+"between": [
+"B5530",
+"B5629"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B5530",
+"B5630"
+],
+"railroad": true
+},
+{
+"between": [
+"B5603",
+"B5604"
+],
+"track": true
+},
+{
+"between": [
+"B5605",
+"B5606"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5606",
+"B5607"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5607",
+"B5608"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5608",
+"B5609"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5609",
+"B5610"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5610",
+"B5611"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5611",
+"B5712"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5614",
+"B5615"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5615",
+"B5716"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5620",
+"B5721"
+],
+"track": true
+},
+{
+"between": [
+"B5621",
+"B5721"
+],
+"wadi": 0.6
+},
+{
+"between": [
+"B5623",
+"B5723"
+],
+"wadi": 0.47
+},
+{
+"between": [
+"B5628",
+"B5728"
+],
+"road": true
+},
+{
+"between": [
+"B5629",
+"B5630"
+],
+"track": true,
+"wadi": 1.0
+},
+{
+"between": [
+"B5630",
+"B5730"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B5710",
+"B5810"
+],
+"wadi": 1.0
+},
+{
+"between": [
+"B5711",
+"B5811"
+],
+"wadi": 0.6
+},
+{
+"between": [
+"B5712",
+"B5811"
+],
+"wadi": 0.67
+},
+{
+"between": [
+"B5712",
+"B5812"
+],
+"road": true,
+"wadi": 0.47
+},
+{
+"between": [
+"B5716",
+"B5717"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5717",
+"B5718"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5718",
+"B5818"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5723",
+"B5724"
+],
+"wadi": 0.47
+},
+{
+"between": [
+"B5724",
+"B5823"
+],
+"wadi": 0.93
+},
+{
+"between": [
+"B5726",
+"B5727"
+],
+"road": true
+},
+{
+"between": [
+"B5726",
+"B5825"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5727",
+"B5728"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5728",
+"B5729"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5809",
+"B5810"
+],
+"wadi": 0.53
+},
+{
+"between": [
+"B5809",
+"B5910"
+],
+"wadi": 0.47
+},
+{
+"between": [
+"B5812",
+"B5813"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5813",
+"B5814"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5814",
+"B5815"
+],
+"wadi": 0.47
+},
+{
+"between": [
+"B5814",
+"B5915"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5818",
+"B5919"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5824",
+"B5924"
+],
+"wadi": 0.87
+},
+{
+"between": [
+"B5825",
+"B5925"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5915",
+"B5916"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5916",
+"B5917"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5916",
+"B6016"
+],
+"track": true
+},
+{
+"between": [
+"B5917",
+"B5918"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5918",
+"B5919"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5919",
+"B5920"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5920",
+"B5921"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5921",
+"B5922"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5922",
+"B5923"
+],
+"road": true
+},
+{
+"between": [
+"B5923",
+"B5924"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5923",
+"B6022"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B5924",
+"B5925"
+],
+"wadi": 0.53,
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"B6012",
+"B6013"
+],
+"track": true
+},
+{
+"between": [
+"B6013",
+"B6014"
+],
+"track": true
+},
+{
+"between": [
+"B6113",
+"B6114"
+],
+"railroad": true
+},
+{
+"between": [
+"C0120",
+"C0121"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C0121",
+"C0220"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C0127",
+"C0226"
+],
+"road": true
+},
+{
+"between": [
+"C0127",
+"C0227"
+],
+"track": true
+},
+{
+"between": [
+"C0130",
+"C0131"
+],
+"road": true
+},
+{
+"between": [
+"C0131",
+"C0132"
+],
+"road": true
+},
+{
+"between": [
+"C0132",
+"C0133"
+],
+"track": true
+},
+{
+"between": [
+"C0133",
+"C0134"
+],
+"track": true
+},
+{
+"between": [
+"C0134",
+"D0102"
+],
+"track": true
+},
+{
+"between": [
+"C0220",
+"C0221"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C0220",
+"C0321"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C0224",
+"C0225"
+],
+"track": true
+},
+{
+"between": [
+"C0225",
+"C0226"
+],
+"track": true
+},
+{
+"between": [
+"C0226",
+"C0227"
+],
+"railroad": true
+},
+{
+"between": [
+"C0227",
+"C0228"
+],
+"track": true
+},
+{
+"between": [
+"C0228",
+"C0229"
+],
+"track": true
+},
+{
+"between": [
+"C0230",
+"C0331"
+],
+"track": true
+},
+{
+"between": [
+"C0231",
+"C0232"
+],
+"railroad": true
+},
+{
+"between": [
+"C0320",
+"C0321"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C0320",
+"C0420"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C0331",
+"C0431"
+],
+"road": true
+},
+{
+"between": [
+"C0419",
+"C0420"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C0419",
+"C0520"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C0422",
+"C0522"
+],
+"track": true
+},
+{
+"between": [
+"C0431",
+"C0532"
+],
+"road": true
+},
+{
+"between": [
+"C0519",
+"C0520"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C0519",
+"C0619"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C0521",
+"C0522"
+],
+"road": true
+},
+{
+"between": [
+"C0521",
+"C0620"
+],
+"road": true
+},
+{
+"between": [
+"C0533",
+"C0534"
+],
+"track": true
+},
+{
+"between": [
+"C0534",
+"D0502"
+],
+"track": true
+},
+{
+"between": [
+"C0618",
+"C0619"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C0618",
+"C0719"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C0620",
+"C0720"
+],
+"track": true
+},
+{
+"between": [
+"C0622",
+"C0722"
+],
+"track": true
+},
+{
+"between": [
+"C0626",
+"C0726"
+],
+"road": true
+},
+{
+"between": [
+"C0707",
+"C0708"
+],
+"track": true
+},
+{
+"between": [
+"C0708",
+"C0807"
+],
+"track": true
+},
+{
+"between": [
+"C0712",
+"C0713"
+],
+"railroad": true
+},
+{
+"between": [
+"C0713",
+"C0714"
+],
+"road": true
+},
+{
+"between": [
+"C0714",
+"C0715"
+],
+"track": true
+},
+{
+"between": [
+"C0715",
+"C0716"
+],
+"track": true
+},
+{
+"between": [
+"C0716",
+"C0717"
+],
+"track": true
+},
+{
+"between": [
+"C0716",
+"C0816"
+],
+"railroad": true
+},
+{
+"between": [
+"C0718",
+"C0719"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C0719",
+"C0720"
+],
+"road": true
+},
+{
+"between": [
+"C0719",
+"C0818"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C0722",
+"C0821"
+],
+"track": true
+},
+{
+"between": [
+"C0726",
+"C0825"
+],
+"track": true
+},
+{
+"between": [
+"C0728",
+"C0828"
+],
+"road": true
+},
+{
+"between": [
+"C0804",
+"C0805"
+],
+"road": true
+},
+{
+"between": [
+"C0805",
+"C0806"
+],
+"railroad": true
+},
+{
+"between": [
+"C0807",
+"C0907"
+],
+"track": true
+},
+{
+"between": [
+"C0810",
+"C0811"
+],
+"road": true
+},
+{
+"between": [
+"C0811",
+"C0911"
+],
+"road": true
+},
+{
+"between": [
+"C0815",
+"C0915"
+],
+"track": true
+},
+{
+"between": [
+"C0818",
+"C0819"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C0819",
+"C0919"
+],
+"road": true,
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C0821",
+"C0822"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C0821",
+"C0922"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C0828",
+"C0929"
+],
+"road": true
+},
+{
+"between": [
+"C0911",
+"C1010"
+],
+"road": true
+},
+{
+"between": [
+"C0919",
+"C0920"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C0919",
+"C1019"
+],
+"slope": true,
+"wire_candidate": true,
+"slopeDown": "C0919",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C0920",
+"C1019"
+],
+"road": true
+},
+{
+"between": [
+"C0921",
+"C0922"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C0922",
+"C1021"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1008",
+"C1009"
+],
+"road": true
+},
+{
+"between": [
+"C1018",
+"C1019"
+],
+"slope": true,
+"wire_candidate": true,
+"slopeDown": "C1018",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1018",
+"C1119"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1019",
+"C1119"
+],
+"track": true
+},
+{
+"between": [
+"C1025",
+"C1125"
+],
+"road": true
+},
+{
+"between": [
+"C1029",
+"C1130"
+],
+"road": true
+},
+{
+"between": [
+"C1102",
+"C1103"
+],
+"track": true
+},
+{
+"between": [
+"C1103",
+"C1104"
+],
+"track": true
+},
+{
+"between": [
+"C1103",
+"C1202"
+],
+"track": true
+},
+{
+"between": [
+"C1113",
+"C1212"
+],
+"track": true
+},
+{
+"between": [
+"C1115",
+"C1215"
+],
+"track": true
+},
+{
+"between": [
+"C1116",
+"C1117"
+],
+"road": true
+},
+{
+"between": [
+"C1117",
+"C1118"
+],
+"track": true
+},
+{
+"between": [
+"C1117",
+"C1217"
+],
+"railroad": true
+},
+{
+"between": [
+"C1118",
+"C1119"
+],
+"track": true,
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1118",
+"C1218"
+],
+"majorRiver": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1119",
+"C1218"
+],
+"track": true
+},
+{
+"between": [
+"C1125",
+"C1225"
+],
+"road": true
+},
+{
+"between": [
+"C1206",
+"C1307"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1212",
+"C1312"
+],
+"track": true
+},
+{
+"between": [
+"C1217",
+"C1218"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1218",
+"C1318"
+],
+"wadi": true,
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1304",
+"C1403"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1305",
+"C1306"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1306",
+"C1307"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1306",
+"C1405"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1318",
+"C1319"
+],
+"wadi": true,
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1318",
+"C1418"
+],
+"wadi": true,
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1325",
+"C1424"
+],
+"track": true
+},
+{
+"between": [
+"C1405",
+"C1406"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1405",
+"C1505"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1405",
+"C1506"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1406",
+"C1506"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1407",
+"C1408"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1407",
+"C1508"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1417",
+"C1418"
+],
+"wadi": true,
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1417",
+"C1518"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1418",
+"C1518"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1418",
+"C1519"
+],
+"road": true
+},
+{
+"between": [
+"C1432",
+"C1533"
+],
+"road": true
+},
+{
+"between": [
+"C1505",
+"C1506"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1507",
+"C1508"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1507",
+"C1607"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1510",
+"C1511"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1510",
+"C1609"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1511",
+"C1610"
+],
+"track": true
+},
+{
+"between": [
+"C1512",
+"C1611"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1512",
+"C1612"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1517",
+"C1518"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1517",
+"C1617"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1519",
+"C1619"
+],
+"track": true
+},
+{
+"between": [
+"C1603",
+"C1703"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1603",
+"C1704"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1604",
+"C1704"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1604",
+"C1705"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1605",
+"C1705"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1609",
+"C1610"
+],
+"track": true
+},
+{
+"between": [
+"C1616",
+"C1617"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1616",
+"C1717"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1619",
+"C1719"
+],
+"track": true
+},
+{
+"between": [
+"C1624",
+"C1725"
+],
+"road": true
+},
+{
+"between": [
+"C1715",
+"C1814"
+],
+"road": true
+},
+{
+"between": [
+"C1716",
+"C1717"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1717",
+"C1816"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1719",
+"C1818"
+],
+"track": true
+},
+{
+"between": [
+"C1804",
+"C1805"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1804",
+"C1905"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1807",
+"C1907"
+],
+"track": true
+},
+{
+"between": [
+"C1814",
+"C1914"
+],
+"track": true
+},
+{
+"between": [
+"C1815",
+"C1915"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1815",
+"C1916"
+],
+"road": true,
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1816",
+"C1817"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1816",
+"C1916"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1817",
+"C1917"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1824",
+"C1825"
+],
+"track": true
+},
+{
+"between": [
+"C1824",
+"C1925"
+],
+"track": true
+},
+{
+"between": [
+"C1825",
+"C1826"
+],
+"track": true
+},
+{
+"between": [
+"C1826",
+"C1827"
+],
+"track": true
+},
+{
+"between": [
+"C1827",
+"C1828"
+],
+"track": true
+},
+{
+"between": [
+"C1828",
+"C1829"
+],
+"road": true
+},
+{
+"between": [
+"C1829",
+"C1830"
+],
+"track": true
+},
+{
+"between": [
+"C1830",
+"C1831"
+],
+"track": true
+},
+{
+"between": [
+"C1831",
+"C1832"
+],
+"track": true
+},
+{
+"between": [
+"C1904",
+"C1905"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1916",
+"C1917"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1916",
+"C2016"
+],
+"track": true
+},
+{
+"between": [
+"C1917",
+"C1918"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1917",
+"C2016"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1917",
+"C2017"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1918",
+"C2017"
+],
+"wire_candidate": true,
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C1919",
+"C2019"
+],
+"track": true
+},
+{
+"between": [
+"C1925",
+"C2025"
+],
+"track": true
+},
+{
+"between": [
+"C2007",
+"C2008"
+],
+"track": true
+},
+{
+"between": [
+"C2007",
+"C2108"
+],
+"track": true
+},
+{
+"between": [
+"C2008",
+"C2009"
+],
+"track": true
+},
+{
+"between": [
+"C2009",
+"C2010"
+],
+"track": true
+},
+{
+"between": [
+"C2009",
+"C2109"
+],
+"track": true
+},
+{
+"between": [
+"C2009",
+"C2110"
+],
+"track": true
+},
+{
+"between": [
+"C2010",
+"C2110"
+],
+"track": true
+},
+{
+"between": [
+"C2011",
+"C2111"
+],
+"track": true
+},
+{
+"between": [
+"C2012",
+"C2112"
+],
+"track": true
+},
+{
+"between": [
+"C2017",
+"C2018"
+],
+"wadi": true,
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C2018",
+"C2118"
+],
+"wadi": true,
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C2019",
+"C2120"
+],
+"track": true
+},
+{
+"between": [
+"C2026",
+"C2027"
+],
+"track": true
+},
+{
+"between": [
+"C2027",
+"C2028"
+],
+"track": true
+},
+{
+"between": [
+"C2027",
+"C2127"
+],
+"track": true
+},
+{
+"between": [
+"C2027",
+"C2128"
+],
+"track": true
+},
+{
+"between": [
+"C2028",
+"C2128"
+],
+"track": true
+},
+{
+"between": [
+"C2029",
+"C2129"
+],
+"track": true
+},
+{
+"between": [
+"C2030",
+"C2130"
+],
+"track": true
+},
+{
+"between": [
+"C2031",
+"C2131"
+],
+"track": true
+},
+{
+"between": [
+"C2033",
+"C2134"
+],
+"track": true
+},
+{
+"between": [
+"C2114",
+"C2213"
+],
+"track": true
+},
+{
+"between": [
+"C2118",
+"C2119"
+],
+"wadi": true,
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C2119",
+"C2218"
+],
+"wire_candidate": true,
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C2120",
+"C2220"
+],
+"track": true
+},
+{
+"between": [
+"C2126",
+"C2226"
+],
+"road": true
+},
+{
+"between": [
+"C2134",
+"C2234"
+],
+"track": true
+},
+{
+"between": [
+"C2218",
+"C2219"
+],
+"wadi": true,
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C2219",
+"C2319"
+],
+"wire_candidate": true,
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C2226",
+"C2327"
+],
+"track": true
+},
+{
+"between": [
+"C2318",
+"C2418"
+],
+"track": true
+},
+{
+"between": [
+"C2319",
+"C2320"
+],
+"wadi": true,
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C2320",
+"C2419"
+],
+"wadi": true,
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C2320",
+"C2420"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C2321",
+"C2322"
+],
+"road": true
+},
+{
+"between": [
+"C2327",
+"C2427"
+],
+"track": true
+},
+{
+"between": [
+"C2334",
+"C2434"
+],
+"track": true
+},
+{
+"between": [
+"C2405",
+"C2505"
+],
+"track": true
+},
+{
+"between": [
+"C2405",
+"C2506"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C2408",
+"C2409"
+],
+"track": true
+},
+{
+"between": [
+"C2409",
+"C2410"
+],
+"track": true
+},
+{
+"between": [
+"C2411",
+"C2412"
+],
+"road": true
+},
+{
+"between": [
+"C2412",
+"C2413"
+],
+"track": true
+},
+{
+"between": [
+"C2413",
+"C2414"
+],
+"track": true
+},
+{
+"between": [
+"C2414",
+"C2415"
+],
+"track": true
+},
+{
+"between": [
+"C2418",
+"C2519"
+],
+"track": true
+},
+{
+"between": [
+"C2419",
+"C2420"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C2420",
+"C2520"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C2427",
+"C2528"
+],
+"track": true
+},
+{
+"between": [
+"C2434",
+"D2502"
+],
+"track": true
+},
+{
+"between": [
+"C2505",
+"C2506"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C2505",
+"C2604"
+],
+"track": true
+},
+{
+"between": [
+"C2519",
+"C2619"
+],
+"track": true
+},
+{
+"between": [
+"C2520",
+"C2521"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C2520",
+"C2620"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C2522",
+"C2621"
+],
+"track": true
+},
+{
+"between": [
+"C2528",
+"C2628"
+],
+"track": true
+},
+{
+"between": [
+"C2604",
+"C2704"
+],
+"track": true
+},
+{
+"between": [
+"C2605",
+"C2706"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C2612",
+"C2712"
+],
+"track": true
+},
+{
+"between": [
+"C2616",
+"C2717"
+],
+"track": true
+},
+{
+"between": [
+"C2619",
+"C2620"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C2620",
+"C2720"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C2621",
+"C2721"
+],
+"track": true
+},
+{
+"between": [
+"C2717",
+"C2817"
+],
+"track": true
+},
+{
+"between": [
+"C2720",
+"C2721"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C2720",
+"C2820"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C2721",
+"C2820"
+],
+"track": true
+},
+{
+"between": [
+"C2803",
+"C2804"
+],
+"track": true
+},
+{
+"between": [
+"C2804",
+"C2805"
+],
+"track": true
+},
+{
+"between": [
+"C2804",
+"C2905"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C2807",
+"C2908"
+],
+"road": true
+},
+{
+"between": [
+"C2817",
+"C2918"
+],
+"road": true
+},
+{
+"between": [
+"C2819",
+"C2820"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C2819",
+"C2919"
+],
+"road": true
+},
+{
+"between": [
+"C2819",
+"C2920"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C2820",
+"C2921"
+],
+"road": true
+},
+{
+"between": [
+"C2828",
+"C2929"
+],
+"track": true
+},
+{
+"between": [
+"C2904",
+"C3003"
+],
+"road": true
+},
+{
+"between": [
+"C2908",
+"C3008"
+],
+"road": true
+},
+{
+"between": [
+"C2919",
+"C2920"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C2919",
+"C3019"
+],
+"track": true
+},
+{
+"between": [
+"C2920",
+"C3019"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C2921",
+"C3020"
+],
+"track": true
+},
+{
+"between": [
+"C2929",
+"C3029"
+],
+"track": true
+},
+{
+"between": [
+"C2934",
+"D2902"
+],
+"track": true
+},
+{
+"between": [
+"C3010",
+"C3111"
+],
+"track": true
+},
+{
+"between": [
+"C3012",
+"C3013"
+],
+"track": true
+},
+{
+"between": [
+"C3013",
+"C3014"
+],
+"track": true
+},
+{
+"between": [
+"C3014",
+"C3015"
+],
+"track": true
+},
+{
+"between": [
+"C3015",
+"C3016"
+],
+"road": true
+},
+{
+"between": [
+"C3017",
+"C3018"
+],
+"road": true
+},
+{
+"between": [
+"C3018",
+"C3019"
+],
+"track": true,
+"railroad": true
+},
+{
+"between": [
+"C3019",
+"C3020"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3019",
+"C3119"
+],
+"track": true
+},
+{
+"between": [
+"C3019",
+"C3120"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3020",
+"C3021"
+],
+"track": true
+},
+{
+"between": [
+"C3021",
+"C3022"
+],
+"track": true
+},
+{
+"between": [
+"C3022",
+"C3023"
+],
+"road": true
+},
+{
+"between": [
+"C3023",
+"C3024"
+],
+"road": true
+},
+{
+"between": [
+"C3025",
+"C3026"
+],
+"track": true
+},
+{
+"between": [
+"C3026",
+"C3027"
+],
+"track": true
+},
+{
+"between": [
+"C3027",
+"C3028"
+],
+"track": true
+},
+{
+"between": [
+"C3029",
+"C3129"
+],
+"track": true
+},
+{
+"between": [
+"C3030",
+"C3031"
+],
+"track": true
+},
+{
+"between": [
+"C3031",
+"C3032"
+],
+"track": true
+},
+{
+"between": [
+"C3032",
+"C3033"
+],
+"track": true
+},
+{
+"between": [
+"C3104",
+"C3105"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3111",
+"C3210"
+],
+"track": true
+},
+{
+"between": [
+"C3111",
+"C3211"
+],
+"road": true
+},
+{
+"between": [
+"C3119",
+"C3120"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3119",
+"C3218"
+],
+"track": true
+},
+{
+"between": [
+"C3119",
+"C3219"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3126",
+"C3127"
+],
+"track": true
+},
+{
+"between": [
+"C3127",
+"C3128"
+],
+"road": true
+},
+{
+"between": [
+"C3129",
+"C3228"
+],
+"track": true
+},
+{
+"between": [
+"C3204",
+"C3205"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3210",
+"C3310"
+],
+"track": true
+},
+{
+"between": [
+"C3218",
+"C3219"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3218",
+"C3318"
+],
+"road": true
+},
+{
+"between": [
+"C3218",
+"C3319"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3219",
+"C3319"
+],
+"track": true
+},
+{
+"between": [
+"C3222",
+"C3223"
+],
+"track": true
+},
+{
+"between": [
+"C3222",
+"C3322"
+],
+"track": true
+},
+{
+"between": [
+"C3223",
+"C3224"
+],
+"road": true
+},
+{
+"between": [
+"C3225",
+"C3226"
+],
+"road": true
+},
+{
+"between": [
+"C3226",
+"C3227"
+],
+"railroad": true
+},
+{
+"between": [
+"C3226",
+"C3326"
+],
+"railroad": true
+},
+{
+"between": [
+"C3226",
+"C3327"
+],
+"track": true
+},
+{
+"between": [
+"C3229",
+"C3330"
+],
+"road": true
+},
+{
+"between": [
+"C3305",
+"C3306"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3312",
+"C3412"
+],
+"road": true
+},
+{
+"between": [
+"C3318",
+"C3319"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3318",
+"C3418"
+],
+"track": true
+},
+{
+"between": [
+"C3319",
+"C3418"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3319",
+"C3419"
+],
+"track": true
+},
+{
+"between": [
+"C3321",
+"C3322"
+],
+"road": true
+},
+{
+"between": [
+"C3321",
+"C3420"
+],
+"track": true
+},
+{
+"between": [
+"C3324",
+"C3423"
+],
+"railroad": true
+},
+{
+"between": [
+"C3327",
+"C3427"
+],
+"track": true
+},
+{
+"between": [
+"C3328",
+"C3329"
+],
+"railroad": true
+},
+{
+"between": [
+"C3328",
+"C3427"
+],
+"road": true,
+"railroad": true
+},
+{
+"between": [
+"C3329",
+"C3429"
+],
+"railroad": true
+},
+{
+"between": [
+"C3330",
+"C3430"
+],
+"track": true
+},
+{
+"between": [
+"C3404",
+"C3504"
+],
+"road": true
+},
+{
+"between": [
+"C3405",
+"C3406"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3405",
+"C3506"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3406",
+"C3506"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3412",
+"C3513"
+],
+"track": true
+},
+{
+"between": [
+"C3416",
+"C3417"
+],
+"road": true
+},
+{
+"between": [
+"C3416",
+"C3516"
+],
+"road": true
+},
+{
+"between": [
+"C3418",
+"C3419"
+],
+"road": true,
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3418",
+"C3518"
+],
+"track": true
+},
+{
+"between": [
+"C3418",
+"C3519"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3419",
+"C3420"
+],
+"track": true
+},
+{
+"between": [
+"C3419",
+"C3519"
+],
+"track": true
+},
+{
+"between": [
+"C3419",
+"C3520"
+],
+"track": true
+},
+{
+"between": [
+"C3423",
+"C3523"
+],
+"railroad": true
+},
+{
+"between": [
+"C3424",
+"C3425"
+],
+"track": true
+},
+{
+"between": [
+"C3424",
+"C3524"
+],
+"track": true
+},
+{
+"between": [
+"C3425",
+"C3426"
+],
+"track": true
+},
+{
+"between": [
+"C3425",
+"C3526"
+],
+"escarpment": true,
+"escarpmentDown": "C3526",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"C3426",
+"C3427"
+],
+"road": true
+},
+{
+"between": [
+"C3426",
+"C3526"
+],
+"escarpment": true,
+"escarpmentDown": "C3526",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"C3426",
+"C3527"
+],
+"escarpment": true,
+"escarpmentDown": "C3527",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"C3427",
+"C3527"
+],
+"track": true
+},
+{
+"between": [
+"C3427",
+"C3528"
+],
+"escarpment": true,
+"escarpmentDown": "C3528",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"C3428",
+"C3528"
+],
+"escarpment": true,
+"escarpmentDown": "C3528",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"C3428",
+"C3529"
+],
+"track": true
+},
+{
+"between": [
+"C3430",
+"C3531"
+],
+"railroad": true
+},
+{
+"between": [
+"C3431",
+"C3532"
+],
+"railroad": true
+},
+{
+"between": [
+"C3504",
+"C3603"
+],
+"track": true
+},
+{
+"between": [
+"C3506",
+"C3507"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3507",
+"C3606"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3507",
+"C3607"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3513",
+"C3613"
+],
+"track": true
+},
+{
+"between": [
+"C3515",
+"C3614"
+],
+"track": true
+},
+{
+"between": [
+"C3518",
+"C3519"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3518",
+"C3617"
+],
+"track": true
+},
+{
+"between": [
+"C3518",
+"C3618"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3519",
+"C3618"
+],
+"track": true
+},
+{
+"between": [
+"C3520",
+"C3620"
+],
+"track": true
+},
+{
+"between": [
+"C3523",
+"C3622"
+],
+"railroad": true
+},
+{
+"between": [
+"C3524",
+"C3624"
+],
+"escarpment": true,
+"escarpmentDown": "C3624",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"C3525",
+"C3526"
+],
+"escarpment": true,
+"escarpmentDown": "C3526",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"C3525",
+"C3624"
+],
+"escarpment": true,
+"escarpmentDown": "C3624",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"C3525",
+"C3625"
+],
+"escarpment": true,
+"escarpmentDown": "C3625",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"C3526",
+"C3527"
+],
+"track": true
+},
+{
+"between": [
+"C3526",
+"C3625"
+],
+"track": true
+},
+{
+"between": [
+"C3528",
+"C3529"
+],
+"escarpment": true,
+"escarpmentDown": "C3528",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"C3528",
+"C3628"
+],
+"track": true
+},
+{
+"between": [
+"C3529",
+"C3530"
+],
+"track": true
+},
+{
+"between": [
+"C3529",
+"C3628"
+],
+"escarpment": true,
+"escarpmentDown": "C3628",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"C3530",
+"C3531"
+],
+"track": true
+},
+{
+"between": [
+"C3531",
+"C3631"
+],
+"railroad": true
+},
+{
+"between": [
+"C3533",
+"C3534"
+],
+"track": true
+},
+{
+"between": [
+"C3534",
+"D3502"
+],
+"track": true
+},
+{
+"between": [
+"C3606",
+"C3607"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3607",
+"C3707"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3609",
+"C3709"
+],
+"road": true
+},
+{
+"between": [
+"C3613",
+"C3714"
+],
+"track": true
+},
+{
+"between": [
+"C3617",
+"C3618"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3617",
+"C3718"
+],
+"road": true
+},
+{
+"between": [
+"C3618",
+"C3718"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3622",
+"C3722"
+],
+"railroad": true
+},
+{
+"between": [
+"C3623",
+"C3624"
+],
+"escarpment": true,
+"escarpmentDown": "C3624",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3623",
+"C3723"
+],
+"road": true
+},
+{
+"between": [
+"C3623",
+"C3724"
+],
+"escarpment": true,
+"escarpmentDown": "C3724",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"C3624",
+"C3625"
+],
+"track": true
+},
+{
+"between": [
+"C3624",
+"C3724"
+],
+"track": true
+},
+{
+"between": [
+"C3628",
+"C3629"
+],
+"escarpment": true,
+"escarpmentDown": "C3628",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"C3628",
+"C3729"
+],
+"track": true
+},
+{
+"between": [
+"C3629",
+"C3729"
+],
+"escarpment": true,
+"escarpmentDown": "C3729",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"C3630",
+"C3631"
+],
+"road": true
+},
+{
+"between": [
+"C3630",
+"C3731"
+],
+"road": true
+},
+{
+"between": [
+"C3631",
+"C3632"
+],
+"railroad": true
+},
+{
+"between": [
+"C3632",
+"C3633"
+],
+"railroad": true
+},
+{
+"between": [
+"C3633",
+"C3634"
+],
+"railroad": true
+},
+{
+"between": [
+"C3634",
+"D3602"
+],
+"track": true,
+"railroad": true
+},
+{
+"between": [
+"C3704",
+"C3803"
+],
+"road": true
+},
+{
+"between": [
+"C3707",
+"C3708"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3708",
+"C3807"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3714",
+"C3813"
+],
+"road": true
+},
+{
+"between": [
+"C3718",
+"C3719"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3718",
+"C3818"
+],
+"track": true
+},
+{
+"between": [
+"C3719",
+"C3818"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3722",
+"C3821"
+],
+"track": true,
+"railroad": true
+},
+{
+"between": [
+"C3722",
+"C3822"
+],
+"escarpment": true,
+"escarpmentDown": "C3822",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"C3723",
+"C3724"
+],
+"escarpment": true,
+"escarpmentDown": "C3724",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"C3723",
+"C3822"
+],
+"escarpment": true,
+"escarpmentDown": "C3822",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"C3723",
+"C3823"
+],
+"escarpment": true,
+"escarpmentDown": "C3823",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"C3724",
+"C3823"
+],
+"track": true
+},
+{
+"between": [
+"C3727",
+"C3826"
+],
+"track": true
+},
+{
+"between": [
+"C3807",
+"C3808"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3812",
+"C3912"
+],
+"track": true
+},
+{
+"between": [
+"C3813",
+"C3913"
+],
+"track": true
+},
+{
+"between": [
+"C3815",
+"C3916"
+],
+"road": true
+},
+{
+"between": [
+"C3818",
+"C3819"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3818",
+"C3919"
+],
+"track": true
+},
+{
+"between": [
+"C3819",
+"C3820"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3819",
+"C3919"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3819",
+"C3920"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3820",
+"C3920"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3821",
+"C3822"
+],
+"escarpment": true,
+"escarpmentDown": "C3822",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3821",
+"C3921"
+],
+"track": true,
+"railroad": true
+},
+{
+"between": [
+"C3822",
+"C3823"
+],
+"track": true
+},
+{
+"between": [
+"C3822",
+"C3922"
+],
+"railroad": true
+},
+{
+"between": [
+"C3826",
+"C3926"
+],
+"track": true,
+"railroad": true
+},
+{
+"between": [
+"C3834",
+"C3934"
+],
+"road": true
+},
+{
+"between": [
+"C3834",
+"D3702"
+],
+"track": true
+},
+{
+"between": [
+"C3908",
+"C3909"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3908",
+"C4008"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3913",
+"C4012"
+],
+"track": true
+},
+{
+"between": [
+"C3920",
+"C3921"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3921",
+"C3922"
+],
+"escarpment": true,
+"escarpmentDown": "C3922",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3921",
+"C4020"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C3921",
+"C4021"
+],
+"escarpment": true,
+"escarpmentDown": "C4021",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"C3922",
+"C4021"
+],
+"track": true,
+"railroad": true
+},
+{
+"between": [
+"C3926",
+"C3927"
+],
+"railroad": true
+},
+{
+"between": [
+"C3931",
+"C4031"
+],
+"track": true
+},
+{
+"between": [
+"C3934",
+"C4033"
+],
+"track": true
+},
+{
+"between": [
+"C4007",
+"C4008"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C4007",
+"C4108"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C4008",
+"C4108"
+],
+"track": true
+},
+{
+"between": [
+"C4017",
+"C4118"
+],
+"track": true
+},
+{
+"between": [
+"C4019",
+"C4020"
+],
+"road": true,
+"railroad": true
+},
+{
+"between": [
+"C4019",
+"C4119"
+],
+"track": true,
+"railroad": true
+},
+{
+"between": [
+"C4020",
+"C4021"
+],
+"road": true,
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C4020",
+"C4120"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C4020",
+"C4121"
+],
+"escarpment": true,
+"escarpmentDown": "C4121",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"C4021",
+"C4121"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C4031",
+"C4131"
+],
+"road": true,
+"railroad": true
+},
+{
+"between": [
+"C4102",
+"C4202"
+],
+"track": true
+},
+{
+"between": [
+"C4103",
+"C4104"
+],
+"railroad": true
+},
+{
+"between": [
+"C4104",
+"C4105"
+],
+"track": true
+},
+{
+"between": [
+"C4105",
+"C4106"
+],
+"track": true
+},
+{
+"between": [
+"C4107",
+"C4108"
+],
+"track": true,
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C4108",
+"C4109"
+],
+"road": true,
+"railroad": true
+},
+{
+"between": [
+"C4108",
+"C4207"
+],
+"track": true
+},
+{
+"between": [
+"C4109",
+"C4110"
+],
+"road": true
+},
+{
+"between": [
+"C4110",
+"C4111"
+],
+"road": true
+},
+{
+"between": [
+"C4118",
+"C4218"
+],
+"road": true
+},
+{
+"between": [
+"C4119",
+"C4218"
+],
+"track": true,
+"railroad": true
+},
+{
+"between": [
+"C4120",
+"C4121"
+],
+"escarpment": true,
+"escarpmentDown": "C4121",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"C4120",
+"C4220"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C4121",
+"C4122"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C4122",
+"C4221"
+],
+"wire_candidate": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C4131",
+"C4132"
+],
+"road": true
+},
+{
+"between": [
+"C4202",
+"C4303"
+],
+"track": true
+},
+{
+"between": [
+"C4207",
+"C4307"
+],
+"track": true
+},
+{
+"between": [
+"C4210",
+"C4310"
+],
+"track": true
+},
+{
+"between": [
+"C4216",
+"C4217"
+],
+"railroad": true
+},
+{
+"between": [
+"C4216",
+"C4316"
+],
+"railroad": true
+},
+{
+"between": [
+"C4217",
+"C4218"
+],
+"track": true
+},
+{
+"between": [
+"C4218",
+"C4219"
+],
+"track": true
+},
+{
+"between": [
+"C4219",
+"C4220"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C4220",
+"C4320"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C4303",
+"C4304"
+],
+"track": true
+},
+{
+"between": [
+"C4303",
+"C4403"
+],
+"track": true
+},
+{
+"between": [
+"C4313",
+"C4412"
+],
+"road": true,
+"railroad": true
+},
+{
+"between": [
+"C4314",
+"C4315"
+],
+"track": true
+},
+{
+"between": [
+"C4315",
+"C4316"
+],
+"track": true,
+"railroad": true
+},
+{
+"between": [
+"C4320",
+"C4321"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C4320",
+"C4419"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C4403",
+"C4503"
+],
+"road": true
+},
+{
+"between": [
+"C4408",
+"C4409"
+],
+"track": true,
+"railroad": true
+},
+{
+"between": [
+"C4408",
+"C4508"
+],
+"track": true
+},
+{
+"between": [
+"C4409",
+"C4410"
+],
+"track": true
+},
+{
+"between": [
+"C4416",
+"C4516"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C4419",
+"C4519"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C4419",
+"C4520"
+],
+"track": true
+},
+{
+"between": [
+"C4507",
+"C4508"
+],
+"railroad": true
+},
+{
+"between": [
+"C4510",
+"C4609"
+],
+"railroad": true
+},
+{
+"between": [
+"C4516",
+"C4517"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C4516",
+"C4615"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C4516",
+"C4616"
+],
+"track": true
+},
+{
+"between": [
+"C4517",
+"C4518"
+],
+"road": true
+},
+{
+"between": [
+"C4518",
+"C4519"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C4603",
+"C4703"
+],
+"railroad": true
+},
+{
+"between": [
+"C4603",
+"C4704"
+],
+"track": true
+},
+{
+"between": [
+"C4607",
+"C4608"
+],
+"railroad": true
+},
+{
+"between": [
+"C4608",
+"C4609"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C4608",
+"C4708"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C4609",
+"C4610"
+],
+"road": true
+},
+{
+"between": [
+"C4610",
+"C4611"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C4611",
+"C4612"
+],
+"road": true
+},
+{
+"between": [
+"C4612",
+"C4613"
+],
+"road": true
+},
+{
+"between": [
+"C4613",
+"C4614"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C4614",
+"C4615"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C4615",
+"C4716"
+],
+"track": true
+},
+{
+"between": [
+"C4702",
+"C4802"
+],
+"escarpment": true,
+"escarpmentDown": "C4802",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"C4703",
+"C4802"
+],
+"escarpment": true,
+"escarpmentDown": "C4802",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"C4703",
+"C4803"
+],
+"escarpment": true,
+"escarpmentDown": "C4803",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"C4704",
+"C4804"
+],
+"escarpment": true,
+"escarpmentDown": "C4804",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"C4705",
+"C4804"
+],
+"escarpment": true,
+"escarpmentDown": "C4804",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"C4705",
+"C4805"
+],
+"escarpment": true,
+"escarpmentDown": "C4805",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"C4706",
+"C4707"
+],
+"escarpment": true,
+"escarpmentDown": "C4707",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"C4706",
+"C4805"
+],
+"escarpment": true,
+"escarpmentDown": "C4805",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"C4708",
+"C4807"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C4802",
+"C4803"
+],
+"track": true
+},
+{
+"between": [
+"C4802",
+"C4902"
+],
+"track": true
+},
+{
+"between": [
+"C4804",
+"C4805"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C4804",
+"C4904"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C4804",
+"C4905"
+],
+"escarpment": true,
+"escarpmentDown": "C4905",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C4805",
+"C4806"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C4805",
+"C4905"
+],
+"escarpment": true,
+"escarpmentDown": "C4905",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"C4805",
+"C4906"
+],
+"escarpment": true,
+"escarpmentDown": "C4906",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"C4806",
+"C4807"
+],
+"road": true
+},
+{
+"between": [
+"C4806",
+"C4906"
+],
+"escarpment": true,
+"escarpmentDown": "C4906",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"C4806",
+"C4907"
+],
+"escarpment": true,
+"escarpmentDown": "C4907",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"C4902",
+"C4903"
+],
+"road": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"C4903",
+"C4904"
+],
+"road": true
+},
+{
+"between": [
+"C4904",
+"C4905"
+],
+"escarpment": true,
+"escarpmentDown": "C4905",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"D0102",
+"D0103"
+],
+"track": true
+},
+{
+"between": [
+"D0103",
+"D0104"
+],
+"track": true
+},
+{
+"between": [
+"D0127",
+"D0226"
+],
+"track": true
+},
+{
+"between": [
+"D0130",
+"D0230"
+],
+"track": true
+},
+{
+"between": [
+"D0226",
+"D0326"
+],
+"track": true
+},
+{
+"between": [
+"D0230",
+"D0331"
+],
+"track": true
+},
+{
+"between": [
+"D0231",
+"D0331"
+],
+"road": true
+},
+{
+"between": [
+"D0232",
+"D0233"
+],
+"track": true
+},
+{
+"between": [
+"D0329",
+"D0330"
+],
+"track": true
+},
+{
+"between": [
+"D0330",
+"D0331"
+],
+"track": true
+},
+{
+"between": [
+"D0331",
+"D0431"
+],
+"track": true
+},
+{
+"between": [
+"D0424",
+"D0524"
+],
+"track": true
+},
+{
+"between": [
+"D0427",
+"D0527"
+],
+"road": true
+},
+{
+"between": [
+"D0431",
+"D0532"
+],
+"track": true
+},
+{
+"between": [
+"D0502",
+"D0503"
+],
+"track": true
+},
+{
+"between": [
+"D0503",
+"D0504"
+],
+"track": true
+},
+{
+"between": [
+"D0504",
+"D0505"
+],
+"track": true
+},
+{
+"between": [
+"D0506",
+"D0507"
+],
+"track": true
+},
+{
+"between": [
+"D0507",
+"D0508"
+],
+"track": true
+},
+{
+"between": [
+"D0507",
+"D0607"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D0508",
+"D0607"
+],
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D0524",
+"D0623"
+],
+"track": true
+},
+{
+"between": [
+"D0526",
+"D0527"
+],
+"track": true
+},
+{
+"between": [
+"D0532",
+"D0632"
+],
+"track": true
+},
+{
+"between": [
+"D0606",
+"D0607"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D0606",
+"D0707"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D0622",
+"D0623"
+],
+"road": true
+},
+{
+"between": [
+"D0622",
+"D0722"
+],
+"track": true
+},
+{
+"between": [
+"D0632",
+"D0733"
+],
+"track": true
+},
+{
+"between": [
+"D0720",
+"D0721"
+],
+"track": true
+},
+{
+"between": [
+"D0721",
+"D0722"
+],
+"track": true
+},
+{
+"between": [
+"D0722",
+"D0723"
+],
+"track": true
+},
+{
+"between": [
+"D0724",
+"D0725"
+],
+"track": true
+},
+{
+"between": [
+"D0725",
+"D0825"
+],
+"track": true
+},
+{
+"between": [
+"D0733",
+"D0734"
+],
+"track": true
+},
+{
+"between": [
+"D0734",
+"E0702"
+],
+"track": true
+},
+{
+"between": [
+"D0821",
+"D0921"
+],
+"road": true
+},
+{
+"between": [
+"D0830",
+"D0930"
+],
+"track": true
+},
+{
+"between": [
+"D0831",
+"D0832"
+],
+"road": true
+},
+{
+"between": [
+"D0907",
+"D1007"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D0908",
+"D1007"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D0908",
+"D1008"
+],
+"track": true,
+"wadi": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D0920",
+"D1019"
+],
+"track": true
+},
+{
+"between": [
+"D0927",
+"D1027"
+],
+"track": true
+},
+{
+"between": [
+"D0930",
+"D1029"
+],
+"track": true
+},
+{
+"between": [
+"D1007",
+"D1108"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D1008",
+"D1108"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D1008",
+"D1109"
+],
+"track": true,
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D1015",
+"D1016"
+],
+"track": true
+},
+{
+"between": [
+"D1019",
+"D1119"
+],
+"track": true
+},
+{
+"between": [
+"D1027",
+"D1028"
+],
+"track": true
+},
+{
+"between": [
+"D1028",
+"D1029"
+],
+"track": true
+},
+{
+"between": [
+"D1029",
+"D1130"
+],
+"road": true
+},
+{
+"between": [
+"D1033",
+"D1134"
+],
+"road": true
+},
+{
+"between": [
+"D1108",
+"D1207"
+],
+"escarpment": true,
+"escarpmentDown": "D1108",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"D1108",
+"D1208"
+],
+"track": true
+},
+{
+"between": [
+"D1109",
+"D1110"
+],
+"road": true
+},
+{
+"between": [
+"D1109",
+"D1208"
+],
+"road": true
+},
+{
+"between": [
+"D1111",
+"D1112"
+],
+"track": true
+},
+{
+"between": [
+"D1112",
+"D1113"
+],
+"road": true
+},
+{
+"between": [
+"D1113",
+"D1114"
+],
+"track": true
+},
+{
+"between": [
+"D1116",
+"D1117"
+],
+"track": true
+},
+{
+"between": [
+"D1117",
+"D1118"
+],
+"track": true
+},
+{
+"between": [
+"D1118",
+"D1218"
+],
+"road": true
+},
+{
+"between": [
+"D1134",
+"D1233"
+],
+"track": true
+},
+{
+"between": [
+"D1207",
+"D1208"
+],
+"escarpment": true,
+"escarpmentDown": "D1208",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D1208",
+"D1209"
+],
+"track": true
+},
+{
+"between": [
+"D1208",
+"D1308"
+],
+"escarpment": true,
+"escarpmentDown": "D1208",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"D1208",
+"D1309"
+],
+"escarpment": true,
+"escarpmentDown": "D1208",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"D1209",
+"D1309"
+],
+"escarpment": true,
+"escarpmentDown": "D1209",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"D1209",
+"D1310"
+],
+"track": true
+},
+{
+"between": [
+"D1215",
+"D1216"
+],
+"road": true
+},
+{
+"between": [
+"D1215",
+"D1315"
+],
+"track": true
+},
+{
+"between": [
+"D1233",
+"D1333"
+],
+"track": true
+},
+{
+"between": [
+"D1308",
+"D1407"
+],
+"track": true
+},
+{
+"between": [
+"D1308",
+"D1408"
+],
+"track": true
+},
+{
+"between": [
+"D1309",
+"D1310"
+],
+"escarpment": true,
+"escarpmentDown": "D1310",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"D1310",
+"D1311"
+],
+"road": true
+},
+{
+"between": [
+"D1310",
+"D1409"
+],
+"escarpment": true,
+"escarpmentDown": "D1310",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"D1310",
+"D1410"
+],
+"escarpment": true,
+"escarpmentDown": "D1310",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"D1311",
+"D1312"
+],
+"road": true
+},
+{
+"between": [
+"D1311",
+"D1410"
+],
+"escarpment": true,
+"escarpmentDown": "D1311",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"D1311",
+"D1411"
+],
+"escarpment": true,
+"escarpmentDown": "D1311",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"D1312",
+"D1411"
+],
+"escarpment": true,
+"escarpmentDown": "D1312",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"D1312",
+"D1412"
+],
+"track": true
+},
+{
+"between": [
+"D1315",
+"D1415"
+],
+"road": true
+},
+{
+"between": [
+"D1320",
+"D1420"
+],
+"track": true
+},
+{
+"between": [
+"D1333",
+"D1432"
+],
+"track": true
+},
+{
+"between": [
+"D1408",
+"D1409"
+],
+"road": true
+},
+{
+"between": [
+"D1411",
+"D1412"
+],
+"escarpment": true,
+"escarpmentDown": "D1412",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"D1411",
+"D1512"
+],
+"escarpment": true,
+"escarpmentDown": "D1512",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"D1412",
+"D1512"
+],
+"track": true
+},
+{
+"between": [
+"D1412",
+"D1513"
+],
+"track": true
+},
+{
+"between": [
+"D1415",
+"D1516"
+],
+"track": true
+},
+{
+"between": [
+"D1420",
+"D1521"
+],
+"track": true
+},
+{
+"between": [
+"D1428",
+"D1529"
+],
+"road": true
+},
+{
+"between": [
+"D1432",
+"D1532"
+],
+"track": true
+},
+{
+"between": [
+"D1510",
+"D1610"
+],
+"track": true
+},
+{
+"between": [
+"D1511",
+"D1512"
+],
+"escarpment": true,
+"escarpmentDown": "D1512",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"D1512",
+"D1611"
+],
+"escarpment": true,
+"escarpmentDown": "D1512",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"D1512",
+"D1612"
+],
+"track": true
+},
+{
+"between": [
+"D1513",
+"D1613"
+],
+"track": true
+},
+{
+"between": [
+"D1521",
+"D1621"
+],
+"track": true
+},
+{
+"between": [
+"D1530",
+"D1630"
+],
+"track": true
+},
+{
+"between": [
+"D1532",
+"D1631"
+],
+"track": true
+},
+{
+"between": [
+"D1608",
+"D1709"
+],
+"track": true
+},
+{
+"between": [
+"D1611",
+"D1612"
+],
+"escarpment": true,
+"escarpmentDown": "D1612",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"D1612",
+"D1613"
+],
+"track": true
+},
+{
+"between": [
+"D1612",
+"D1712"
+],
+"escarpment": true,
+"escarpmentDown": "D1612",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"D1612",
+"D1713"
+],
+"escarpment": true,
+"escarpmentDown": "D1612",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"D1613",
+"D1713"
+],
+"escarpment": true,
+"escarpmentDown": "D1613",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"D1613",
+"D1714"
+],
+"track": true
+},
+{
+"between": [
+"D1614",
+"D1615"
+],
+"track": true
+},
+{
+"between": [
+"D1630",
+"D1731"
+],
+"road": true
+},
+{
+"between": [
+"D1709",
+"D1809"
+],
+"track": true
+},
+{
+"between": [
+"D1712",
+"D1812"
+],
+"road": true
+},
+{
+"between": [
+"D1713",
+"D1714"
+],
+"escarpment": true,
+"escarpmentDown": "D1714",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"D1714",
+"D1813"
+],
+"escarpment": true,
+"escarpmentDown": "D1714",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D1714",
+"D1814"
+],
+"track": true
+},
+{
+"between": [
+"D1715",
+"D1716"
+],
+"track": true
+},
+{
+"between": [
+"D1715",
+"D1814"
+],
+"track": true
+},
+{
+"between": [
+"D1715",
+"D1815"
+],
+"escarpment": true,
+"escarpmentDown": "D1715",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"D1716",
+"D1815"
+],
+"escarpment": true,
+"escarpmentDown": "D1716",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"D1716",
+"D1816"
+],
+"track": true
+},
+{
+"between": [
+"D1719",
+"D1720"
+],
+"track": true
+},
+{
+"between": [
+"D1720",
+"D1721"
+],
+"road": true
+},
+{
+"between": [
+"D1721",
+"D1722"
+],
+"track": true
+},
+{
+"between": [
+"D1725",
+"D1825"
+],
+"road": true
+},
+{
+"between": [
+"D1809",
+"D1910"
+],
+"track": true
+},
+{
+"between": [
+"D1812",
+"D1813"
+],
+"track": true
+},
+{
+"between": [
+"D1813",
+"D1814"
+],
+"escarpment": true,
+"escarpmentDown": "D1814",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"D1813",
+"D1914"
+],
+"road": true
+},
+{
+"between": [
+"D1814",
+"D1815"
+],
+"escarpment": true,
+"escarpmentDown": "D1814",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"D1814",
+"D1914"
+],
+"escarpment": true,
+"escarpmentDown": "D1814",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"D1814",
+"D1915"
+],
+"escarpment": true,
+"escarpmentDown": "D1814",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"D1815",
+"D1816"
+],
+"escarpment": true,
+"escarpmentDown": "D1816",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"D1815",
+"D1915"
+],
+"track": true
+},
+{
+"between": [
+"D1815",
+"D1916"
+],
+"escarpment": true,
+"escarpmentDown": "D1916",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"D1816",
+"D1916"
+],
+"track": true
+},
+{
+"between": [
+"D1825",
+"D1826"
+],
+"road": true
+},
+{
+"between": [
+"D1915",
+"D1916"
+],
+"escarpment": true,
+"escarpmentDown": "D1916",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"D1916",
+"D1917"
+],
+"track": true
+},
+{
+"between": [
+"D1916",
+"D2015"
+],
+"escarpment": true,
+"escarpmentDown": "D1916",
+"source": "Tom review 2026-11-07",
+"reviewed": true
+},
+{
+"between": [
+"D1916",
+"D2016"
+],
+"escarpment": true,
+"escarpmentDown": "D1916",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D1917",
+"D1918"
+],
+"track": true
+},
+{
+"between": [
+"D1917",
+"D2016"
+],
+"escarpment": true,
+"escarpmentDown": "D1917",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D1917",
+"D2017"
+],
+"escarpment": true,
+"escarpmentDown": "D1917",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D1918",
+"D2017"
+],
+"escarpment": true,
+"escarpmentDown": "D1918",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D1918",
+"D2018"
+],
+"track": true
+},
+{
+"between": [
+"D1928",
+"D1929"
+],
+"road": true
+},
+{
+"between": [
+"D1929",
+"D1930"
+],
+"road": true
+},
+{
+"between": [
+"D2011",
+"D2112"
+],
+"road": true
+},
+{
+"between": [
+"D2015",
+"D2016"
+],
+"track": true
+},
+{
+"between": [
+"D2015",
+"D2116"
+],
+"road": true
+},
+{
+"between": [
+"D2016",
+"D2017"
+],
+"track": true
+},
+{
+"between": [
+"D2017",
+"D2018"
+],
+"escarpment": true,
+"escarpmentDown": "D2018",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2018",
+"D2118"
+],
+"escarpment": true,
+"escarpmentDown": "D2018",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2018",
+"D2119"
+],
+"track": true
+},
+{
+"between": [
+"D2019",
+"D2020"
+],
+"track": true
+},
+{
+"between": [
+"D2019",
+"D2119"
+],
+"track": true
+},
+{
+"between": [
+"D2019",
+"D2120"
+],
+"escarpment": true,
+"escarpmentDown": "D2019",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2020",
+"D2120"
+],
+"escarpment": true,
+"escarpmentDown": "D2020",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2020",
+"D2121"
+],
+"track": true
+},
+{
+"between": [
+"D2032",
+"D2033"
+],
+"track": true
+},
+{
+"between": [
+"D2033",
+"D2133"
+],
+"escarpment": true,
+"escarpmentDown": "D2133",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2033",
+"D2134"
+],
+"escarpment": true,
+"escarpmentDown": "D2134",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2112",
+"D2212"
+],
+"track": true
+},
+{
+"between": [
+"D2116",
+"D2216"
+],
+"track": true
+},
+{
+"between": [
+"D2118",
+"D2119"
+],
+"escarpment": true,
+"escarpmentDown": "D2118",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2119",
+"D2120"
+],
+"escarpment": true,
+"escarpmentDown": "D2119",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2119",
+"D2218"
+],
+"escarpment": true,
+"escarpmentDown": "D2119",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2119",
+"D2219"
+],
+"escarpment": true,
+"escarpmentDown": "D2119",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2120",
+"D2121"
+],
+"escarpment": true,
+"escarpmentDown": "D2121",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2121",
+"D2122"
+],
+"track": true
+},
+{
+"between": [
+"D2121",
+"D2220"
+],
+"escarpment": true,
+"escarpmentDown": "D2121",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2121",
+"D2221"
+],
+"escarpment": true,
+"escarpmentDown": "D2121",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2122",
+"D2221"
+],
+"escarpment": true,
+"escarpmentDown": "D2122",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2122",
+"D2222"
+],
+"track": true
+},
+{
+"between": [
+"D2123",
+"D2124"
+],
+"track": true
+},
+{
+"between": [
+"D2123",
+"D2222"
+],
+"track": true
+},
+{
+"between": [
+"D2123",
+"D2223"
+],
+"escarpment": true,
+"escarpmentDown": "D2123",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2124",
+"D2223"
+],
+"escarpment": true,
+"escarpmentDown": "D2124",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2133",
+"D2134"
+],
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2212",
+"D2313"
+],
+"track": true
+},
+{
+"between": [
+"D2219",
+"D2220"
+],
+"track": true
+},
+{
+"between": [
+"D2220",
+"D2221"
+],
+"track": true
+},
+{
+"between": [
+"D2221",
+"D2222"
+],
+"escarpment": true,
+"escarpmentDown": "D2222",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2222",
+"D2223"
+],
+"escarpment": true,
+"escarpmentDown": "D2222",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2222",
+"D2322"
+],
+"escarpment": true,
+"escarpmentDown": "D2222",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2222",
+"D2323"
+],
+"escarpment": true,
+"escarpmentDown": "D2222",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2223",
+"D2224"
+],
+"escarpment": true,
+"escarpmentDown": "D2224",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2224",
+"D2225"
+],
+"track": true
+},
+{
+"between": [
+"D2224",
+"D2324"
+],
+"escarpment": true,
+"escarpmentDown": "D2224",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2224",
+"D2325"
+],
+"escarpment": true,
+"escarpmentDown": "D2224",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2225",
+"D2226"
+],
+"track": true
+},
+{
+"between": [
+"D2225",
+"D2325"
+],
+"escarpment": true,
+"escarpmentDown": "D2225",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2225",
+"D2326"
+],
+"escarpment": true,
+"escarpmentDown": "D2225",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2226",
+"D2227"
+],
+"track": true
+},
+{
+"between": [
+"D2226",
+"D2326"
+],
+"escarpment": true,
+"escarpmentDown": "D2226",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2226",
+"D2327"
+],
+"escarpment": true,
+"escarpmentDown": "D2226",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2227",
+"D2327"
+],
+"escarpment": true,
+"escarpmentDown": "D2227",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2227",
+"D2328"
+],
+"escarpment": true,
+"escarpmentDown": "D2227",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2228",
+"D2328"
+],
+"escarpment": true,
+"escarpmentDown": "D2228",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2228",
+"D2329"
+],
+"track": true
+},
+{
+"between": [
+"D2229",
+"D2330"
+],
+"track": true
+},
+{
+"between": [
+"D2231",
+"D2232"
+],
+"track": true
+},
+{
+"between": [
+"D2231",
+"D2331"
+],
+"track": true
+},
+{
+"between": [
+"D2231",
+"D2332"
+],
+"escarpment": true,
+"escarpmentDown": "D2231",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2232",
+"D2332"
+],
+"escarpment": true,
+"escarpmentDown": "D2232",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2232",
+"D2333"
+],
+"track": true
+},
+{
+"between": [
+"D2233",
+"D2333"
+],
+"track": true
+},
+{
+"between": [
+"D2233",
+"D2334"
+],
+"escarpment": true,
+"escarpmentDown": "D2233",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2234",
+"D2334"
+],
+"escarpment": true,
+"escarpmentDown": "D2234",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2234",
+"E2102"
+],
+"track": true
+},
+{
+"between": [
+"D2234",
+"E2202"
+],
+"escarpment": true,
+"escarpmentDown": "D2234",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2234",
+"E2302"
+],
+"escarpment": true,
+"escarpmentDown": "D2234",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2313",
+"D2412"
+],
+"track": true
+},
+{
+"between": [
+"D2322",
+"D2323"
+],
+"track": true
+},
+{
+"between": [
+"D2323",
+"D2324"
+],
+"track": true
+},
+{
+"between": [
+"D2326",
+"D2327"
+],
+"track": true
+},
+{
+"between": [
+"D2327",
+"D2328"
+],
+"track": true
+},
+{
+"between": [
+"D2328",
+"D2329"
+],
+"escarpment": true,
+"escarpmentDown": "D2329",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2329",
+"D2330"
+],
+"track": true
+},
+{
+"between": [
+"D2329",
+"D2428"
+],
+"escarpment": true,
+"escarpmentDown": "D2329",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2329",
+"D2429"
+],
+"escarpment": true,
+"escarpmentDown": "D2329",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2330",
+"D2331"
+],
+"track": true
+},
+{
+"between": [
+"D2330",
+"D2429"
+],
+"track": true,
+"escarpment": true,
+"escarpmentDown": "D2330",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2330",
+"D2430"
+],
+"escarpment": true,
+"escarpmentDown": "D2330",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2331",
+"D2332"
+],
+"escarpment": true,
+"escarpmentDown": "D2331",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2331",
+"D2430"
+],
+"escarpment": true,
+"escarpmentDown": "D2331",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2331",
+"D2431"
+],
+"escarpment": true,
+"escarpmentDown": "D2331",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2332",
+"D2333"
+],
+"escarpment": true,
+"escarpmentDown": "D2333",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2333",
+"D2334"
+],
+"escarpment": true,
+"escarpmentDown": "D2333",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2333",
+"D2432"
+],
+"escarpment": true,
+"escarpmentDown": "D2333",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2333",
+"D2433"
+],
+"escarpment": true,
+"escarpmentDown": "D2333",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"D2334",
+"D2434"
+],
+"road": true
+},
+{
+"between": [
+"D2433",
+"D2533"
+],
+"track": true
+},
+{
+"between": [
+"D2434",
+"E2402"
+],
+"track": true
+},
+{
+"between": [
+"D2502",
+"D2602"
+],
+"track": true
+},
+{
+"between": [
+"D2507",
+"D2607"
+],
+"road": true
+},
+{
+"between": [
+"D2513",
+"D2613"
+],
+"track": true
+},
+{
+"between": [
+"D2515",
+"D2614"
+],
+"track": true
+},
+{
+"between": [
+"D2533",
+"D2632"
+],
+"track": true
+},
+{
+"between": [
+"D2534",
+"D2634"
+],
+"road": true
+},
+{
+"between": [
+"D2613",
+"D2714"
+],
+"track": true
+},
+{
+"between": [
+"D2630",
+"D2731"
+],
+"road": true
+},
+{
+"between": [
+"D2632",
+"D2732"
+],
+"track": true
+},
+{
+"between": [
+"D2715",
+"D2814"
+],
+"road": true
+},
+{
+"between": [
+"D2813",
+"D2914"
+],
+"railroad": true
+},
+{
+"between": [
+"D2831",
+"D2931"
+],
+"road": true
+},
+{
+"between": [
+"D2833",
+"D2934"
+],
+"track": true
+},
+{
+"between": [
+"D2834",
+"E2902"
+],
+"track": true
+},
+{
+"between": [
+"D2902",
+"D2903"
+],
+"track": true
+},
+{
+"between": [
+"D2903",
+"D2904"
+],
+"track": true
+},
+{
+"between": [
+"D2904",
+"D2905"
+],
+"track": true
+},
+{
+"between": [
+"D2905",
+"D2906"
+],
+"track": true
+},
+{
+"between": [
+"D2908",
+"D2909"
+],
+"track": true
+},
+{
+"between": [
+"D2909",
+"D2910"
+],
+"railroad": true
+},
+{
+"between": [
+"D2909",
+"D3009"
+],
+"road": true
+},
+{
+"between": [
+"D2931",
+"D3031"
+],
+"track": true
+},
+{
+"between": [
+"D2934",
+"D3034"
+],
+"track": true
+},
+{
+"between": [
+"D3003",
+"D3103"
+],
+"road": true
+},
+{
+"between": [
+"D3016",
+"D3117"
+],
+"track": true
+},
+{
+"between": [
+"D3024",
+"D3125"
+],
+"track": true
+},
+{
+"between": [
+"D3027",
+"D3128"
+],
+"track": true
+},
+{
+"between": [
+"D3031",
+"D3132"
+],
+"track": true
+},
+{
+"between": [
+"D3034",
+"D3134"
+],
+"wire_candidate": 0.67,
+"railroad": true,
+"source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)",
+"reviewed": true
+},
+{
+"between": [
+"D3034",
+"E2902"
+],
+"track": true
+},
+{
+"between": [
+"D3034",
+"E3002"
+],
+"railroad": true
+},
+{
+"between": [
+"D3122",
+"D3123"
+],
+"road": true
+},
+{
+"between": [
+"D3123",
+"D3124"
+],
+"track": true
+},
+{
+"between": [
+"D3127",
+"D3227"
+],
+"wire_candidate": 0.6
+},
+{
+"between": [
+"D3128",
+"D3227"
+],
+"railroad": true
+},
+{
+"between": [
+"D3128",
+"D3228"
+],
+"road": true
+},
+{
+"between": [
+"D3133",
+"D3134"
+],
+"road": true
+},
+{
+"between": [
+"D3133",
+"D3232"
+],
+"track": true,
+"source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line): edge detection beside the line",
+"reviewed": true
+},
+{
+"between": [
+"D3134",
+"D3233"
+],
+"railroad": true,
+"source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)",
+"reviewed": true
+},
+{
+"between": [
+"D3210",
+"D3310"
+],
+"track": true
+},
+{
+"between": [
+"D3210",
+"D3311"
+],
+"road": true
+},
+{
+"between": [
+"D3215",
+"D3315"
+],
+"road": true
+},
+{
+"between": [
+"D3219",
+"D3320"
+],
+"road": true
+},
+{
+"between": [
+"D3221",
+"D3321"
+],
+"track": true
+},
+{
+"between": [
+"D3222",
+"D3323"
+],
+"road": true
+},
+{
+"between": [
+"D3228",
+"D3329"
+],
+"track": true
+},
+{
+"between": [
+"D3230",
+"D3231"
+],
+"railroad": true
+},
+{
+"between": [
+"D3230",
+"D3330"
+],
+"railroad": true,
+"source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)",
+"reviewed": true
+},
+{
+"between": [
+"D3231",
+"D3232"
+],
+"road": true,
+"railroad": true
+},
+{
+"between": [
+"D3232",
+"D3233"
+],
+"railroad": true,
+"source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)",
+"reviewed": true
+},
+{
+"between": [
+"D3303",
+"D3402"
+],
+"track": true
+},
+{
+"between": [
+"D3306",
+"D3307"
+],
+"track": true
+},
+{
+"between": [
+"D3306",
+"D3405"
+],
+"road": true
+},
+{
+"between": [
+"D3307",
+"D3308"
+],
+"track": true
+},
+{
+"between": [
+"D3308",
+"D3309"
+],
+"road": true
+},
+{
+"between": [
+"D3314",
+"D3315"
+],
+"track": true
+},
+{
+"between": [
+"D3315",
+"D3316"
+],
+"track": true
+},
+{
+"between": [
+"D3316",
+"D3317"
+],
+"track": true
+},
+{
+"between": [
+"D3317",
+"D3318"
+],
+"road": true
+},
+{
+"between": [
+"D3320",
+"D3419"
+],
+"wire_candidate": 0.47
+},
+{
+"between": [
+"D3320",
+"D3420"
+],
+"track": true
+},
+{
+"between": [
+"D3321",
+"D3420"
+],
+"track": true
+},
+{
+"between": [
+"D3322",
+"D3323"
+],
+"railroad": true
+},
+{
+"between": [
+"D3322",
+"D3421"
+],
+"railroad": true,
+"source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)",
+"reviewed": true
+},
+{
+"between": [
+"D3323",
+"D3324"
+],
+"road": true,
+"railroad": true
+},
+{
+"between": [
+"D3324",
+"D3325"
+],
+"road": true,
+"railroad": true
+},
+{
+"between": [
+"D3325",
+"D3326"
+],
+"road": true,
+"wire_candidate": 0.53,
+"railroad": true,
+"source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)",
+"reviewed": true
+},
+{
+"between": [
+"D3326",
+"D3327"
+],
+"road": true,
+"railroad": true
+},
+{
+"between": [
+"D3327",
+"D3328"
+],
+"road": true,
+"wire_candidate": 0.47,
+"railroad": true,
+"source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)",
+"reviewed": true
+},
+{
+"between": [
+"D3328",
+"D3329"
+],
+"road": true,
+"railroad": true
+},
+{
+"between": [
+"D3329",
+"D3330"
+],
+"road": true,
+"railroad": true
+},
+{
+"between": [
+"D3402",
+"D3502"
+],
+"road": true
+},
+{
+"between": [
+"D3403",
+"D3404"
+],
+"track": true
+},
+{
+"between": [
+"D3407",
+"D3507"
+],
+"road": true
+},
+{
+"between": [
+"D3408",
+"D3409"
+],
+"track": true
+},
+{
+"between": [
+"D3409",
+"D3410"
+],
+"track": true
+},
+{
+"between": [
+"D3411",
+"D3512"
+],
+"road": true
+},
+{
+"between": [
+"D3418",
+"D3518"
+],
+"track": true
+},
+{
+"between": [
+"D3419",
+"D3420"
+],
+"railroad": true,
+"source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)",
+"reviewed": true
+},
+{
+"between": [
+"D3419",
+"D3519"
+],
+"railroad": true,
+"source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)",
+"reviewed": true
+},
+{
+"between": [
+"D3420",
+"D3421"
+],
+"track": true,
+"railroad": true,
+"source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)",
+"reviewed": true
+},
+{
+"between": [
+"D3502",
+"D3503"
+],
+"track": true
+},
+{
+"between": [
+"D3504",
+"D3505"
+],
+"track": true
+},
+{
+"between": [
+"D3504",
+"D3603"
+],
+"track": true
+},
+{
+"between": [
+"D3505",
+"D3506"
+],
+"track": true
+},
+{
+"between": [
+"D3514",
+"D3515"
+],
+"railroad": true
+},
+{
+"between": [
+"D3514",
+"D3613"
+],
+"railroad": true
+},
+{
+"between": [
+"D3517",
+"D3518"
+],
+"railroad": true
+},
+{
+"between": [
+"D3517",
+"D3616"
+],
+"railroad": true,
+"source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)",
+"reviewed": true
+},
+{
+"between": [
+"D3518",
+"D3519"
+],
+"railroad": true,
+"source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)",
+"reviewed": true
+},
+{
+"between": [
+"D3602",
+"D3603"
+],
+"track": true,
+"railroad": true
+},
+{
+"between": [
+"D3602",
+"D3702"
+],
+"track": true
+},
+{
+"between": [
+"D3603",
+"D3604"
+],
+"railroad": true
+},
+{
+"between": [
+"D3605",
+"D3606"
+],
+"railroad": true
+},
+{
+"between": [
+"D3608",
+"D3609"
+],
+"railroad": true
+},
+{
+"between": [
+"D3611",
+"D3612"
+],
+"road": true,
+"railroad": true
+},
+{
+"between": [
+"D3611",
+"D3711"
+],
+"railroad": true
+},
+{
+"between": [
+"D3612",
+"D3613"
+],
+"track": true
+},
+{
+"between": [
+"D3615",
+"D3616"
+],
+"railroad": true,
+"source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)",
+"reviewed": true
+},
+{
+"between": [
+"D3615",
+"D3715"
+],
+"railroad": true
+},
+{
+"between": [
+"D3707",
+"D3708"
+],
+"road": true
+},
+{
+"between": [
+"D3708",
+"D3709"
+],
+"road": true
+},
+{
+"between": [
+"D3709",
+"D3710"
+],
+"road": true
+},
+{
+"between": [
+"D3710",
+"D3711"
+],
+"track": true
+},
+{
+"between": [
+"D3714",
+"D3715"
+],
+"road": true,
+"railroad": true,
+"source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)",
+"reviewed": true
+},
+{
+"between": [
+"D3905",
+"D3906"
+],
+"railroad": true
+},
+{
+"between": [
+"D3906",
+"D3907"
+],
+"railroad": true
+},
+{
+"between": [
+"D3907",
+"D3908"
+],
+"railroad": true
+},
+{
+"between": [
+"E0106",
+"E0107"
+],
+"road": true
+},
+{
+"between": [
+"E0108",
+"E0208"
+],
+"road": true
+},
+{
+"between": [
+"E0127",
+"E0227"
+],
+"track": true,
+"railroad": true
+},
+{
+"between": [
+"E0128",
+"E0227"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E0128",
+"E0228"
+],
+"railroad": true
+},
+{
+"between": [
+"E0207",
+"E0308"
+],
+"track": true
+},
+{
+"between": [
+"E0208",
+"E0309"
+],
+"road": true
+},
+{
+"between": [
+"E0227",
+"E0228"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E0227",
+"E0328"
+],
+"road": true
+},
+{
+"between": [
+"E0228",
+"E0328"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E0228",
+"E0329"
+],
+"railroad": true
+},
+{
+"between": [
+"E0308",
+"E0408"
+],
+"track": true
+},
+{
+"between": [
+"E0309",
+"E0409"
+],
+"track": true
+},
+{
+"between": [
+"E0328",
+"E0329"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E0328",
+"E0428"
+],
+"track": true
+},
+{
+"between": [
+"E0329",
+"E0428"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E0408",
+"E0508"
+],
+"track": true
+},
+{
+"between": [
+"E0409",
+"E0510"
+],
+"track": true
+},
+{
+"between": [
+"E0428",
+"E0429"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E0428",
+"E0529"
+],
+"road": true
+},
+{
+"between": [
+"E0510",
+"E0610"
+],
+"track": true
+},
+{
+"between": [
+"E0529",
+"E0628"
+],
+"track": true
+},
+{
+"between": [
+"E0610",
+"E0711"
+],
+"track": true
+},
+{
+"between": [
+"E0628",
+"E0629"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E0628",
+"E0729"
+],
+"railroad": true
+},
+{
+"between": [
+"E0702",
+"E0802"
+],
+"road": true
+},
+{
+"between": [
+"E0708",
+"E0807"
+],
+"track": true
+},
+{
+"between": [
+"E0730",
+"E0829"
+],
+"railroad": true
+},
+{
+"between": [
+"E0802",
+"E0903"
+],
+"road": true
+},
+{
+"between": [
+"E0803",
+"E0804"
+],
+"track": true
+},
+{
+"between": [
+"E0804",
+"E0805"
+],
+"road": true
+},
+{
+"between": [
+"E0818",
+"E0919"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"E0819",
+"E0919"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"E0819",
+"E0920"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"E0820",
+"E0920"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"E0820",
+"E0921"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"E0828",
+"E0829"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E0828",
+"E0929"
+],
+"track": true
+},
+{
+"between": [
+"E0829",
+"E0930"
+],
+"road": true,
+"railroad": true
+},
+{
+"between": [
+"E0921",
+"E0922"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"E0922",
+"E1021"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"E0922",
+"E1022"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"E0923",
+"E1022"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"E0924",
+"E1024"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"E0925",
+"E0926"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"E0925",
+"E1024"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"E0925",
+"E1025"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"E0927",
+"E1027"
+],
+"road": true
+},
+{
+"between": [
+"E0929",
+"E1029"
+],
+"road": true,
+"railroad": true
+},
+{
+"between": [
+"E0930",
+"E1030"
+],
+"track": true,
+"wadi": 0.67
+},
+{
+"between": [
+"E1016",
+"E1117"
+],
+"track": true
+},
+{
+"between": [
+"E1022",
+"E1023"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"E1023",
+"E1024"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"E1023",
+"E1123"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"E1023",
+"E1124"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"E1027",
+"E1028"
+],
+"track": true
+},
+{
+"between": [
+"E1028",
+"E1029"
+],
+"track": true
+},
+{
+"between": [
+"E1029",
+"E1130"
+],
+"railroad": true
+},
+{
+"between": [
+"E1030",
+"E1131"
+],
+"road": true
+},
+{
+"between": [
+"E1208",
+"E1309"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"E1218",
+"E1219"
+],
+"road": true
+},
+{
+"between": [
+"E1218",
+"E1319"
+],
+"road": true
+},
+{
+"between": [
+"E1219",
+"E1320"
+],
+"road": true
+},
+{
+"between": [
+"E1229",
+"E1230"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E1307",
+"E1407"
+],
+"track": true
+},
+{
+"between": [
+"E1308",
+"E1309"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"E1309",
+"E1408"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"E1316",
+"E1317"
+],
+"road": true
+},
+{
+"between": [
+"E1318",
+"E1319"
+],
+"track": true
+},
+{
+"between": [
+"E1330",
+"E1429"
+],
+"track": true
+},
+{
+"between": [
+"E1331",
+"E1430"
+],
+"railroad": true
+},
+{
+"between": [
+"E1406",
+"E1506"
+],
+"track": true
+},
+{
+"between": [
+"E1407",
+"E1508"
+],
+"track": true
+},
+{
+"between": [
+"E1408",
+"E1409"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"E1409",
+"E1509"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"E1409",
+"E1510"
+],
+"track": true
+},
+{
+"between": [
+"E1411",
+"E1512"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"E1412",
+"E1512"
+],
+"escarpment": 0.8
+},
+{
+"between": [
+"E1413",
+"E1513"
+],
+"road": true
+},
+{
+"between": [
+"E1429",
+"E1430"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E1506",
+"E1605"
+],
+"track": true
+},
+{
+"between": [
+"E1509",
+"E1510"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"E1510",
+"E1511"
+],
+"track": true
+},
+{
+"between": [
+"E1510",
+"E1609"
+],
+"escarpment": 0.93
+},
+{
+"between": [
+"E1510",
+"E1610"
+],
+"escarpment": 0.8
+},
+{
+"between": [
+"E1511",
+"E1512"
+],
+"track": true
+},
+{
+"between": [
+"E1511",
+"E1610"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"E1511",
+"E1611"
+],
+"escarpment": 0.87
+},
+{
+"between": [
+"E1512",
+"E1513"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"E1512",
+"E1611"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"E1512",
+"E1612"
+],
+"escarpment": 1.0
+},
+{
+"between": [
+"E1513",
+"E1612"
+],
+"track": true
+},
+{
+"between": [
+"E1524",
+"E1525"
+],
+"road": true
+},
+{
+"between": [
+"E1529",
+"E1628"
+],
+"track": true
+},
+{
+"between": [
+"E1530",
+"E1629"
+],
+"railroad": true
+},
+{
+"between": [
+"E1531",
+"E1630"
+],
+"railroad": true
+},
+{
+"between": [
+"E1606",
+"E1706"
+],
+"track": true
+},
+{
+"between": [
+"E1608",
+"E1609"
+],
+"track": true
+},
+{
+"between": [
+"E1609",
+"E1610"
+],
+"track": true
+},
+{
+"between": [
+"E1619",
+"E1719"
+],
+"road": true
+},
+{
+"between": [
+"E1627",
+"E1628"
+],
+"track": true
+},
+{
+"between": [
+"E1628",
+"E1728"
+],
+"road": true
+},
+{
+"between": [
+"E1629",
+"E1630"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E1629",
+"E1730"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E1703",
+"E1704"
+],
+"track": true
+},
+{
+"between": [
+"E1703",
+"E1802"
+],
+"track": true
+},
+{
+"between": [
+"E1704",
+"E1705"
+],
+"track": true
+},
+{
+"between": [
+"E1706",
+"E1806"
+],
+"track": true
+},
+{
+"between": [
+"E1723",
+"E1724"
+],
+"road": true
+},
+{
+"between": [
+"E1729",
+"E1730"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E1729",
+"E1829"
+],
+"track": true,
+"railroad": true
+},
+{
+"between": [
+"E1730",
+"E1830"
+],
+"road": true,
+"railroad": true
+},
+{
+"between": [
+"E1802",
+"E1902"
+],
+"track": true
+},
+{
+"between": [
+"E1819",
+"E1820"
+],
+"road": true
+},
+{
+"between": [
+"E1820",
+"E1821"
+],
+"track": true
+},
+{
+"between": [
+"E1827",
+"E1828"
+],
+"railroad": true
+},
+{
+"between": [
+"E1827",
+"E1927"
+],
+"railroad": true
+},
+{
+"between": [
+"E1828",
+"E1829"
+],
+"railroad": true
+},
+{
+"between": [
+"E1830",
+"E1831"
+],
+"track": true
+},
+{
+"between": [
+"E1830",
+"E1931"
+],
+"railroad": true
+},
+{
+"between": [
+"E1831",
+"E1832"
+],
+"track": true
+},
+{
+"between": [
+"E1917",
+"E1918"
+],
+"road": true
+},
+{
+"between": [
+"E1927",
+"E2026"
+],
+"railroad": true
+},
+{
+"between": [
+"E1928",
+"E2028"
+],
+"blue_line": 0.93
+},
+{
+"between": [
+"E1929",
+"E1930"
+],
+"railroad": true
+},
+{
+"between": [
+"E1929",
+"E2028"
+],
+"railroad": true
+},
+{
+"between": [
+"E1929",
+"E2029"
+],
+"road": true
+},
+{
+"between": [
+"E1930",
+"E2030"
+],
+"road": true
+},
+{
+"between": [
+"E1931",
+"E2030"
+],
+"railroad": true
+},
+{
+"between": [
+"E1931",
+"E2031"
+],
+"railroad": true
+},
+{
+"between": [
+"E2003",
+"E2103"
+],
+"track": true
+},
+{
+"between": [
+"E2015",
+"E2016"
+],
+"track": true
+},
+{
+"between": [
+"E2025",
+"E2026"
+],
+"railroad": true
+},
+{
+"between": [
+"E2025",
+"E2125"
+],
+"railroad": true
+},
+{
+"between": [
+"E2027",
+"E2028"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2027",
+"E2128"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2028",
+"E2128"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2028",
+"E2129"
+],
+"railroad": true
+},
+{
+"between": [
+"E2029",
+"E2030"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2029",
+"E2129"
+],
+"track": true
+},
+{
+"between": [
+"E2030",
+"E2130"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2030",
+"E2131"
+],
+"road": true
+},
+{
+"between": [
+"E2031",
+"E2032"
+],
+"road": true
+},
+{
+"between": [
+"E2031",
+"E2132"
+],
+"railroad": true
+},
+{
+"between": [
+"E2102",
+"E2103"
+],
+"track": true
+},
+{
+"between": [
+"E2102",
+"E2202"
+],
+"escarpment": true,
+"escarpmentDown": "E2102",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"E2103",
+"E2104"
+],
+"escarpment": true,
+"escarpmentDown": "E2103",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"E2103",
+"E2202"
+],
+"escarpment": true,
+"escarpmentDown": "E2103",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"E2103",
+"E2203"
+],
+"escarpment": true,
+"escarpmentDown": "E2103",
+"source": "Tom viewer 2026-11-12",
+"reviewed": true
+},
+{
+"between": [
+"E2107",
+"E2207"
+],
+"track": true
+},
+{
+"between": [
+"E2111",
+"E2112"
+],
+"track": true
+},
+{
+"between": [
+"E2124",
+"E2125"
+],
+"railroad": true
+},
+{
+"between": [
+"E2124",
+"E2223"
+],
+"railroad": true
+},
+{
+"between": [
+"E2124",
+"E2224"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2125",
+"E2224"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2126",
+"E2226"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2127",
+"E2128"
+],
+"railroad": true
+},
+{
+"between": [
+"E2127",
+"E2226"
+],
+"railroad": true
+},
+{
+"between": [
+"E2128",
+"E2129"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2128",
+"E2228"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2129",
+"E2228"
+],
+"railroad": true
+},
+{
+"between": [
+"E2129",
+"E2229"
+],
+"track": true
+},
+{
+"between": [
+"E2130",
+"E2131"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2131",
+"E2132"
+],
+"road": true
+},
+{
+"between": [
+"E2131",
+"E2230"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2131",
+"E2231"
+],
+"road": true
+},
+{
+"between": [
+"E2132",
+"E2133"
+],
+"railroad": true
+},
+{
+"between": [
+"E2133",
+"E2134"
+],
+"railroad": true
+},
+{
+"between": [
+"E2133",
+"E2232"
+],
+"track": true
+},
+{
+"between": [
+"E2223",
+"E2224"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2223",
+"E2323"
+],
+"railroad": true
+},
+{
+"between": [
+"E2224",
+"E2225"
+],
+"railroad": true
+},
+{
+"between": [
+"E2224",
+"E2324"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2225",
+"E2226"
+],
+"railroad": true
+},
+{
+"between": [
+"E2227",
+"E2228"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2227",
+"E2328"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2228",
+"E2328"
+],
+"railroad": true
+},
+{
+"between": [
+"E2229",
+"E2329"
+],
+"track": true
+},
+{
+"between": [
+"E2230",
+"E2231"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2231",
+"E2331"
+],
+"blue_line": 0.87
+},
+{
+"between": [
+"E2231",
+"E2332"
+],
+"road": true,
+"blue_line": 0.93
+},
+{
+"between": [
+"E2232",
+"E2332"
+],
+"blue_line": 0.93
+},
+{
+"between": [
+"E2306",
+"E2307"
+],
+"track": true
+},
+{
+"between": [
+"E2323",
+"E2422"
+],
+"railroad": true
+},
+{
+"between": [
+"E2324",
+"E2325"
+],
+"railroad": true
+},
+{
+"between": [
+"E2326",
+"E2327"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2326",
+"E2426"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2327",
+"E2328"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2327",
+"E2426"
+],
+"railroad": true
+},
+{
+"between": [
+"E2327",
+"E2427"
+],
+"railroad": true
+},
+{
+"between": [
+"E2328",
+"E2427"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2328",
+"E2428"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2329",
+"E2428"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2332",
+"E2333"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2333",
+"E2432"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2333",
+"E2433"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2334",
+"E2433"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2403",
+"E2404"
+],
+"track": true
+},
+{
+"between": [
+"E2404",
+"E2505"
+],
+"road": true
+},
+{
+"between": [
+"E2418",
+"E2419"
+],
+"railroad": true
+},
+{
+"between": [
+"E2418",
+"E2519"
+],
+"blue_line": 0.53
+},
+{
+"between": [
+"E2419",
+"E2520"
+],
+"railroad": true
+},
+{
+"between": [
+"E2421",
+"E2422"
+],
+"railroad": true
+},
+{
+"between": [
+"E2422",
+"E2523"
+],
+"railroad": true
+},
+{
+"between": [
+"E2424",
+"E2425"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2424",
+"E2525"
+],
+"blue_line": 0.73
+},
+{
+"between": [
+"E2425",
+"E2426"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2425",
+"E2526"
+],
+"railroad": true
+},
+{
+"between": [
+"E2426",
+"E2427"
+],
+"blue_line": 0.93
+},
+{
+"between": [
+"E2426",
+"E2526"
+],
+"railroad": true
+},
+{
+"between": [
+"E2427",
+"E2428"
+],
+"railroad": true
+},
+{
+"between": [
+"E2428",
+"E2429"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2428",
+"E2529"
+],
+"wadi": 0.47
+},
+{
+"between": [
+"E2429",
+"E2529"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2517",
+"E2616"
+],
+"track": true
+},
+{
+"between": [
+"E2520",
+"E2521"
+],
+"railroad": true
+},
+{
+"between": [
+"E2523",
+"E2623"
+],
+"railroad": true
+},
+{
+"between": [
+"E2524",
+"E2525"
+],
+"blue_line": 0.8
+},
+{
+"between": [
+"E2524",
+"E2624"
+],
+"railroad": true
+},
+{
+"between": [
+"E2525",
+"E2624"
+],
+"railroad": true
+},
+{
+"between": [
+"E2526",
+"E2527"
+],
+"blue_line": 0.93
+},
+{
+"between": [
+"E2527",
+"E2626"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2527",
+"E2627"
+],
+"railroad": true
+},
+{
+"between": [
+"E2529",
+"E2530"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2529",
+"E2628"
+],
+"road": true
+},
+{
+"between": [
+"E2530",
+"E2629"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2530",
+"E2630"
+],
+"railroad": true
+},
+{
+"between": [
+"E2606",
+"E2607"
+],
+"road": true
+},
+{
+"between": [
+"E2607",
+"E2608"
+],
+"track": true
+},
+{
+"between": [
+"E2608",
+"E2609"
+],
+"track": true
+},
+{
+"between": [
+"E2616",
+"E2716"
+],
+"track": true
+},
+{
+"between": [
+"E2623",
+"E2723"
+],
+"railroad": true
+},
+{
+"between": [
+"E2624",
+"E2725"
+],
+"railroad": true
+},
+{
+"between": [
+"E2626",
+"E2627"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2627",
+"E2727"
+],
+"railroad": true
+},
+{
+"between": [
+"E2629",
+"E2630"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2629",
+"E2730"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2632",
+"E2633"
+],
+"track": true
+},
+{
+"between": [
+"E2703",
+"E2704"
+],
+"road": true
+},
+{
+"between": [
+"E2704",
+"E2705"
+],
+"track": true
+},
+{
+"between": [
+"E2706",
+"E2805"
+],
+"road": true
+},
+{
+"between": [
+"E2710",
+"E2809"
+],
+"track": true
+},
+{
+"between": [
+"E2716",
+"E2815"
+],
+"road": true
+},
+{
+"between": [
+"E2723",
+"E2823"
+],
+"blue_line": 0.53
+},
+{
+"between": [
+"E2726",
+"E2727"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2726",
+"E2826"
+],
+"blue_line": 0.53
+},
+{
+"between": [
+"E2728",
+"E2827"
+],
+"road": true
+},
+{
+"between": [
+"E2729",
+"E2730"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2730",
+"E2829"
+],
+"blue_line": 0.87
+},
+{
+"between": [
+"E2805",
+"E2806"
+],
+"track": true
+},
+{
+"between": [
+"E2805",
+"E2905"
+],
+"track": true
+},
+{
+"between": [
+"E2806",
+"E2807"
+],
+"track": true
+},
+{
+"between": [
+"E2807",
+"E2808"
+],
+"road": true
+},
+{
+"between": [
+"E2809",
+"E2909"
+],
+"track": true
+},
+{
+"between": [
+"E2809",
+"E2910"
+],
+"road": true
+},
+{
+"between": [
+"E2815",
+"E2915"
+],
+"road": true
+},
+{
+"between": [
+"E2821",
+"E2922"
+],
+"blue_line": 0.93
+},
+{
+"between": [
+"E2822",
+"E2823"
+],
+"blue_line": 0.53
+},
+{
+"between": [
+"E2822",
+"E2922"
+],
+"blue_line": 0.67
+},
+{
+"between": [
+"E2823",
+"E2824"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2823",
+"E2924"
+],
+"blue_line": 0.73
+},
+{
+"between": [
+"E2824",
+"E2924"
+],
+"railroad": true
+},
+{
+"between": [
+"E2825",
+"E2826"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2826",
+"E2926"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2829",
+"E2830"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2829",
+"E2930"
+],
+"blue_line": 0.67
+},
+{
+"between": [
+"E2830",
+"E2930"
+],
+"track": true
+},
+{
+"between": [
+"E2830",
+"E2931"
+],
+"track": true
+},
+{
+"between": [
+"E2910",
+"E3010"
+],
+"track": true
+},
+{
+"between": [
+"E2919",
+"E3019"
+],
+"blue_line": 0.73
+},
+{
+"between": [
+"E2921",
+"E2922"
+],
+"blue_line": 0.93
+},
+{
+"between": [
+"E2921",
+"E3020"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2921",
+"E3021"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2923",
+"E2924"
+],
+"blue_line": 0.73
+},
+{
+"between": [
+"E2926",
+"E2927"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2927",
+"E3026"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2929",
+"E2930"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E2930",
+"E3029"
+],
+"blue_line": 0.73
+},
+{
+"between": [
+"E3002",
+"E3003"
+],
+"track": true,
+"railroad": true
+},
+{
+"between": [
+"E3003",
+"E3004"
+],
+"track": true,
+"railroad": true
+},
+{
+"between": [
+"E3004",
+"E3005"
+],
+"track": true,
+"railroad": true
+},
+{
+"between": [
+"E3005",
+"E3006"
+],
+"railroad": true
+},
+{
+"between": [
+"E3006",
+"E3007"
+],
+"railroad": true
+},
+{
+"between": [
+"E3007",
+"E3107"
+],
+"track": true
+},
+{
+"between": [
+"E3007",
+"E3108"
+],
+"railroad": true
+},
+{
+"between": [
+"E3010",
+"E3011"
+],
+"road": true
+},
+{
+"between": [
+"E3011",
+"E3012"
+],
+"track": true
+},
+{
+"between": [
+"E3011",
+"E3111"
+],
+"road": true
+},
+{
+"between": [
+"E3013",
+"E3113"
+],
+"track": true
+},
+{
+"between": [
+"E3016",
+"E3117"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3017",
+"E3117"
+],
+"blue_line": 0.6
+},
+{
+"between": [
+"E3018",
+"E3019"
+],
+"blue_line": 0.87
+},
+{
+"between": [
+"E3018",
+"E3118"
+],
+"blue_line": 0.47
+},
+{
+"between": [
+"E3018",
+"E3119"
+],
+"blue_line": 0.47
+},
+{
+"between": [
+"E3022",
+"E3123"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3024",
+"E3025"
+],
+"track": true
+},
+{
+"between": [
+"E3025",
+"E3026"
+],
+"road": true
+},
+{
+"between": [
+"E3026",
+"E3027"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3027",
+"E3028"
+],
+"track": true
+},
+{
+"between": [
+"E3027",
+"E3128"
+],
+"track": true
+},
+{
+"between": [
+"E3029",
+"E3030"
+],
+"blue_line": 0.53
+},
+{
+"between": [
+"E3029",
+"E3130"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3030",
+"E3130"
+],
+"railroad": true
+},
+{
+"between": [
+"E3108",
+"E3109"
+],
+"railroad": true,
+"source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)",
+"reviewed": true
+},
+{
+"between": [
+"E3109",
+"E3209"
+],
+"railroad": true,
+"source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)",
+"reviewed": true
+},
+{
+"between": [
+"E3110",
+"E3111"
+],
+"road": true
+},
+{
+"between": [
+"E3110",
+"E3209"
+],
+"track": true
+},
+{
+"between": [
+"E3113",
+"E3212"
+],
+"track": true
+},
+{
+"between": [
+"E3116",
+"E3117"
+],
+"blue_line": 0.73
+},
+{
+"between": [
+"E3121",
+"E3221"
+],
+"blue_line": 0.6
+},
+{
+"between": [
+"E3122",
+"E3123"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3122",
+"E3222"
+],
+"blue_line": 0.87
+},
+{
+"between": [
+"E3123",
+"E3222"
+],
+"road": true
+},
+{
+"between": [
+"E3124",
+"E3224"
+],
+"railroad": true
+},
+{
+"between": [
+"E3125",
+"E3224"
+],
+"blue_line": 0.67
+},
+{
+"between": [
+"E3127",
+"E3226"
+],
+"blue_line": 0.87
+},
+{
+"between": [
+"E3128",
+"E3228"
+],
+"road": true
+},
+{
+"between": [
+"E3129",
+"E3130"
+],
+"blue_line": 0.93
+},
+{
+"between": [
+"E3130",
+"E3229"
+],
+"blue_line": 0.6
+},
+{
+"between": [
+"E3209",
+"E3210"
+],
+"railroad": true,
+"source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)",
+"reviewed": true
+},
+{
+"between": [
+"E3210",
+"E3311"
+],
+"railroad": true
+},
+{
+"between": [
+"E3211",
+"E3312"
+],
+"source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line): edge detection beside the line",
+"reviewed": true
+},
+{
+"between": [
+"E3212",
+"E3312"
+],
+"track": true
+},
+{
+"between": [
+"E3215",
+"E3216"
+],
+"blue_line": 0.8
+},
+{
+"between": [
+"E3215",
+"E3316"
+],
+"blue_line": 0.93
+},
+{
+"between": [
+"E3217",
+"E3318"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3218",
+"E3318"
+],
+"blue_line": 0.87
+},
+{
+"between": [
+"E3218",
+"E3319"
+],
+"blue_line": 0.67
+},
+{
+"between": [
+"E3219",
+"E3319"
+],
+"blue_line": 0.6
+},
+{
+"between": [
+"E3220",
+"E3221"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3220",
+"E3320"
+],
+"blue_line": 0.73
+},
+{
+"between": [
+"E3220",
+"E3321"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3224",
+"E3225"
+],
+"blue_line": 0.8
+},
+{
+"between": [
+"E3226",
+"E3227"
+],
+"blue_line": 0.93
+},
+{
+"between": [
+"E3227",
+"E3327"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3229",
+"E3230"
+],
+"blue_line": 0.67
+},
+{
+"between": [
+"E3230",
+"E3330"
+],
+"blue_line": 0.93
+},
+{
+"between": [
+"E3311",
+"E3312"
+],
+"railroad": true,
+"source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)",
+"reviewed": true
+},
+{
+"between": [
+"E3312",
+"E3313"
+],
+"track": true
+},
+{
+"between": [
+"E3312",
+"E3412"
+],
+"railroad": true,
+"source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)",
+"reviewed": true
+},
+{
+"between": [
+"E3313",
+"E3412"
+],
+"source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line): edge detection beside the line",
+"reviewed": true
+},
+{
+"between": [
+"E3314",
+"E3414"
+],
+"blue_line": 0.8
+},
+{
+"between": [
+"E3316",
+"E3416"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3317",
+"E3318"
+],
+"blue_line": 0.87
+},
+{
+"between": [
+"E3317",
+"E3416"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3317",
+"E3417"
+],
+"blue_line": 0.8
+},
+{
+"between": [
+"E3320",
+"E3419"
+],
+"road": true
+},
+{
+"between": [
+"E3323",
+"E3324"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3323",
+"E3423"
+],
+"blue_line": 0.87
+},
+{
+"between": [
+"E3324",
+"E3325"
+],
+"blue_line": 0.87
+},
+{
+"between": [
+"E3324",
+"E3423"
+],
+"railroad": true
+},
+{
+"between": [
+"E3325",
+"E3424"
+],
+"road": true,
+"blue_line": 0.87
+},
+{
+"between": [
+"E3327",
+"E3328"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3327",
+"E3427"
+],
+"blue_line": 0.93
+},
+{
+"between": [
+"E3328",
+"E3427"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3328",
+"E3428"
+],
+"blue_line": 0.87
+},
+{
+"between": [
+"E3329",
+"E3330"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3329",
+"E3428"
+],
+"blue_line": 0.67
+},
+{
+"between": [
+"E3329",
+"E3429"
+],
+"blue_line": 0.87
+},
+{
+"between": [
+"E3330",
+"E3331"
+],
+"blue_line": 0.93
+},
+{
+"between": [
+"E3330",
+"E3430"
+],
+"road": true
+},
+{
+"between": [
+"E3331",
+"E3430"
+],
+"blue_line": 0.93
+},
+{
+"between": [
+"E3411",
+"E3512"
+],
+"road": true,
+"railroad": true
+},
+{
+"between": [
+"E3412",
+"E3413"
+],
+"railroad": true
+},
+{
+"between": [
+"E3412",
+"E3513"
+],
+"railroad": true,
+"source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)",
+"reviewed": true
+},
+{
+"between": [
+"E3414",
+"E3415"
+],
+"railroad": true
+},
+{
+"between": [
+"E3414",
+"E3514"
+],
+"blue_line": 0.87
+},
+{
+"between": [
+"E3415",
+"E3416"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3415",
+"E3515"
+],
+"blue_line": 0.73
+},
+{
+"between": [
+"E3415",
+"E3516"
+],
+"blue_line": 0.8
+},
+{
+"between": [
+"E3416",
+"E3516"
+],
+"wadi": 0.67
+},
+{
+"between": [
+"E3417",
+"E3518"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3418",
+"E3419"
+],
+"track": true
+},
+{
+"between": [
+"E3418",
+"E3519"
+],
+"blue_line": 0.67
+},
+{
+"between": [
+"E3419",
+"E3519"
+],
+"blue_line": 0.67
+},
+{
+"between": [
+"E3419",
+"E3520"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3420",
+"E3520"
+],
+"blue_line": 0.8
+},
+{
+"between": [
+"E3422",
+"E3423"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3422",
+"E3523"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3423",
+"E3523"
+],
+"railroad": true
+},
+{
+"between": [
+"E3424",
+"E3425"
+],
+"blue_line": 0.93
+},
+{
+"between": [
+"E3424",
+"E3525"
+],
+"blue_line": 0.8
+},
+{
+"between": [
+"E3426",
+"E3427"
+],
+"blue_line": 0.67
+},
+{
+"between": [
+"E3426",
+"E3526"
+],
+"track": true
+},
+{
+"between": [
+"E3426",
+"E3527"
+],
+"blue_line": 0.67
+},
+{
+"between": [
+"E3427",
+"E3428"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3427",
+"E3528"
+],
+"blue_line": 0.67
+},
+{
+"between": [
+"E3428",
+"E3429"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3428",
+"E3529"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3430",
+"E3431"
+],
+"blue_line": 0.93
+},
+{
+"between": [
+"E3430",
+"E3531"
+],
+"blue_line": 0.6
+},
+{
+"between": [
+"E3431",
+"E3531"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3431",
+"E3532"
+],
+"track": true,
+"railroad": true
+},
+{
+"between": [
+"E3513",
+"E3613"
+],
+"railroad": true,
+"source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)",
+"reviewed": true
+},
+{
+"between": [
+"E3514",
+"E3614"
+],
+"railroad": true
+},
+{
+"between": [
+"E3515",
+"E3615"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3516",
+"E3615"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3517",
+"E3518"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3517",
+"E3617"
+],
+"blue_line": 0.53
+},
+{
+"between": [
+"E3521",
+"E3620"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3522",
+"E3523"
+],
+"blue_line": 0.87
+},
+{
+"between": [
+"E3522",
+"E3622"
+],
+"blue_line": 0.73
+},
+{
+"between": [
+"E3523",
+"E3622"
+],
+"blue_line": 0.53
+},
+{
+"between": [
+"E3523",
+"E3623"
+],
+"road": true
+},
+{
+"between": [
+"E3524",
+"E3525"
+],
+"blue_line": 0.47
+},
+{
+"between": [
+"E3525",
+"E3624"
+],
+"blue_line": 0.53
+},
+{
+"between": [
+"E3525",
+"E3625"
+],
+"wadi": 0.47
+},
+{
+"between": [
+"E3526",
+"E3527"
+],
+"blue_line": 0.93
+},
+{
+"between": [
+"E3526",
+"E3626"
+],
+"blue_line": 0.73
+},
+{
+"between": [
+"E3527",
+"E3528"
+],
+"blue_line": 0.93
+},
+{
+"between": [
+"E3527",
+"E3626"
+],
+"blue_line": 0.73
+},
+{
+"between": [
+"E3527",
+"E3627"
+],
+"blue_line": 0.6
+},
+{
+"between": [
+"E3528",
+"E3529"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3529",
+"E3628"
+],
+"blue_line": 0.93
+},
+{
+"between": [
+"E3530",
+"E3531"
+],
+"blue_line": 0.6
+},
+{
+"between": [
+"E3531",
+"E3532"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3531",
+"E3630"
+],
+"blue_line": 0.6
+},
+{
+"between": [
+"E3532",
+"E3631"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3532",
+"E3632"
+],
+"track": true,
+"blue_line": 0.8
+},
+{
+"between": [
+"E3533",
+"E3632"
+],
+"track": true,
+"blue_line": 0.6
+},
+{
+"between": [
+"E3613",
+"E3614"
+],
+"railroad": true
+},
+{
+"between": [
+"E3614",
+"E3615"
+],
+"road": true
+},
+{
+"between": [
+"E3620",
+"E3721"
+],
+"blue_line": 0.53
+},
+{
+"between": [
+"E3622",
+"E3623"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3622",
+"E3722"
+],
+"railroad": true
+},
+{
+"between": [
+"E3624",
+"E3625"
+],
+"blue_line": 0.6
+},
+{
+"between": [
+"E3624",
+"E3725"
+],
+"blue_line": 0.93
+},
+{
+"between": [
+"E3625",
+"E3626"
+],
+"blue_line": 0.73
+},
+{
+"between": [
+"E3626",
+"E3627"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3626",
+"E3727"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3628",
+"E3629"
+],
+"blue_line": 0.8
+},
+{
+"between": [
+"E3629",
+"E3630"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3630",
+"E3631"
+],
+"road": true,
+"blue_line": 1.0
+},
+{
+"between": [
+"E3630",
+"E3730"
+],
+"road": true
+},
+{
+"between": [
+"E3631",
+"E3632"
+],
+"road": true
+},
+{
+"between": [
+"E3632",
+"E3633"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3633",
+"E3733"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3633",
+"E3734"
+],
+"blue_line": 0.8
+},
+{
+"between": [
+"E3715",
+"E3815"
+],
+"road": true
+},
+{
+"between": [
+"E3716",
+"E3815"
+],
+"track": true,
+"railroad": true
+},
+{
+"between": [
+"E3720",
+"E3721"
+],
+"blue_line": 0.53
+},
+{
+"between": [
+"E3722",
+"E3821"
+],
+"blue_line": 0.53
+},
+{
+"between": [
+"E3723",
+"E3724"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3724",
+"E3725"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3725",
+"E3726"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3725",
+"E3824"
+],
+"road": true,
+"blue_line": 0.93
+},
+{
+"between": [
+"E3726",
+"E3727"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3726",
+"E3825"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3727",
+"E3826"
+],
+"blue_line": 0.53
+},
+{
+"between": [
+"E3728",
+"E3729"
+],
+"blue_line": 0.67
+},
+{
+"between": [
+"E3729",
+"E3730"
+],
+"blue_line": 0.93
+},
+{
+"between": [
+"E3729",
+"E3828"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3729",
+"E3829"
+],
+"blue_line": 0.47
+},
+{
+"between": [
+"E3731",
+"E3732"
+],
+"blue_line": 0.47
+},
+{
+"between": [
+"E3732",
+"E3831"
+],
+"blue_line": 0.8
+},
+{
+"between": [
+"E3732",
+"E3832"
+],
+"blue_line": 0.73
+},
+{
+"between": [
+"E3733",
+"E3832"
+],
+"blue_line": 0.73
+},
+{
+"between": [
+"E3819",
+"E3920"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3821",
+"E3822"
+],
+"track": true,
+"blue_line": 1.0
+},
+{
+"between": [
+"E3822",
+"E3823"
+],
+"road": true,
+"blue_line": 1.0
+},
+{
+"between": [
+"E3822",
+"E3923"
+],
+"blue_line": 0.53
+},
+{
+"between": [
+"E3823",
+"E3824"
+],
+"road": true
+},
+{
+"between": [
+"E3823",
+"E3923"
+],
+"blue_line": 0.73
+},
+{
+"between": [
+"E3824",
+"E3825"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3824",
+"E3924"
+],
+"blue_line": 0.8
+},
+{
+"between": [
+"E3824",
+"E3925"
+],
+"blue_line": 0.6
+},
+{
+"between": [
+"E3825",
+"E3826"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3826",
+"E3927"
+],
+"blue_line": 0.47
+},
+{
+"between": [
+"E3828",
+"E3829"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3828",
+"E3929"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3832",
+"E3833"
+],
+"blue_line": 0.6
+},
+{
+"between": [
+"E3832",
+"E3933"
+],
+"blue_line": 0.73
+},
+{
+"between": [
+"E3919",
+"E3920"
+],
+"blue_line": 0.8
+},
+{
+"between": [
+"E3919",
+"E4019"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3920",
+"E4019"
+],
+"track": true,
+"railroad": true
+},
+{
+"between": [
+"E3925",
+"E3926"
+],
+"blue_line": 0.73
+},
+{
+"between": [
+"E3926",
+"E3927"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3927",
+"E4027"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3932",
+"E3933"
+],
+"blue_line": 0.93
+},
+{
+"between": [
+"E3933",
+"E4032"
+],
+"blue_line": 1.0
+},
+{
+"between": [
+"E3933",
+"E4033"
+],
+"railroad": true
+},
+{
+"between": [
+"E4027",
+"E4028"
+],
+"blue_line": 0.6
+},
+{
+"between": [
+"E4028",
+"E4129"
+],
+"railroad": true
+},
+{
+"between": [
+"E4227",
+"E4228"
+],
+"road": true
+}
+]
+}

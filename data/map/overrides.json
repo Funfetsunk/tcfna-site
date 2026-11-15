@@ -1,0 +1,6236 @@
+{
+ "_readme": "Hand corrections applied on top of the machine extraction by tools/map-extract/build_map.py. Hex patch example: \"C4321\": {\"terrain\": \"clear\"}. Hexside example: \"C3922|C3923\": {\"escarpment\": true, \"escarpmentDown\": \"C3923\"}; null removes a detected hexside. Re-run build_map.py after editing.",
+ "hexes": {
+  "C0125": {
+   "terrain": "desert",
+   "source": "Tom review 2026-11-07"
+  },
+  "C0126": {
+   "terrain": "desert",
+   "source": "Tom review 2026-11-07"
+  },
+  "C0223": {
+   "terrain": "desert",
+   "source": "Tom review 2026-11-07"
+  },
+  "C0322": {
+   "terrain": "desert",
+   "source": "Tom review 2026-11-07"
+  },
+  "C0330": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C0421": {
+   "terrain": "desert",
+   "source": "Tom review 2026-11-07"
+  },
+  "C0427": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C0430": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C0507": {
+   "terrain": "desert",
+   "source": "Tom review 2026-11-07"
+  },
+  "C0509": {
+   "terrain": "desert",
+   "source": "Tom review 2026-11-07"
+  },
+  "C0510": {
+   "terrain": "desert",
+   "source": "Tom review 2026-11-07"
+  },
+  "C0613": {
+   "terrain": "desert",
+   "source": "Tom review 2026-11-07"
+  },
+  "C0615": {
+   "terrain": "desert",
+   "source": "Tom review 2026-11-07"
+  },
+  "C0617": {
+   "terrain": "desert",
+   "source": "Tom review 2026-11-07"
+  },
+  "C0721": {
+   "terrain": "saltmarsh",
+   "source": "Tom review 2026-11-07"
+  },
+  "C0808": {
+   "terrain": "mountain",
+   "source": "Tom review 2026-11-07"
+  },
+  "C0819": {
+   "terrain": "saltmarsh",
+   "source": "Tom review 2026-11-07"
+  },
+  "C0903": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C0908": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C1007": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C1106": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C1108": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C1216": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C1521": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C1620": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C1621": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C1622": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C1721": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C1722": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C1819": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C1920": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C2014": {
+   "terrain": "saltmarsh",
+   "source": "Tom review 2026-11-07"
+  },
+  "C2106": {
+   "terrain": "saltmarsh",
+   "source": "Tom review 2026-11-07"
+  },
+  "C2606": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C2906": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C2922": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C3006": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C3105": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C3106": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C3125": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C3205": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C3316": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C3406": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C3507": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C3526": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C3606": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C3626": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C3627": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C3628": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C3707": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C3729": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C3807": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C3907": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C3924": {
+   "terrain": "clear",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4006": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4007": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4023": {
+   "terrain": "sea",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4024": {
+   "terrain": "sea",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4025": {
+   "terrain": "sea",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4026": {
+   "terrain": "sea",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4106": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4123": {
+   "terrain": "sea",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4124": {
+   "terrain": "sea",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4125": {
+   "terrain": "sea",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4126": {
+   "terrain": "sea",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4127": {
+   "terrain": "sea",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4128": {
+   "terrain": "sea",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4206": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4223": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C4225": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C4226": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C4227": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C4229": {
+   "terrain": "sea",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4230": {
+   "terrain": "sea",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4231": {
+   "terrain": "sea",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4305": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4314": {
+   "terrain": "clear",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4315": {
+   "terrain": "clear",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4321": {
+   "terrain": "clear",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4322": {
+   "terrain": "sea",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4323": {
+   "terrain": "sea",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4405": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4406": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4407": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4412": {
+   "terrain": "clear",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4413": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4414": {
+   "terrain": "clear",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4415": {
+   "terrain": "clear",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4416": {
+   "terrain": "clear",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4422": {
+   "terrain": "sea",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4507": {
+   "terrain": "clear",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4512": {
+   "terrain": "clear",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4513": {
+   "terrain": "clear",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4514": {
+   "terrain": "clear",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4515": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4521": {
+   "terrain": "sea",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4522": {
+   "terrain": "sea",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4606": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4611": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4615": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4616": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4617": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4618": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4619": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4621": {
+   "terrain": "sea",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4705": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4708": {
+   "terrain": "clear",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4709": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4716": {
+   "terrain": "clear",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4717": {
+   "terrain": "clear",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4721": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4807": {
+   "terrain": "clear",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4820": {
+   "terrain": "sea",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4905": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4907": {
+   "terrain": "clear",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4908": {
+   "terrain": "sea",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4911": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C4913": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C4915": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C5005": {
+   "terrain": "sea",
+   "source": "Tom review 2026-11-07"
+  },
+  "C5006": {
+   "terrain": "sea",
+   "source": "Tom review 2026-11-07"
+  },
+  "C5007": {
+   "terrain": "sea",
+   "source": "Tom review 2026-11-07"
+  },
+  "C5008": {
+   "terrain": "sea",
+   "source": "Tom review 2026-11-07"
+  },
+  "C5105": {
+   "terrain": "sea",
+   "source": "Tom review 2026-11-07"
+  },
+  "C5106": {
+   "terrain": "sea",
+   "source": "Tom review 2026-11-07"
+  },
+  "C5108": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "D0502": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D0512": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D0513": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D0516": {
+   "terrain": "desert",
+   "source": "Tom review 2026-11-07"
+  },
+  "D0610": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D0613": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D0615": {
+   "terrain": "desert",
+   "source": "Tom review 2026-11-07"
+  },
+  "D0616": {
+   "terrain": "desert",
+   "source": "Tom review 2026-11-07"
+  },
+  "D0711": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D0712": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D0713": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D0816": {
+   "terrain": "desert",
+   "source": "Tom review 2026-11-07"
+  },
+  "D1003": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D1004": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D1105": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D1106": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D1204": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D1205": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D1206": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D1507": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D1707": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D1708": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D1713": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D1807": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D1815": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D1907": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D1908": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D1915": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D2007": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D2015": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D2016": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D2116": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D2216": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D2415": {
+   "terrain": "clear",
+   "source": "Tom review 2026-11-07"
+  },
+  "D2510": {
+   "terrain": "clear",
+   "source": "Tom review 2026-11-07"
+  },
+  "D2516": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D2916": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D3015": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D3016": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D3115": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D3315": {
+   "terrain": "saltmarsh",
+   "source": "Tom review 2026-11-07"
+  },
+  "D3416": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D3615": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D3713": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D3716": {
+   "terrain": "saltmarsh",
+   "source": "Tom review 2026-11-07"
+  },
+  "D3809": {
+   "terrain": "rough",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "D3811": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D3816": {
+   "terrain": "sea",
+   "source": "Tom review 2026-11-07"
+  },
+  "D3916": {
+   "terrain": "sea",
+   "source": "Tom review 2026-11-07"
+  },
+  "C5912": {
+   "remove": true
+  },
+  "C5617": {
+   "remove": true
+  },
+  "C5026": {
+   "remove": true
+  },
+  "C5126": {
+   "remove": true
+  },
+  "C5526": {
+   "remove": true
+  },
+  "C5027": {
+   "remove": true
+  },
+  "C5127": {
+   "remove": true
+  },
+  "C5227": {
+   "remove": true
+  },
+  "C5327": {
+   "remove": true
+  },
+  "C5827": {
+   "remove": true
+  },
+  "C5927": {
+   "remove": true
+  },
+  "C5128": {
+   "remove": true
+  },
+  "C5328": {
+   "remove": true
+  },
+  "C5528": {
+   "remove": true
+  },
+  "C5928": {
+   "remove": true
+  },
+  "C1720": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C1820": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C3527": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "C3925": {
+   "terrain": "clear",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4122": {
+   "terrain": "clear",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4129": {
+   "terrain": "clear",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4130": {
+   "terrain": "clear",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4132": {
+   "terrain": "clear",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4133": {
+   "terrain": "clear",
+   "source": "Tom review 2026-11-07"
+  },
+  "C4620": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D0514": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D2316": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D3116": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D3516": {
+   "terrain": "rough",
+   "source": "Tom review 2026-11-07"
+  },
+  "D3616": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "D3815": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "D4002": {
+   "terrain": "clear",
+   "source": "Tom review 2026-11-07"
+  },
+  "A0201": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A0504": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A0605": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A0704": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A0725": {
+   "terrain": "mountain",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A0819": {
+   "terrain": "mountain",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A0913": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A0919": {
+   "terrain": "mountain",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A0922": {
+   "terrain": "mountain",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A1010": {
+   "terrain": "rough",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A1023": {
+   "terrain": "mountain",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A1119": {
+   "terrain": "mountain",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A1120": {
+   "terrain": "mountain",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A1122": {
+   "terrain": "mountain",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A1123": {
+   "terrain": "mountain",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A1220": {
+   "terrain": "mountain",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A1320": {
+   "terrain": "mountain",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A1420": {
+   "terrain": "mountain",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A1421": {
+   "terrain": "mountain",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A1520": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A1522": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A1523": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A1525": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A1704": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A1814": {
+   "terrain": "saltmarsh",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A1818": {
+   "terrain": "saltmarsh",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A1819": {
+   "terrain": "clear",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A1921": {
+   "terrain": "clear",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A2227": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A2303": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A2325": {
+   "terrain": "saltmarsh",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A2326": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A2407": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A2506": {
+   "terrain": "saltmarsh",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A2605": {
+   "terrain": "saltmarsh",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A2705": {
+   "terrain": "saltmarsh",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A2727": {
+   "terrain": "saltmarsh",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A2729": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A2802": {
+   "terrain": "clear",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A2827": {
+   "terrain": "saltmarsh",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A3228": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A3329": {
+   "terrain": "rough",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A3627": {
+   "terrain": "saltmarsh",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A3927": {
+   "terrain": "clear",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A4126": {
+   "terrain": "saltmarsh",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "A4219": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A4220": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A4221": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A4226": {
+   "terrain": "clear",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A4319": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A4320": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A4321": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A4322": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A4418": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A4419": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A4420": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A4421": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A4519": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A4520": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A4521": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A4526": {
+   "terrain": "saltmarsh",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A4619": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A4626": {
+   "terrain": "saltmarsh",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A4928": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A4929": {
+   "terrain": "clear",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A5028": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A5331": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B3003": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B3505": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B3604": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B3804": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4305": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4405": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4406": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4407": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4505": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4506": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4507": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4508": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4605": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4606": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4607": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4608": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4609": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4706": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4707": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4708": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4709": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4710": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4711": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4712": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4714": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4715": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4720": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4721": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4722": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4732": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4808": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4809": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4810": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4811": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4814": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4909": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4910": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4911": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4912": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4918": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B4921": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B5013": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B5018": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B5022": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B5032": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B5033": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B5118": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B5124": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B5132": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B5217": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B5218": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B5230": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B5234": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B5318": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B5331": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B5334": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B5335": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B5418": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B5433": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B5434": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B5520": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B5533": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B5534": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B5732": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B5733": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B5734": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B5804": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B5825": {
+   "terrain": "rough",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B5831": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B5832": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B5906": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B5923": {
+   "terrain": "clear",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B5931": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B5933": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B6020": {
+   "terrain": "rough",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B6021": {
+   "terrain": "rough",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B6026": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B6112": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B6120": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B6121": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B6126": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C4134": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C4713": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C4714": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C4719": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C4725": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C4726": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C4727": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C4728": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C4824": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C4825": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C4826": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C4827": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C4906": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C4912": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C4916": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C4917": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C4926": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C4927": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C4928": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C5226": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C5426": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C5427": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C5519": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C5520": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C5521": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C5527": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C5618": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C5619": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C5620": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C5627": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C5628": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C5718": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C5719": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C5720": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C5721": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C5810": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C5811": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C5812": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C5813": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C5819": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C5820": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C5911": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C5913": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C5920": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "C5921": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "D3332": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "D3423": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "D3424": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "D3425": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "D3426": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "D3427": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "D3429": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "D3621": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "D3910": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "D3911": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "D4003": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "D4021": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "D4022": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "D4023": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "D4024": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "D4025": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "D4026": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "D4027": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "D4122": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "D4123": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "D4124": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "D4125": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "D4126": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "D4127": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "D4128": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "D4202": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "D4934": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "D5318": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "D5417": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "D5418": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "D5518": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E0234": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E0434": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E0634": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E0834": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E1034": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E1234": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E1434": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E1634": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E1834": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E2034": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E2234": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E2434": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E2634": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E2834": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3034": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3207": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3234": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3302": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3303": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3304": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3305": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3311": {
+   "terrain": "swamp",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3312": {
+   "terrain": "swamp",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3401": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3402": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3403": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3404": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3405": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3412": {
+   "terrain": "swamp",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3413": {
+   "terrain": "swamp",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3414": {
+   "terrain": "swamp",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3434": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3502": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3504": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3505": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3535": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3601": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3602": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3603": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3604": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3605": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3608": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3609": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3610": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3634": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3702": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3703": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3704": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3705": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3706": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3801": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3802": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3803": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3804": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3805": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3806": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3818": {
+   "terrain": "desert",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3834": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3905": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3906": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3913": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3914": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3921": {
+   "terrain": "swamp",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3922": {
+   "terrain": "swamp",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3923": {
+   "terrain": "swamp",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3924": {
+   "terrain": "swamp",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3925": {
+   "terrain": "swamp",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E3926": {
+   "terrain": "swamp",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4015": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4018": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4019": {
+   "terrain": "swamp",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4020": {
+   "terrain": "swamp",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4021": {
+   "terrain": "swamp",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4022": {
+   "terrain": "swamp",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4024": {
+   "terrain": "swamp",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4025": {
+   "terrain": "swamp",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4032": {
+   "terrain": "desert",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4034": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4116": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4119": {
+   "terrain": "swamp",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4120": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4122": {
+   "terrain": "swamp",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4123": {
+   "terrain": "swamp",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4124": {
+   "terrain": "swamp",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4128": {
+   "terrain": "clear",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4131": {
+   "terrain": "swamp",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4132": {
+   "terrain": "swamp",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4201": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4216": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4224": {
+   "terrain": "swamp",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4225": {
+   "terrain": "swamp",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4226": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4230": {
+   "terrain": "swamp",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4233": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4301": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4302": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4316": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4317": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4318": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4320": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4321": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4322": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4323": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4329": {
+   "terrain": "sea",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4333": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4401": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4416": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4432": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4501": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4502": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4525": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4526": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4527": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4528": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4601": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4602": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4603": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4604": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4701": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4702": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4703": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4704": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4801": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4802": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4803": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4804": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4833": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4834": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4902": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4903": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4904": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E4934": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E5112": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E5401": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E5402": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E5433": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E5434": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E5501": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E5502": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E5534": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E5601": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E5702": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E5703": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E5704": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E5802": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "E5803": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A0234": {
+   "terrain": "desert",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A0434": {
+   "terrain": "desert",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A0634": {
+   "terrain": "desert",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A0834": {
+   "terrain": "desert",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "A1034": {
+   "terrain": "desert",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B0234": {
+   "terrain": "desert",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B0434": {
+   "terrain": "desert",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B0634": {
+   "terrain": "desert",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-08"
+  },
+  "B0812": {
+   "terrain": "desert",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-10"
+  },
+  "B0919": {
+   "terrain": "desert",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-10"
+  },
+  "C0229": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-10"
+  },
+  "C0231": {
+   "terrain": "clear",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-10"
+  },
+  "C0423": {
+   "terrain": "rough",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-10"
+  },
+  "C0426": {
+   "terrain": "rough",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-10"
+  },
+  "C0525": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-10"
+  },
+  "C0633": {
+   "terrain": "rough",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-10"
+  },
+  "C0715": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-10"
+  },
+  "C0717": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-10"
+  },
+  "C0818": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-10"
+  },
+  "C1015": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-10"
+  },
+  "C1018": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-10"
+  },
+  "D0504": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-10"
+  },
+  "D0505": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-10"
+  },
+  "A2434": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "A2634": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "B2502": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "B4534": {
+   "terrain": "rockgravel",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "A3634": {
+   "terrain": "rough",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "A3834": {
+   "terrain": "rough",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "A4034": {
+   "terrain": "rough",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "A4234": {
+   "terrain": "rough",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "A4434": {
+   "terrain": "rough",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "A4634": {
+   "terrain": "rough",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "A4834": {
+   "terrain": "rough",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "A5034": {
+   "terrain": "rough",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "A5234": {
+   "terrain": "rough",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "A5433": {
+   "terrain": "rough",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "A5434": {
+   "terrain": "rough",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "B4232": {
+   "terrain": "rough",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "C1114": {
+   "terrain": "rough",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "C2822": {
+   "terrain": "rough",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "D2334": {
+   "terrain": "rough",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "E1312": {
+   "terrain": "rough",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "B5827": {
+   "terrain": "rough",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "B5907": {
+   "terrain": "rough",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "B5909": {
+   "terrain": "rough",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "B6011": {
+   "terrain": "rough",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "C4710": {
+   "terrain": "rough",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "C4711": {
+   "terrain": "rough",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "C4712": {
+   "terrain": "rough",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "C4715": {
+   "terrain": "rough",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "D3812": {
+   "terrain": "rough",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "D3909": {
+   "terrain": "rough",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "B5530": {
+   "terrain": "saltmarsh",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "B1403": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "B1404": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "B1405": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "B1706": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "B1802": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "B1806": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "B2005": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "B2006": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "B2206": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "B2303": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "C1313": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "C2105": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "C2213": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "D0720": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "D0919": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "D1316": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "D1412": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "D1418": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "D2309": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "E2219": {
+   "terrain": "saltmarsh",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "A5131": {
+   "terrain": "heavyveg",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "A5231": {
+   "terrain": "heavyveg",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "A5232": {
+   "terrain": "heavyveg",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "A5333": {
+   "terrain": "heavyveg",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "A5534": {
+   "terrain": "heavyveg",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "B5601": {
+   "terrain": "heavyveg",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "B5602": {
+   "terrain": "heavyveg",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "B5703": {
+   "terrain": "heavyveg",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "B5416": {
+   "terrain": "mountain",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "C4218": {
+   "terrain": "clear",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "C4312": {
+   "terrain": "clear",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "C4313": {
+   "terrain": "clear",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "C4410": {
+   "terrain": "clear",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "C4411": {
+   "terrain": "clear",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "C4505": {
+   "terrain": "clear",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "C4506": {
+   "terrain": "clear",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "C4511": {
+   "terrain": "clear",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "D1434": {
+   "terrain": "desert",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "D1634": {
+   "terrain": "desert",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "D1834": {
+   "terrain": "desert",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "D2034": {
+   "terrain": "desert",
+   "coastal": false,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "A4412": {
+   "remove": true,
+   "source": "Tom 2026-11-11: inside the Terrain Effects Chart on Map A, not map hexes"
+  },
+  "A4512": {
+   "remove": true,
+   "source": "Tom 2026-11-11: inside the Terrain Effects Chart on Map A, not map hexes"
+  },
+  "A4513": {
+   "remove": true,
+   "source": "Tom 2026-11-11: inside the Terrain Effects Chart on Map A, not map hexes"
+  },
+  "B6116": {
+   "terrain": "rough",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "B6117": {
+   "terrain": "rough",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "B6118": {
+   "terrain": "rough",
+   "coastal": true,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "A4612": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "B5833": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "E3503": {
+   "remove": true,
+   "source": "Tom terrain editor 2026-11-11"
+  },
+  "B4734": {
+   "terrain": "rockgravel",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4502": {
+   "terrain": "rockgravel",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3902": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3802": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3702": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1102": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4003": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3903": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1003": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4504": {
+   "terrain": "clear",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4404": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4004": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1004": {
+   "terrain": "mountain",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3005": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C2605": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C2005": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1105": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1005": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0905": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C2506": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1906": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1006": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3107": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1107": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4508": {
+   "terrain": "clear",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3908": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3408": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1008": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0708": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0809": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0709": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4213": {
+   "terrain": "clear",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4214": {
+   "terrain": "clear",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C2314": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0814": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4316": {
+   "terrain": "clear",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3216": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1016": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0916": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0816": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0616": {
+   "terrain": "desert",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1017": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0917": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0817": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C2718": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C2018": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0918": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4221": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1821": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1421": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1321": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1522": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C2623": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3624": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3124": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3024": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C2624": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3625": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0425": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3828": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3728": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0228": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0128": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0129": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3730": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0130": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3831": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3731": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3832": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C2732": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0632": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0332": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0232": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C2533": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0333": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0233": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D3905": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D3906": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D0506": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D3907": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1607": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D0507": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D3908": {
+   "terrain": "rough",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D0608": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D0508": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D3709": {
+   "terrain": "clear",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2109": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1010": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2511": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2111": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1011": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2612": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2512": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1612": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1512": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1112": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1012": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1613": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1513": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1213": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1113": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D0913": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D0813": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D3414": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1814": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1714": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1614": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1514": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1314": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1214": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1114": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D0914": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D0714": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1715": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1615": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1515": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1215": {
+   "terrain": "rockgravel",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1115": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D0915": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D0715": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D0415": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D0315": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D0215": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1916": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1816": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1716": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1616": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1516": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1216": {
+   "terrain": "rockgravel",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1116": {
+   "terrain": "rockgravel",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D0916": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D0716": {
+   "terrain": "saltmarsh",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3019": {
+   "country": "Libya",
+   "source": "D17 Q-SET3 (Tom, 14 Nov 2026): frontier forts"
+  },
+  "C3419": {
+   "country": "Libya",
+   "source": "D17 Q-SET3 (Tom, 14 Nov 2026): frontier forts"
+  },
+  "C3618": {
+   "country": "Libya",
+   "source": "D17 Q-SET3 (Tom, 14 Nov 2026): frontier forts"
+  },
+  "C4021": {
+   "country": "Egypt",
+   "source": "D17 Q-SET3 (Tom, 14 Nov 2026): frontier forts"
+  }
+ },
+ "hexsides": {
+  "D2228|D2328": {
+   "escarpment": true,
+   "escarpmentDown": "D2228",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0919|C1019": {
+   "escarpment": null,
+   "slope": true,
+   "ridge": null,
+   "wire_candidate": true,
+   "escarpmentDown": null,
+   "slopeDown": "C0919",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1018|C1019": {
+   "escarpment": null,
+   "slope": true,
+   "ridge": null,
+   "wire_candidate": true,
+   "escarpmentDown": null,
+   "slopeDown": "C1018",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3425|C3526": {
+   "escarpment": true,
+   "escarpmentDown": "C3526",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "C3426|C3526": {
+   "escarpment": true,
+   "escarpmentDown": "C3526",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "C3426|C3527": {
+   "escarpment": true,
+   "escarpmentDown": "C3527",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "C3427|C3528": {
+   "escarpment": true,
+   "escarpmentDown": "C3528",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "C3428|C3528": {
+   "escarpment": true,
+   "escarpmentDown": "C3528",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "C3524|C3624": {
+   "escarpment": true,
+   "escarpmentDown": "C3624",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "C3525|C3526": {
+   "escarpment": true,
+   "escarpmentDown": "C3526",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "C3525|C3624": {
+   "escarpment": true,
+   "escarpmentDown": "C3624",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "C3525|C3625": {
+   "escarpment": true,
+   "escarpmentDown": "C3625",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "C3528|C3529": {
+   "escarpment": true,
+   "escarpmentDown": "C3528",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "C3529|C3628": {
+   "escarpment": true,
+   "escarpmentDown": "C3628",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "C3623|C3724": {
+   "escarpment": true,
+   "escarpmentDown": "C3724",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "C3628|C3629": {
+   "escarpment": true,
+   "escarpmentDown": "C3628",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "C3629|C3729": {
+   "escarpment": true,
+   "escarpmentDown": "C3729",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "C3722|C3822": {
+   "escarpment": true,
+   "escarpmentDown": "C3822",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "C3723|C3724": {
+   "escarpment": true,
+   "escarpmentDown": "C3724",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "C3723|C3822": {
+   "escarpment": true,
+   "escarpmentDown": "C3822",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "C3723|C3823": {
+   "escarpment": true,
+   "escarpmentDown": "C3823",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "C3921|C4021": {
+   "escarpment": true,
+   "escarpmentDown": "C4021",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "C4020|C4121": {
+   "escarpment": true,
+   "escarpmentDown": "C4121",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "C4120|C4121": {
+   "escarpment": true,
+   "escarpmentDown": "C4121",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "C4702|C4802": {
+   "escarpment": true,
+   "escarpmentDown": "C4802",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "C4703|C4802": {
+   "escarpment": true,
+   "escarpmentDown": "C4802",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "C4703|C4803": {
+   "escarpment": true,
+   "escarpmentDown": "C4803",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "C4704|C4804": {
+   "escarpment": true,
+   "escarpmentDown": "C4804",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "C4705|C4804": {
+   "escarpment": true,
+   "escarpmentDown": "C4804",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "C4705|C4805": {
+   "escarpment": true,
+   "escarpmentDown": "C4805",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "C4706|C4707": {
+   "escarpment": true,
+   "escarpmentDown": "C4707",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "C4706|C4805": {
+   "escarpment": true,
+   "escarpmentDown": "C4805",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "C4805|C4905": {
+   "escarpment": true,
+   "escarpmentDown": "C4905",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "C4805|C4906": {
+   "escarpment": true,
+   "escarpmentDown": "C4906",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "C4806|C4906": {
+   "escarpment": true,
+   "escarpmentDown": "C4906",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "C4806|C4907": {
+   "escarpment": true,
+   "escarpmentDown": "C4907",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "C4904|C4905": {
+   "escarpment": true,
+   "escarpmentDown": "C4905",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "D1108|D1207": {
+   "escarpment": true,
+   "escarpmentDown": "D1108",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "D1207|D1208": {
+   "escarpment": true,
+   "slope": null,
+   "ridge": null,
+   "escarpmentDown": "D1208",
+   "slopeDown": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1208|D1308": {
+   "escarpment": true,
+   "escarpmentDown": "D1208",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "D1208|D1309": {
+   "escarpment": true,
+   "escarpmentDown": "D1208",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "D1209|D1309": {
+   "escarpment": true,
+   "escarpmentDown": "D1209",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "D1309|D1310": {
+   "escarpment": true,
+   "escarpmentDown": "D1310",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "D1310|D1409": {
+   "escarpment": true,
+   "escarpmentDown": "D1310",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "D1310|D1410": {
+   "escarpment": true,
+   "escarpmentDown": "D1310",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "D1311|D1410": {
+   "escarpment": true,
+   "escarpmentDown": "D1311",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "D1311|D1411": {
+   "escarpment": true,
+   "escarpmentDown": "D1311",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "D1312|D1411": {
+   "escarpment": true,
+   "escarpmentDown": "D1312",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "D1411|D1412": {
+   "escarpment": true,
+   "escarpmentDown": "D1412",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "D1411|D1512": {
+   "escarpment": true,
+   "escarpmentDown": "D1512",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "D1511|D1512": {
+   "escarpment": true,
+   "escarpmentDown": "D1512",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "D1512|D1611": {
+   "escarpment": true,
+   "escarpmentDown": "D1512",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "D1611|D1612": {
+   "escarpment": true,
+   "escarpmentDown": "D1612",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "D1612|D1712": {
+   "escarpment": true,
+   "escarpmentDown": "D1612",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "D1612|D1713": {
+   "escarpment": true,
+   "escarpmentDown": "D1612",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "D1613|D1713": {
+   "escarpment": true,
+   "escarpmentDown": "D1613",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "D1713|D1714": {
+   "escarpment": true,
+   "escarpmentDown": "D1714",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "D1715|D1815": {
+   "escarpment": true,
+   "escarpmentDown": "D1715",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "D1716|D1815": {
+   "escarpment": true,
+   "escarpmentDown": "D1716",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "D1813|D1814": {
+   "escarpment": true,
+   "escarpmentDown": "D1814",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "D1814|D1815": {
+   "escarpment": true,
+   "escarpmentDown": "D1814",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "D1814|D1914": {
+   "escarpment": true,
+   "escarpmentDown": "D1814",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "D1814|D1915": {
+   "escarpment": true,
+   "escarpmentDown": "D1814",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "D1815|D1816": {
+   "escarpment": true,
+   "escarpmentDown": "D1816",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "D1815|D1916": {
+   "escarpment": true,
+   "escarpmentDown": "D1916",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "D1915|D1916": {
+   "escarpment": true,
+   "escarpmentDown": "D1916",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "D1916|D2015": {
+   "escarpment": true,
+   "escarpmentDown": "D1916",
+   "slope": null,
+   "slopeDown": null,
+   "ridge": null,
+   "source": "Tom review 2026-11-07"
+  },
+  "C2017|C2018": {
+   "escarpment": null,
+   "slope": null,
+   "ridge": null,
+   "wadi": true,
+   "wire_candidate": true,
+   "escarpmentDown": null,
+   "slopeDown": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B4834|B4934": {
+   "escarpment": null,
+   "escarpmentDown": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B4834|C4802": {
+   "escarpment": null,
+   "escarpmentDown": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B4834|C4902": {
+   "escarpment": null,
+   "escarpmentDown": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B4734|B4833": {
+   "escarpment": null,
+   "escarpmentDown": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4102|C4103": null,
+  "C4008|C4109": null,
+  "C1816|C1817": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1716|C1717": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1616|C1617": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1616|C1717": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3617|C3618": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1917|C1918": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1817|C1917": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1717|C1816": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1517|C1518": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1517|C1617": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1417|C1418": {
+   "wadi": true,
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1417|C1518": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1217|C1218": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0817|C0818": null,
+  "C0717|C0816": null,
+  "C3818|C3819": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3718|C3719": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3618|C3718": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3518|C3519": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3518|C3618": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3418|C3419": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3418|C3519": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3318|C3319": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3218|C3219": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3218|C3319": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C2218|C2219": {
+   "road": null,
+   "wadi": true,
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C2018|C2118": {
+   "wadi": true,
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1918|C2017": {
+   "wadi": true,
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1318|C1319": {
+   "wadi": true,
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1318|C1418": {
+   "wadi": true,
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1218|C1318": {
+   "wadi": true,
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0818|C0819": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0718|C0719": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0618|C0719": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3819|C3919": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3819|C3920": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3719|C3818": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3319|C3418": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3119|C3120": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3119|C3219": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3019|C3020": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3019|C3120": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C2919|C2920": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C2819|C2820": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C2819|C2920": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C2619|C2620": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C2419|C2420": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C2219|C2319": {
+   "wadi": true,
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C2119|C2218": {
+   "wadi": true,
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0919|C0920": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0819|C0919": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0719|C0818": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4020|C4021": {
+   "road": true,
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3920|C3921": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3920|C4019": null,
+  "C3320|C3419": null,
+  "C3020|C3121": null,
+  "C2920|C3019": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C2720|C2721": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C2720|C2820": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C2620|C2720": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C2520|C2521": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C2520|C2620": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C2420|C2520": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C2320|C2419": {
+   "wadi": true,
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4021|C4121": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3921|C4020": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3621|C3721": null,
+  "C3021|C3122": null,
+  "C3328|C3428": null,
+  "D3116|D3117": null,
+  "B1634|C1602": null,
+  "C1603|C1703": {
+   "wadi": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1603|C1704": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3204|C3205": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3104|C3105": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C2804|C2905": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1904|C1905": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1804|C1805": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1804|C1905": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1604|C1704": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1604|C1705": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1304|C1403": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3405|C3406": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3405|C3506": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3305|C3306": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C2605|C2706": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C2505|C2506": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C2405|C2506": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1605|C1705": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1505|C1506": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1405|C1406": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1405|C1505": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1405|C1506": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1305|C1306": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3606|C3607": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3506|C3507": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3406|C3506": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1406|C1506": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1306|C1307": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1306|C1405": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1206|C1307": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4107|C4108": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4007|C4008": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4007|C4108": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3807|C3808": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3707|C3708": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3607|C3707": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3507|C3606": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3507|C3607": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1507|C1508": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1507|C1607": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1407|C1408": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1407|C1508": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3908|C3909": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3908|C4008": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3708|C3807": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1510|C1511": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1510|C1609": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1512|C1611": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1512|C1612": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1916|C1917": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C2118|C2119": {
+   "railroad": null,
+   "wadi": true,
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0519|C0520": {
+   "wadi": null,
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C2320|C2420": {
+   "wadi": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0921|C0922": {
+   "wadi": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0821|C0822": {
+   "wadi": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0821|C0922": {
+   "wadi": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0922|C1021": {
+   "wadi": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D0606|D0607": {
+   "wadi": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D0606|D0707": {
+   "wadi": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1007|D1108": {
+   "wadi": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D0907|D1007": {
+   "wadi": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D0507|D0607": {
+   "wadi": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1008|D1108": {
+   "wadi": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1008|D1109": {
+   "wadi": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D0908|D1007": {
+   "wadi": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D0908|D1008": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D0508|D0607": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4121|C4122": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4122|C4221": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3820|C3920": {
+   "railroad": null,
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3819|C3820": {
+   "railroad": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C2319|C2320": {
+   "road": null,
+   "railroad": null,
+   "wadi": true,
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1917|C2017": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1917|C2016": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1816|C1916": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1815|C1916": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1815|C1915": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1418|C1518": {
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1118|C1218": {
+   "track": null,
+   "majorRiver": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1118|C1119": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C1018|C1119": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0618|C0619": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0519|C0619": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0419|C0520": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0419|C0420": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0320|C0420": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0320|C0321": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0220|C0321": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0220|C0221": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0121|C0220": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C0120|C0121": {
+   "wire_candidate": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1714|D1813": {
+   "escarpment": true,
+   "escarpmentDown": "D1714",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1916|D2016": {
+   "escarpment": true,
+   "escarpmentDown": "D1916",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1917|D2016": {
+   "escarpment": true,
+   "escarpmentDown": "D1917",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1917|D2017": {
+   "escarpment": true,
+   "escarpmentDown": "D1917",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D1918|D2017": {
+   "escarpment": true,
+   "escarpmentDown": "D1918",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2017|D2018": {
+   "escarpment": true,
+   "escarpmentDown": "D2018",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2018|D2118": {
+   "escarpment": true,
+   "escarpmentDown": "D2018",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2118|D2119": {
+   "escarpment": true,
+   "escarpmentDown": "D2118",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2119|D2218": {
+   "escarpment": true,
+   "escarpmentDown": "D2119",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2119|D2219": {
+   "escarpment": true,
+   "escarpmentDown": "D2119",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2119|D2120": {
+   "escarpment": true,
+   "escarpmentDown": "D2119",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2019|D2120": {
+   "escarpment": true,
+   "escarpmentDown": "D2019",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2020|D2120": {
+   "escarpment": true,
+   "escarpmentDown": "D2020",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2120|D2121": {
+   "escarpment": true,
+   "escarpmentDown": "D2121",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2121|D2220": {
+   "escarpment": true,
+   "escarpmentDown": "D2121",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2121|D2221": {
+   "escarpment": true,
+   "escarpmentDown": "D2121",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2122|D2221": {
+   "escarpment": true,
+   "escarpmentDown": "D2122",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2221|D2222": {
+   "escarpment": true,
+   "escarpmentDown": "D2222",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2222|D2322": {
+   "escarpment": true,
+   "escarpmentDown": "D2222",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2222|D2323": {
+   "escarpment": true,
+   "escarpmentDown": "D2222",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2222|D2223": {
+   "escarpment": true,
+   "escarpmentDown": "D2222",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2123|D2223": {
+   "escarpment": true,
+   "escarpmentDown": "D2123",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2124|D2223": {
+   "escarpment": true,
+   "escarpmentDown": "D2124",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2223|D2224": {
+   "escarpment": true,
+   "escarpmentDown": "D2224",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2224|D2324": {
+   "escarpment": true,
+   "escarpmentDown": "D2224",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2224|D2325": {
+   "escarpment": true,
+   "escarpmentDown": "D2224",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2225|D2325": {
+   "escarpment": true,
+   "escarpmentDown": "D2225",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2225|D2326": {
+   "escarpment": true,
+   "escarpmentDown": "D2225",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2226|D2326": {
+   "escarpment": true,
+   "escarpmentDown": "D2226",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2226|D2327": {
+   "escarpment": true,
+   "escarpmentDown": "D2226",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2227|D2327": {
+   "escarpment": true,
+   "escarpmentDown": "D2227",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2227|D2328": {
+   "escarpment": true,
+   "escarpmentDown": "D2227",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2328|D2329": {
+   "escarpment": true,
+   "escarpmentDown": "D2329",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2329|D2428": {
+   "escarpment": true,
+   "escarpmentDown": "D2329",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2329|D2429": {
+   "escarpment": true,
+   "escarpmentDown": "D2329",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2330|D2429": {
+   "escarpment": true,
+   "escarpmentDown": "D2330",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2330|D2430": {
+   "escarpment": true,
+   "escarpmentDown": "D2330",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2331|D2430": {
+   "escarpment": true,
+   "escarpmentDown": "D2331",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2331|D2431": {
+   "escarpment": true,
+   "escarpmentDown": "D2331",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2331|D2332": {
+   "escarpment": true,
+   "escarpmentDown": "D2331",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2231|D2332": {
+   "escarpment": true,
+   "escarpmentDown": "D2231",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2232|D2332": {
+   "escarpment": true,
+   "escarpmentDown": "D2232",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2332|D2333": {
+   "escarpment": true,
+   "escarpmentDown": "D2333",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2333|D2432": {
+   "escarpment": true,
+   "escarpmentDown": "D2333",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2333|D2433": {
+   "escarpment": true,
+   "escarpmentDown": "D2333",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2333|D2334": {
+   "escarpment": true,
+   "escarpmentDown": "D2333",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2233|D2334": {
+   "escarpment": true,
+   "escarpmentDown": "D2233",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2234|D2334": {
+   "escarpment": true,
+   "escarpmentDown": "D2234",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2234|E2302": {
+   "escarpment": true,
+   "escarpmentDown": "D2234",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2234|E2202": {
+   "escarpment": true,
+   "escarpmentDown": "D2234",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "E2102|E2202": {
+   "escarpment": true,
+   "escarpmentDown": "E2102",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "E2103|E2202": {
+   "escarpment": true,
+   "escarpmentDown": "E2103",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "E2103|E2203": {
+   "escarpment": true,
+   "escarpmentDown": "E2103",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "E2103|E2104": {
+   "escarpment": true,
+   "escarpmentDown": "E2103",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2033|D2133": {
+   "escarpment": true,
+   "escarpmentDown": "D2133",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2033|D2134": {
+   "track": null,
+   "escarpment": true,
+   "escarpmentDown": "D2134",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "D2133|D2134": {
+   "track": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2703|A2704": {
+   "road": true,
+   "railroad": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2604|A2704": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2504|A2603": {
+   "road": null,
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2603|A2704": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2403|A2504": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2304|A2403": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2203|A2304": {
+   "road": null,
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2104|A2203": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A1903|A2003": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A1703|A1803": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A1603|A1703": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A1503|A1603": {
+   "road": null,
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A1403|A1503": {
+   "track": true,
+   "wadi": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A1303|A1403": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A1203|A1303": {
+   "road": null,
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A1103|A1203": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A0903|A1002": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A0802|A0903": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A0703|A0802": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A0703|A0704": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A0706|A0707": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A0707|A0708": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A0708|A0709": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A0709|A0710": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A0610|A0710": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A0610|A0611": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A0512|A0611": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A0411|A0512": {
+   "road": null,
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A0312|A0411": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A0211|A0312": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A0112|A0211": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A0707|A0807": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A0807|A0808": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A0808|A0908": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A0908|A1008": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A1008|A1108": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A1108|A1208": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A1208|A1308": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A1308|A1408": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A1408|A1508": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A1508|A1607": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A1606|A1607": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A1606|A1706": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A1706|A1805": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A1805|A1906": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A1906|A2005": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2005|A2105": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2202|A2203": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2202|A2302": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2301|A2302": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2506|A2605": {
+   "railroad": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2406|A2506": {
+   "railroad": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2307|A2406": {
+   "road": true,
+   "track": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2405|A2406": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2307|A2308": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2208|A2308": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2109|A2208": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2109|A2110": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2010|A2110": {
+   "road": true,
+   "railroad": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A1911|A2010": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A1912|A1913": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A1813|A1913": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A1714|A1715": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A1716|A1816": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A1717|A1816": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A1818|A1819": {
+   "railroad": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A1819|A1920": {
+   "railroad": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A1920|A1921": {
+   "road": null,
+   "railroad": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A1819|A1820": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A1820|A1920": {
+   "road": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A1820|A1921": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A1921|A2021": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2021|A2022": {
+   "railroad": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2022|A2123": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2123|A2124": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2024|A2025": {
+   "road": true,
+   "track": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2025|A2126": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2126|A2127": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2329|A2429": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2429|A2529": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2529|A2629": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A3129|A3229": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A3229|A3329": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A3329|A3428": {
+   "railroad": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A3629|A3729": {
+   "road": true,
+   "track": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4027|A4127": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4127|A4128": {
+   "road": null,
+   "track": true,
+   "railroad": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4127|A4227": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4227|A4327": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4327|A4427": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4427|A4527": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4728|A4827": {
+   "road": true,
+   "track": true,
+   "railroad": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4827|A4828": {
+   "road": true,
+   "track": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4828|A4928": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4928|A4929": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A5029|A5130": {
+   "railroad": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A5130|A5230": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A5230|A5231": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A5231|A5332": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A5231|A5232": {
+   "road": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A5332|A5432": {
+   "railroad": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A5432|A5533": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A5333|A5432": {
+   "track": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A5533|A5534": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A5534|B5502": {
+   "road": true,
+   "track": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5502|B5503": {
+   "road": true,
+   "track": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5503|B5504": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A5434|A5534": {
+   "track": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5504|B5505": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5505|B5605": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5605|B5606": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5606|B5607": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5607|B5608": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5608|B5609": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5404|B5504": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5404|B5405": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5405|B5406": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5407|B5408": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5408|B5409": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5409|B5410": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5410|B5411": {
+   "road": true,
+   "track": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5411|B5512": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5512|B5513": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5609|B5610": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5610|B5611": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5611|B5712": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5513|B5514": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5514|B5614": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5614|B5615": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5615|B5716": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5716|B5717": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5717|B5718": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5812|B5813": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5813|B5814": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5814|B5915": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5915|B5916": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5916|B5917": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5917|B5918": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5718|B5818": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5818|B5919": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5918|B5919": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5919|B5920": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5920|B5921": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5921|B5922": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5923|B6022": {
+   "railroad": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5923|B5924": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5924|B5925": {
+   "road": true,
+   "track": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5825|B5925": {
+   "road": true,
+   "railroad": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5726|B5825": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5727|B5728": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5728|B5729": {
+   "railroad": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5229|B5330": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5130|B5229": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5130|B5131": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5031|B5131": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5129|B5130": {
+   "road": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B4832|B4932": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B4934|C4902": {
+   "road": true,
+   "track": null,
+   "railroad": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4902|C4903": {
+   "road": true,
+   "track": null,
+   "railroad": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4804|C4904": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4804|C4805": {
+   "road": true,
+   "track": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4805|C4806": {
+   "road": true,
+   "track": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4804|C4905": {
+   "track": null,
+   "escarpment": true,
+   "escarpmentDown": "C4905",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4708|C4807": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4608|C4708": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4608|C4609": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4610|C4611": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4613|C4614": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4614|C4615": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4516|C4615": {
+   "road": true,
+   "track": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4516|C4517": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4416|C4516": {
+   "road": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4518|C4519": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4419|C4519": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4320|C4419": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4320|C4321": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4220|C4320": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4219|C4220": {
+   "road": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4120|C4220": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C4020|C4120": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3921|C3922": {
+   "escarpment": true,
+   "escarpmentDown": "C3922",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3821|C3822": {
+   "escarpment": true,
+   "escarpmentDown": "C3822",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "C3623|C3624": {
+   "escarpment": true,
+   "escarpmentDown": "C3624",
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4829|A4930": {
+   "track": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4930|A5030": {
+   "track": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A5030|A5131": {
+   "track": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4829|A4830": {
+   "track": true,
+   "railroad": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4831|A4832": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4832|A4933": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A5033|A5034": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A5034|B5102": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B4902|B5002": {
+   "road": null,
+   "railroad": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5002|B5103": {
+   "track": null,
+   "railroad": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5103|B5202": {
+   "track": null,
+   "railroad": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4731|A4831": {
+   "railroad": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4730|A4830": {
+   "railroad": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4830|A4831": {
+   "railroad": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4933|A4934": {
+   "railroad": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4934|B4902": {
+   "railroad": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5202|B5303": {
+   "railroad": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5303|B5403": {
+   "railroad": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5403|B5504": {
+   "railroad": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5406|B5407": {
+   "road": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5407|B5508": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B5508|B5608": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4431|A4432": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4331|A4431": {
+   "track": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4231|A4331": {
+   "track": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4132|A4231": {
+   "track": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4131|A4132": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4032|A4132": {
+   "track": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4031|A4032": {
+   "road": null,
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4031|A4131": {
+   "road": null,
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4128|A4129": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4129|A4130": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4130|A4131": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4132|A4133": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4129|A4228": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4328|A4428": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4130|A4230": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A4029|A4130": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A3933|A3934": {
+   "road": null,
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A3833|A3933": {
+   "road": null,
+   "track": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A3833|A3934": {
+   "road": null,
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A3934|B3902": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A3831|A3931": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A3631|A3732": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A3531|A3630": {
+   "road": null,
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A3430|A3531": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A3432|A3532": {
+   "road": null,
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A3333|A3432": {
+   "road": null,
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A3232|A3332": {
+   "road": null,
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A3331|A3332": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A3233|A3334": {
+   "road": null,
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A3134|A3233": {
+   "road": null,
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A3534|A3633": {
+   "road": null,
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A3433|A3534": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A3334|A3433": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A3133|A3134": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A3032|A3033": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A3033|A3133": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A3033|A3034": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2932|A3032": {
+   "road": null,
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A3031|A3131": {
+   "road": null,
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2831|A2932": {
+   "road": null,
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A3131|A3231": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A3231|A3331": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A3030|A3031": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2930|A3030": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2829|A2930": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2928|A2929": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2629|A2630": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A3233|A3234": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B3804|B3905": {
+   "road": null,
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B3903|B4003": {
+   "road": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B3903|B3904": {
+   "track": true,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B4004|B4005": {
+   "railroad": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A3932|A3933": {
+   "railroad": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A3927|A4026": {
+   "railroad": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A3627|A3727": {
+   "railroad": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A3528|A3627": {
+   "railroad": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A3230|A3330": {
+   "railroad": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "B2602|B2702": {
+   "railroad": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A2224|A2325": {
+   "railroad": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A1318|A1319": {
+   "railroad": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "A0817|A0818": {
+   "railroad": null,
+   "source": "Tom viewer 2026-11-12"
+  },
+  "E3613|E3513": {
+   "railroad": true,
+   "source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)"
+  },
+  "E3513|E3412": {
+   "railroad": true,
+   "source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)"
+  },
+  "E3412|E3312": {
+   "railroad": true,
+   "source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)"
+  },
+  "E3312|E3311": {
+   "railroad": true,
+   "source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)"
+  },
+  "E3210|E3209": {
+   "railroad": true,
+   "source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)"
+  },
+  "E3209|E3109": {
+   "railroad": true,
+   "source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)"
+  },
+  "E3109|E3108": {
+   "railroad": true,
+   "source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)"
+  },
+  "D3034|D3134": {
+   "railroad": true,
+   "source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)"
+  },
+  "D3134|D3233": {
+   "railroad": true,
+   "source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)"
+  },
+  "D3233|D3232": {
+   "railroad": true,
+   "source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)"
+  },
+  "D3230|D3330": {
+   "railroad": true,
+   "source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)"
+  },
+  "D3328|D3327": {
+   "railroad": true,
+   "source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)"
+  },
+  "D3326|D3325": {
+   "railroad": true,
+   "source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)"
+  },
+  "D3322|D3421": {
+   "railroad": true,
+   "source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)"
+  },
+  "D3421|D3420": {
+   "railroad": true,
+   "source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)"
+  },
+  "D3420|D3419": {
+   "railroad": true,
+   "source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)"
+  },
+  "D3419|D3519": {
+   "railroad": true,
+   "source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)"
+  },
+  "D3519|D3518": {
+   "railroad": true,
+   "source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)"
+  },
+  "D3517|D3616": {
+   "railroad": true,
+   "source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)"
+  },
+  "D3616|D3615": {
+   "railroad": true,
+   "source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)"
+  },
+  "D3715|D3714": {
+   "railroad": true,
+   "source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line)"
+  },
+  "D3133|D3232": {
+   "railroad": null,
+   "source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line): edge detection beside the line"
+  },
+  "E3211|E3312": {
+   "railroad": null,
+   "source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line): edge detection beside the line"
+  },
+  "E3313|E3412": {
+   "railroad": null,
+   "source": "rail trace from scans 2026-11-15 (8.71 Alexandria-Mersa Matruh line): edge detection beside the line"
+  }
+ }
+}
