@@ -1,75 +1,58 @@
 # Game-Turn 1
 
-**Initiative:** Axis.
+The Axis has the Initiative.
 
 ## Operations Stage 1
 
-Weather: normal. Player A: Axis.
-Units moved: Axis 157, Commonwealth 5. Hexes changing hands: 120. Taken: Sollum (Axis).
+Normal weather. The Axis moves first.
+Units moved: Axis 160, Commonwealth 10. 166 hexes changed hands. Taken: Sollum (Axis).
 
-- Barrage (Axis) on C3922/infantry#2: 6 Actual Barrage Points, roll 12, result "noEffect".
-- Barrage (Axis) on C3922/gun#1: 1 Actual Barrage Points, roll 24, result "noEffect".
-- Barrage (Axis) on C3922/gun#2: 1 Actual Barrage Points, roll 46, result "noEffect".
-- Barrage (Axis) on C3922/infantry#1: 1 Actual Barrage Points, roll 33, result "noEffect".
-- Axis learns 4 unit(s) in C3922 (11.36).
-- Commonwealth learns 30 unit(s) in C4021, C3921 (11.36).
-- Morale (Axis) at C3922: roll 41, modifier 0.
-- Morale (Commonwealth) at C3922: roll 26, modifier 0.
-- Close Assault on C3922 (15.7): attack 141 Raw v defence 12, differential 13, column 17. Attacker 0% losses; defender 30% losses, retreat 1.
-- Commonwealth learns 1 unit(s) in C3019 (11.36).
-- Axis learns 1 unit(s) in C3020 (11.36).
+- 5 Axis barrages on Halfaya Pass, no effect.
+- The Axis spotted 6 enemy units around Halfaya Pass.
+- The Commonwealth spotted 45 enemy units around Sollum and Halfaya Pass.
+- The Axis assaulted 3rd Coldstream Guards, 1st KRRC, 4th Ryl Horse Arty and 1 other unit at Halfaya Pass with 114th Infantry Bn, 116th Infantry Bn, 118th Infantry Bn and 27 other units. The attackers took no losses; the defenders lost 30% of their strength and retreated 1 hex. <details><summary>Details</summary>Close Assault (15.7): attack 141 Raw Points v defence 12; differential 13, column 17; attacker dice 21, defender dice 36; Axis morale roll 41, modifier 0 (17.2); Commonwealth morale roll 26, modifier 0 (17.2).</details>
+- Axis anti-armor fire near Halfaya Pass, 2 enemy armor points destroyed.
+- The Commonwealth assaulted Maletti Div HQ, I Libyan Mtr Regt HQ, I Libyan Mtr Bn and 12 other units near Halfaya Pass with 1st Royal Tank Regt and 1st Company, Fr Mtr Marine. The attackers lost 40% of their strength and had some of their losses taken prisoner; the defenders took no losses. <details><summary>Details</summary>Close Assault (15.7): attack 4 Raw Points v defence 15; differential -2, column 0; attacker dice 22, defender dice 66; Commonwealth morale roll 52, modifier -1 (17.2); Axis morale roll 15, modifier 2 (17.2).</details>
 
 ## Operations Stage 2
 
-Weather: rainstorm. Player A: Axis.
-Units moved: Axis 138, Commonwealth 1. Hexes changing hands: 34.
+Sandstorms. The Axis moves first.
+Units moved: Axis 61, Commonwealth 1. 34 hexes changed hands. Taken: Siwa (Commonwealth).
+
+- The Axis spotted 1 enemy unit around Halfaya Pass.
+- The Commonwealth spotted 10 enemy units around Sollum and Halfaya Pass.
+- The Axis assaulted 1st Company, Fr Mtr Marine at Halfaya Pass with 1st CCNN Div HQ, 201st Bersaglieri Mitrg Coy, 201st Engineer Bn and 7 other units. The attackers took no losses; the defenders lost 40% of their strength, had some of their losses taken prisoner and retreated 1 hex. <details><summary>Details</summary>Close Assault (15.7): attack 24 Raw Points v defence 1; differential 0, column 17; attacker dice 55, defender dice 24; Axis morale roll 55, modifier 0 (17.2); Commonwealth morale roll 15, modifier -2 (17.2).</details>
+- The Axis took 1 Prisoner Point.
 
 ## Operations Stage 3
 
-Weather: hot. Player A: Axis.
-Units moved: Axis 135, Commonwealth 1. Hexes changing hands: 26.
+Rainstorms. The Axis moves first.
+Units moved: Axis 105, Commonwealth 0. 31 hexes changed hands.
 
-- Patrol (Axis): 1 Patrol Points from C4020 to C3520.
-- Patrol (Axis): 1 Patrol Points from C4020 to C3520.
-- Axis learns 1 unit(s) in C3520 (16.51).
-- Patrol (Axis): 1 Patrol Points from C4220 to C3721.
-- Patrol (Axis): 1 Patrol Points from C4220 to C3721.
-- Axis learns 2 unit(s) in C3721 (16.51).
-- Patrol (Axis): 1 Patrol Points from C4122 to C3721.
-- Axis learns 2 unit(s) in C3721 (16.51).
-- Patrol (Axis): 1 Patrol Points from C4122 to C3721.
-- Patrol (Axis): 2 Patrol Points from C4021 to C3721.
-- Patrol (Axis): 2 Patrol Points from C4120 to C3721.
-- Axis learns 1 unit(s) in C3721 (16.51).
-- Patrol (Axis): 2 Patrol Points from C4119 to C3721.
-- Axis learns 2 unit(s) in C3721 (16.51).
-- Patrol (Axis): 2 Patrol Points from C4121 to C3721.
-- Patrol (Axis): 1 Patrol Points from C4221 to C3923.
-- Patrol (Commonwealth): 2 Patrol Points from C3020 to C2823.
-- Commonwealth learns 1 unit(s) in C2823 (16.51).
+- Axis patrols: 6 patrols (6 Patrol Points) around Halfaya Pass and Sidi Barrani.
+- The Axis spotted 2 enemy units around Halfaya Pass.
 
 ## Losses and cohesion
 
-TOE Strength Points lost: Axis 6, Commonwealth 15.
-Disorganization Points: Axis 11, Commonwealth 12. Reorganization Points: Axis 90, Commonwealth 20.
-Eliminated: Fort Maddalenna Garrison Bn (Axis); Sceferzen Oasis Garrison Bn (Axis); 3rd Ryl Horse Arty (Commonwealth); 201st Bersaglieri Mitrg Coy (Axis).
-Surrendered: Fort Maddalenna Garrison Bn.
+TOE Strength Points lost: Axis 0, Commonwealth 10.
+Disorganization Points: Axis 27, Commonwealth 21. Reorganization Points: Axis 125, Commonwealth 25.
+Eliminated: 1st Royal Tank Regt (Commonwealth); 1st Company, Fr Mtr Marine (Commonwealth).
 
 ## Supply and reinforcements
 
-- Polish Brigade HQ enters at E1829.
+- Polish Brigade HQ entered the map at Cairo.
 
 ## Victory locations at the end of the Game-Turn
 
-| Place | Hex | Held by |
-|---|---|---|
-| Tobruk | C4807 | Axis |
-| Bardia | C4321 | Axis |
-| Sollum | C4021 | Axis |
-| Halfaya Pass | C3922 | Commonwealth (empty) |
-| Fort Maddalena | C3019 | Axis (empty) |
-| Sidi Omar | C3618 | - |
-| Giarabub | C1014 | Axis (empty) |
-| Siwa | C0127 | - |
-| Sidi Barrani | C4131 | Commonwealth |
-| Mersa Matruh | D3714 | Commonwealth |
+| Place | Held by |
+|---|---|
+| Tobruk | Axis |
+| Bardia | Axis |
+| Sollum | Axis |
+| Halfaya Pass | Commonwealth (empty) |
+| Fort Maddalena | Axis |
+| Sidi Omar | - |
+| Giarabub | Axis (empty) |
+| Siwa | Commonwealth |
+| Sidi Barrani | Commonwealth |
+| Mersa Matruh | Commonwealth |

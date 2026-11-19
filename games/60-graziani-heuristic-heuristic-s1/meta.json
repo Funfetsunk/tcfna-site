@@ -8,15 +8,18 @@
  "outcome": {
   "seed": 1,
   "result": "axis tactical",
-  "axisEastRow": 105,
+  "axisEastRow": 100,
   "axisAtSidiBarrani": true,
   "axisAtMatruh": false,
+  "cwHolds": [
+   "Siwa"
+  ],
   "toeLost": {
-   "axis": 30,
-   "commonwealth": 42
+   "axis": 57,
+   "commonwealth": 26
   },
-  "closeAssaults": 6,
-  "events": 10479,
-  "ms": 57579
+  "closeAssaults": 18,
+  "events": 13093,
+  "ms": 106469
  }
 }

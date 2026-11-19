@@ -1,86 +1,65 @@
 # Game-Turn 3
 
-**Initiative:** Commonwealth.
+The Axis has the Initiative.
 
 ## Operations Stage 1
 
-Weather: sandstorm. Player A: Axis.
-Units moved: Axis 87, Commonwealth 1. Hexes changing hands: 4.
+Normal weather. The Axis moves first.
+Units moved: Axis 141, Commonwealth 0. 2 hexes changed hands.
 
-- Barrage (Axis) on C3724/gun#2: 1 Actual Barrage Points, roll 25, result "noEffect".
-- Commonwealth learns 11 unit(s) in C3823 (11.36).
-- Axis learns 1 unit(s) in C3724 (11.36).
-- Morale (Commonwealth) at C3823: roll 16, modifier 0.
-- Morale (Axis) at C3823: roll 12, modifier 3.
-- Close Assault on C3823 (15.7): attack 3 Raw v defence 2, differential 0, column 3. Attacker 5% losses; defender 5% losses.
+- Axis barrage near Halfaya Pass, 1 TOE Strength Point lost.
+- 4 Axis barrages near Halfaya Pass, no effect.
+- The Axis spotted 3 enemy units around Halfaya Pass.
+- The Commonwealth spotted 40 enemy units around Halfaya Pass.
+- The Commonwealth assaulted 31st Gaf S di C HQ(E), I/31 Gaf S di C Bn, II/31 Gaf S di C Bn and 8 other units near Halfaya Pass with 2nd Rifle Brigade. The attackers lost 10% of their strength; the defenders lost 40% of their strength, had some of their losses taken prisoner and retreated 1 hex. <details><summary>Details</summary>Close Assault (15.7): attack 6 Raw Points v defence 3; differential 6, column 16; attacker dice 12, defender dice 25; Commonwealth morale roll 51, modifier 0 (17.2); Axis morale roll 11, modifier 1 (17.2).</details>
+- The Commonwealth took 9 Prisoner Points.
 
 ## Operations Stage 2
 
-Weather: normal. Player A: Axis.
-Units moved: Axis 103, Commonwealth 1. Hexes changing hands: 4.
+Normal weather. The Axis moves first.
+Units moved: Axis 118, Commonwealth 0. 9 hexes changed hands.
 
-- Barrage (Axis) on C3926/infantry#1: 1 Actual Barrage Points, roll 55, result "pinned".
-- Patrol (Axis): 2 Patrol Points from C4021 to C3520.
-- Axis learns 1 unit(s) in C3520 (16.51).
-- Patrol (Axis): 1 Patrol Points from C4020 to C3520.
-- Patrol (Axis): 2 Patrol Points from C4121 to C3724.
-- Axis learns 1 unit(s) in C3724 (16.51).
-- Patrol (Axis): 2 Patrol Points from C3534 to C3733.
-- Axis learns 1 unit(s) in C3733 (16.51).
-- Patrol (Axis): 2 Patrol Points from C4807 to C4408.
-- Axis learns 1 unit(s) in C4408 (16.51).
-- Barrage (Axis) on C3926/infantry#1: 1 Actual Barrage Points, roll 25, result "noEffect".
-- Commonwealth learns 20 unit(s) in C3925, C3823 (11.36).
-- Axis learns 2 unit(s) in C3926, C3724 (11.36).
-- Morale (Commonwealth) at C3823: roll 41, modifier 0.
-- Morale (Axis) at C3823: roll 24, modifier 0.
-- Close Assault on C3823 (15.7): attack 2 Raw v defence 2, differential 0, column 7. Attacker 5% losses; defender 0% losses.
-- Morale (Commonwealth) at C3925: roll 14, modifier 0.
-- Morale (Axis) at C3925: roll 41, modifier 1.
-- Close Assault on C3925 (15.7): attack 1 Raw v defence 2, differential 0, column 0. Attacker 50% losses, Captured; defender 0% losses.
-- Axis takes 1 TOE points prisoner.
+- 2 Axis barrages near Halfaya Pass, no effect.
+- The Axis spotted 2 enemy units around Halfaya Pass.
+- The Commonwealth spotted 19 enemy units around Halfaya Pass.
+- The Axis assaulted 2nd Rifle Brigade near Halfaya Pass with II Libyan Bn, VI Libyan Bn, VII Libyan Bn and 7 other units. The attackers lost 20% of their strength; the defenders lost 10% of their strength. <details><summary>Details</summary>Close Assault (15.7): attack 9 Raw Points v defence 10; differential 0, column 3; attacker dice 25, defender dice 15; Axis morale roll 63, modifier 0 (17.2); Commonwealth morale roll 11, modifier 3 (17.2).</details>
+- The Commonwealth assaulted 31st Gaf S di C HQ(E), I/31 Gaf S di C Bn, II/31 Gaf S di C Bn and 6 other units near Halfaya Pass with 2nd Rifle Brigade. The attackers lost 5% of their strength; the defenders lost 5% of their strength and retreated 1 hex. <details><summary>Details</summary>Close Assault (15.7): attack 4 Raw Points v defence 3; differential 0, column 10; attacker dice 31, defender dice 51; Commonwealth morale roll 63, modifier 0 (17.2); Axis morale roll 32, modifier 0 (17.2).</details>
 
 ## Operations Stage 3
 
-Weather: hot. Player A: Axis.
-Units moved: Axis 0, Commonwealth 1. Hexes changing hands: 0.
+Normal weather. The Axis moves first.
+Units moved: Axis 88, Commonwealth 1. 8 hexes changed hands.
 
-- Barrage (Commonwealth) on C3823/infantry#7: 1 Actual Barrage Points, roll 44, result "noEffect".
-- Patrol (Axis): 2 Patrol Points from C4021 to C3520.
-- Patrol (Axis): 2 Patrol Points from C4121 to C3724.
-- Axis learns 2 unit(s) in C3724 (16.51).
-- Patrol (Axis): 1 Patrol Points from C3534 to C3733.
-- Patrol (Axis): 1 Patrol Points from C3534 to C3733.
-- Axis learns 1 unit(s) in C3733 (16.51).
-- Patrol (Axis): 2 Patrol Points from C4807 to C4408.
-- Commonwealth learns 9 unit(s) in C3823 (11.36).
-- Axis learns 1 unit(s) in C3724 (11.36).
-- Morale (Commonwealth) at C3823: roll 44, modifier -3.
-- Morale (Axis) at C3823: roll 41, modifier 0.
-- Close Assault on C3823 (15.7): attack 1 Raw v defence 2, differential 0, column 2. Attacker 25% losses; defender 0% losses.
+- 2 Axis barrages near Halfaya Pass, no effect.
+- The Axis spotted 3 enemy units around Halfaya Pass.
+- The Commonwealth spotted 13 enemy units around Halfaya Pass.
+- The Axis assaulted 3rd Coldstream Guards and 1st KRRC near Halfaya Pass with 1st Libyan Anti-tank Coy, 1st Libyan Infantry HQ(E), 1st Libyan Regt HQ and 1 other unit. The attackers lost 30% of their strength; the defenders took no losses. <details><summary>Details</summary>Close Assault (15.7): attack 4 Raw Points v defence 6; differential -6, column 2; attacker dice 16, defender dice 52; Axis morale roll 13, modifier 0 (17.2); Commonwealth morale roll 26, modifier 0 (17.2).</details>
+- Axis anti-armor fire near Halfaya Pass, no armor destroyed.
+- The Commonwealth assaulted 1st Libyan Infantry HQ(E), VIII Libyan Bn, IX Libyan Bn and 6 other units near Halfaya Pass with 3rd Coldstream Guards. The attackers took no losses; the defenders took no losses. <details><summary>Details</summary>Close Assault (15.7): attack 3 Raw Points v defence 1; differential 0, column 9; attacker dice 53, defender dice 62; Commonwealth morale roll 16, modifier 0 (17.2); Axis morale roll 65, modifier -2 (17.2).</details>
 
 ## Losses and cohesion
 
-TOE Strength Points lost: Axis 5, Commonwealth 12.
-Disorganization Points: Axis 32, Commonwealth 6. Reorganization Points: Axis 40, Commonwealth 0.
-Eliminated: IX(L) Tank Bn (Axis); Replacement Points (CV 33(L3/35)) (Axis); 1st Company, Fr Mtr Marine (Commonwealth); 4th Ryl Horse Arty (Commonwealth); 3rd Coldstream Guards (Commonwealth).
+TOE Strength Points lost: Axis 26, Commonwealth 4.
+Disorganization Points: Axis 47, Commonwealth 3. Reorganization Points: Axis 45, Commonwealth 16.
+Eliminated: 3rd Ryl Horse Arty (Commonwealth); 31st Field Artillery Regt (Commonwealth); 5th Artiglieri Regt (Axis); 1st Libyan Anti-tank Coy (Axis); 1st Libyan Regt HQ (Axis).
+Surrendered: 3rd Ryl Horse Arty; 31st Field Artillery Regt.
 
 ## Supply and reinforcements
 
-- 5 Supply Unit(s) arrive: C4807, Tripoli, ?, ?, ?.
-- 1st Field Artillery Regt enters at E1830.
+- 5 Supply Units arrived (Tobruk, Tripoli and off the map).
+- 1st Field Artillery Regt entered the map at Cairo.
 
 ## Victory locations at the end of the Game-Turn
 
-| Place | Hex | Held by |
-|---|---|---|
-| Tobruk | C4807 | Axis |
-| Bardia | C4321 | Axis |
-| Sollum | C4021 | Axis |
-| Halfaya Pass | C3922 | Axis (empty) |
-| Fort Maddalena | C3019 | Axis (empty) |
-| Sidi Omar | C3618 | - |
-| Giarabub | C1014 | Axis (empty) |
-| Siwa | C0127 | - |
-| Sidi Barrani | C4131 | Axis |
-| Mersa Matruh | D3714 | Commonwealth |
+| Place | Held by |
+|---|---|
+| Tobruk | Axis |
+| Bardia | Axis |
+| Sollum | Axis |
+| Halfaya Pass | Axis |
+| Fort Maddalena | Axis |
+| Sidi Omar | - |
+| Giarabub | Axis (empty) |
+| Siwa | Commonwealth |
+| Sidi Barrani | Axis |
+| Mersa Matruh | Commonwealth |

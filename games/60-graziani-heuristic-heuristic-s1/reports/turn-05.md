@@ -1,57 +1,56 @@
 # Game-Turn 5
 
-**Initiative:** Commonwealth.
+The Axis has the Initiative.
 
 ## Operations Stage 1
 
-Weather: hot. Player A: Axis.
-Units moved: Axis 0, Commonwealth 0. Hexes changing hands: 0.
+Hot weather. The Axis moves first.
+Units moved: Axis 27, Commonwealth 0. 0 hexes changed hands.
 
-- Patrol (Axis): 1 Patrol Points from C3534 to C3733.
-- Axis learns 1 unit(s) in C3733 (16.51).
-- Patrol (Axis): 1 Patrol Points from C3534 to C3733.
-- Patrol (Axis): 2 Patrol Points from C4807 to C4408.
-- Axis learns 1 unit(s) in C4408 (16.51).
+- Axis patrols: 3 patrols (5 Patrol Points) around Sidi Barrani and Sidi Omar.
+- The Axis spotted 1 enemy unit around Sidi Omar.
+- Commonwealth patrols: 2 patrols (2 Patrol Points) around Halfaya Pass and Sidi Barrani.
+- The Commonwealth spotted 2 enemy units around Halfaya Pass and Sidi Barrani.
 
 ## Operations Stage 2
 
-Weather: normal. Player A: Axis.
-Units moved: Axis 0, Commonwealth 0. Hexes changing hands: 0.
+Normal weather. The Axis moves first.
+Units moved: Axis 27, Commonwealth 0. 0 hexes changed hands.
 
-- Patrol (Axis): 2 Patrol Points from C3534 to C3733.
-- Patrol (Axis): 2 Patrol Points from C4807 to C4408.
+- Axis patrols: 3 patrols (6 Patrol Points) around Sidi Barrani and Sidi Omar.
+- Commonwealth patrols: 2 patrols (2 Patrol Points) around Halfaya Pass and Sidi Barrani.
 
 ## Operations Stage 3
 
-Weather: normal. Player A: Axis.
-Units moved: Axis 0, Commonwealth 0. Hexes changing hands: 0.
+Hot weather. The Axis moves first.
+Units moved: Axis 27, Commonwealth 0. 0 hexes changed hands.
 
-- Patrol (Axis): 2 Patrol Points from C3534 to C3733.
-- Patrol (Axis): 2 Patrol Points from C4807 to C4408.
-- Axis learns 1 unit(s) in C4408 (16.51).
+- Axis patrols: 3 patrols (4 Patrol Points) around Sidi Barrani and Sidi Omar.
+- The Axis spotted 1 enemy unit around Sidi Omar.
+- Commonwealth patrols: 1 patrol (1 Patrol Point) around Halfaya Pass.
 
 ## Losses and cohesion
 
-TOE Strength Points lost: Axis 2, Commonwealth 0.
-Disorganization Points: Axis 0, Commonwealth 0. Reorganization Points: Axis 0, Commonwealth 0.
-Eliminated: Trivioli (2nd) Regt HQ (Axis).
+TOE Strength Points lost: Axis 7, Commonwealth 2.
+Disorganization Points: Axis 0, Commonwealth 0. Reorganization Points: Axis 50, Commonwealth 0.
+Eliminated: 201st Bersaglieri Mitrg Coy (Axis); Replacement Points (CV 33(L3/35)) (Axis); IX(L) Tank Bn (Axis).
 
 ## Supply and reinforcements
 
-- 3 Supply Unit(s) arrive: ?, ?, Tripoli.
-- 7th Indian Bde HQ enters at E1730.
+- 5 Supply Units arrived (off the map and Tripoli).
+- 7th Indian Bde HQ entered the map at Cairo.
 
 ## Victory locations at the end of the Game-Turn
 
-| Place | Hex | Held by |
-|---|---|---|
-| Tobruk | C4807 | Axis |
-| Bardia | C4321 | Axis |
-| Sollum | C4021 | Axis |
-| Halfaya Pass | C3922 | Axis (empty) |
-| Fort Maddalena | C3019 | Axis (empty) |
-| Sidi Omar | C3618 | - |
-| Giarabub | C1014 | Axis (empty) |
-| Siwa | C0127 | - |
-| Sidi Barrani | C4131 | Axis |
-| Mersa Matruh | D3714 | Commonwealth |
+| Place | Held by |
+|---|---|
+| Tobruk | Axis |
+| Bardia | Axis |
+| Sollum | Axis |
+| Halfaya Pass | Axis |
+| Fort Maddalena | Axis |
+| Sidi Omar | - |
+| Giarabub | Axis (empty) |
+| Siwa | Commonwealth |
+| Sidi Barrani | Axis |
+| Mersa Matruh | Commonwealth |

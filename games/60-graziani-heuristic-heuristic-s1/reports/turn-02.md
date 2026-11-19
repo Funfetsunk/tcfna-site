@@ -1,90 +1,70 @@
 # Game-Turn 2
 
-**Initiative:** Axis.
+The Commonwealth has the Initiative.
 
 ## Operations Stage 1
 
-Weather: hot. Player A: Axis.
-Units moved: Axis 119, Commonwealth 1. Hexes changing hands: 15.
+Normal weather. The Axis moves first.
+Units moved: Axis 107, Commonwealth 1. 16 hexes changed hands.
 
-- Patrol (Axis): 1 Patrol Points from C3920 to C3520.
-- Axis learns 1 unit(s) in C3520 (16.51).
-- Patrol (Axis): 1 Patrol Points from C3920 to C3520.
-- Patrol (Axis): 2 Patrol Points from C4019 to C3520.
-- Patrol (Axis): 1 Patrol Points from C4120 to C3721.
-- Axis learns 1 unit(s) in C3721 (16.51).
-- Patrol (Axis): 1 Patrol Points from C4120 to C3721.
-- Patrol (Axis): 2 Patrol Points from C4021 to C3721.
-- Axis learns 1 unit(s) in C3721 (16.51).
-- Patrol (Axis): 2 Patrol Points from C4219 to C3721.
-- Axis learns 1 unit(s) in C3721 (16.51).
-- Patrol (Axis): 1 Patrol Points from C4121 to C3721.
-- Patrol (Axis): 2 Patrol Points from C4221 to C3923.
-- Axis learns 1 unit(s) in C3923 (16.51).
-- Patrol (Axis): 1 Patrol Points from C3731 to C4131.
-- Axis learns 2 unit(s) in C4131 (16.51).
-- Patrol (Axis): 1 Patrol Points from C3731 to C4131.
-- Patrol (Axis): 2 Patrol Points from C4807 to C4408.
+- Axis patrols: 6 patrols (7 Patrol Points) around Halfaya Pass and Sidi Barrani.
+- The Axis spotted 3 enemy units around Halfaya Pass and Sidi Barrani.
 
 ## Operations Stage 2
 
-Weather: hot. Player A: Axis.
-Units moved: Axis 118, Commonwealth 3. Hexes changing hands: 12.
+Hot weather. The Axis moves first.
+Units moved: Axis 152, Commonwealth 6. 52 hexes changed hands. Taken: Sidi Barrani (Axis) and Halfaya Pass (Axis).
 
-- Patrol (Axis): 1 Patrol Points from C3921 to C3520.
-- Patrol (Axis): 2 Patrol Points from C4020 to C3520.
-- Patrol (Axis): 1 Patrol Points from C3921 to C3520.
-- Patrol (Axis): 1 Patrol Points from C4219 to C3721.
-- Patrol (Axis): 2 Patrol Points from C4021 to C3721.
-- Axis learns 1 unit(s) in C3721 (16.51).
-- Patrol (Axis): 2 Patrol Points from C4218 to C3721.
-- Patrol (Axis): 2 Patrol Points from C4220 to C3923.
-- Axis learns 3 unit(s) in C3923 (16.51).
-- Patrol (Axis): 1 Patrol Points from C4219 to C3923.
-- Patrol (Axis): 1 Patrol Points from C4121 to C3923.
-- Axis learns 2 unit(s) in C3923 (16.51).
-- Patrol (Axis): 1 Patrol Points from C4121 to C3923.
-- Axis learns 3 unit(s) in C3923 (16.51).
-- Patrol (Axis): 2 Patrol Points from C4807 to C4408.
-- Axis learns 1 unit(s) in C4408 (16.51).
+- 3 Axis barrages near Halfaya Pass, no effect.
+- The Axis spotted 25 enemy units around Halfaya Pass and Mersa Matruh.
+- The Commonwealth spotted 12 enemy units around Halfaya Pass and Mersa Matruh.
+- Commonwealth anti-armor fire near Mersa Matruh, 2 enemy armor points destroyed.
+- The Axis assaulted 1st RNF MG Bn and 3rd Ryl Horse Arty near Halfaya Pass with 31st Gaf S di C HQ(E) and 32nd Gaf S di C HQ(E). The attackers lost 30% of their strength and had some of their losses taken prisoner; the defenders took no losses. <details><summary>Details</summary>Close Assault (15.7): attack 0 Raw Points v defence 18; differential -2, column 0; attacker dice 33, defender dice 65; Axis morale roll 63, modifier 0 (17.2); Commonwealth morale roll 64, modifier 0 (17.2).</details>
+- The Axis assaulted 7th Armored Div HQ(E), 4th Armored Bde HQ, 6th Royal Tank Regt and 4 other units near Mersa Matruh with LX(L) Tank Bn, LXI(L) Tank Bn, Trivioli (2nd) Regt HQ and 1 other unit. The attackers lost 5% of their strength; the defenders lost 5% of their strength. <details><summary>Details</summary>Close Assault (15.7): attack 5 Raw Points v defence 44; differential 1, column 3; attacker dice 54, defender dice 31; Axis morale roll 42, modifier 0 (17.2); Commonwealth morale roll 32, modifier 0 (17.2).</details>
+- The Axis assaulted Matruh Garrison HQ (Selby Force), 1st Buffs, 1st Hampshire and 3 other units at Mersa Matruh with Aresca (1st) Regt HQ and XXI(L) Tank Bn. The attackers lost 30% of their strength and had some of their losses taken prisoner; the defenders lost 5% of their strength. <details><summary>Details</summary>Close Assault (15.7): attack 3 Raw Points v defence 60; differential -6, column 0; attacker dice 32, defender dice 14; Axis morale roll 26, modifier 0 (17.2); Commonwealth morale roll 53, modifier 0 (17.2).</details>
+- The Commonwealth assaulted Trivioli (2nd) Regt HQ, LX(L) Tank Bn and LXI(L) Tank Bn near Mersa Matruh with 6th Royal Tank Regt, 7th Armored Bde HQ, 7th Armored Div HQ(E) and 2 other units. The attackers took no losses; the defenders lost 10% of their strength and retreated 1 hex. <details><summary>Details</summary>Close Assault (15.7): attack 66 Raw Points v defence 8; differential 1, column 13; attacker dice 51, defender dice 61; Commonwealth morale roll 12, modifier 0 (17.2); Axis morale roll 12, modifier 0 (17.2).</details>
+- The Commonwealth assaulted XXI(L) Tank Bn near Mersa Matruh with 1st Durham Light Inf, 1st Essex, 1st Buffs and 2 other units. The attackers took no losses; the defenders lost 25% of their strength and retreated 1 hex. <details><summary>Details</summary>Close Assault (15.7): attack 38 Raw Points v defence 4; differential 4, column 17; attacker dice 52, defender dice 45; Commonwealth morale roll 25, modifier 0 (17.2); Axis morale roll 52, modifier -2 (17.2).</details>
 
 ## Operations Stage 3
 
-Weather: normal. Player A: Axis.
-Units moved: Axis 121, Commonwealth 4. Hexes changing hands: 28. Taken: Halfaya Pass (Axis), Sidi Barrani (Axis).
+Normal weather. The Axis moves first.
+Units moved: Axis 141, Commonwealth 2. 17 hexes changed hands.
 
-- Barrage (Axis) on C3923/infantry#1: 1 Actual Barrage Points, roll 36, result "noEffect".
-- Axis learns 3 unit(s) in C3923 (11.36).
-- Commonwealth learns 12 unit(s) in C3922 (11.36).
-- Morale (Axis) at C3923: roll 43, modifier 0.
-- Morale (Commonwealth) at C3923: roll 36, modifier 0.
-- Close Assault on C3923 (15.7): attack 35 Raw v defence 8, differential 3, column 13. Attacker 0% losses; defender 20% losses, retreat 2.
+- 2 Axis barrages near Halfaya Pass, no effect.
+- The Axis spotted 17 enemy units around Halfaya Pass and Mersa Matruh.
+- The Commonwealth spotted 21 enemy units around Halfaya Pass and Mersa Matruh.
+- Commonwealth anti-armor fire at Mersa Matruh, no armor destroyed.
+- The Axis assaulted 3rd Coldstream Guards and 1st KRRC near Halfaya Pass with 1st CCNN Div HQ, 201st Bersaglieri Mitrg Coy, 201st Engineer Bn and 4 other units. The attackers took no losses; the defenders lost 30% of their strength and retreated 2 hexes. <details><summary>Details</summary>Close Assault (15.7): attack 21 Raw Points v defence 8; differential -1, column 13; attacker dice 54, defender dice 14; Axis morale roll 24, modifier 3 (17.2); Commonwealth morale roll 42, modifier 0 (17.2).</details>
+- The Axis assaulted Matruh Garrison HQ (Selby Force), 1st Buffs, 1st Hampshire and 4 other units at Mersa Matruh with LXI(L) Tank Bn and Trivioli (2nd) Regt HQ. The attackers lost 5% of their strength and were left Engaged; the defenders lost 5% of their strength. <details><summary>Details</summary>Close Assault (15.7): attack 2 Raw Points v defence 56; differential -6, column 0; attacker dice 65, defender dice 14; Axis morale roll 41, modifier -3 (17.2); Commonwealth morale roll 14, modifier 0 (17.2).</details>
+- Axis barrage near Halfaya Pass, target pinned.
+- The Commonwealth assaulted Trivioli (2nd) Regt HQ near Mersa Matruh with 1st Durham Light Inf, 1st Essex, Replacement Points (A9 Cruiser) and 3 other units. The attackers took no losses; the defenders lost 50% of their strength, had some of their losses taken prisoner and retreated 1 hex. <details><summary>Details</summary>Close Assault (15.7): attack 39 Raw Points v defence 2; differential 4, column 17; attacker dice 44, defender dice 12; Commonwealth morale roll 46, modifier 0 (17.2); Axis morale roll 44, modifier -4 (17.2).</details>
 
 ## Losses and cohesion
 
-TOE Strength Points lost: Axis 8, Commonwealth 8.
-Disorganization Points: Axis 2, Commonwealth 0. Reorganization Points: Axis 27, Commonwealth 0.
-Eliminated: Replacement Points (CV 33(L3/35)) (Axis); EGUG Garrison Bn (Axis); Aresca (1st) Regt HQ (Axis); 63rd Bersaglieri Mitrg Coy (Axis); 1st RNF MG Bn (Commonwealth); 1st KRRC (Commonwealth).
+TOE Strength Points lost: Axis 8, Commonwealth 7.
+Disorganization Points: Axis 47, Commonwealth 9. Reorganization Points: Axis 26, Commonwealth 58.
+Eliminated: Sceferzen Oasis Garrison Bn (Axis); XX(L) Tank Bn (Axis); 4th Armored Bde HQ (Commonwealth); Aresca (1st) Regt HQ (Axis); LX(L) Tank Bn (Axis); LXI(L) Tank Bn (Axis); 4th Ryl Horse Arty (Commonwealth); 7th Medium Artillery Regt (Commonwealth); Trivioli (2nd) Regt HQ (Axis).
+Surrendered: 4th Ryl Horse Arty; 7th Medium Artillery Regt.
 
 ## Supply and reinforcements
 
-- 4 Supply Unit(s) arrive: C4807, ?, ?, ?.
-- A Supply Unit is captured ({"type":"SupplyUnitCaptured","supply":"commonwealth-su-6","by":"axis","hex":"C4131","rule":"32.13"}).
-- 6th NZ Field Artillery Regt enters at E1931.
-- 2nd Royal Tank Regt enters at E1829.
-- 7th Royal Tank Regt enters at E1931.
+- 4 Supply Units arrived (Tobruk and off the map).
+- The Axis captured a Commonwealth Supply Unit at Sidi Barrani.
+- 6th NZ Field Artillery Regt entered the map at Cairo.
+- 2nd Royal Tank Regt entered the map at Cairo.
+- 7th Royal Tank Regt entered the map at Cairo.
 
 ## Victory locations at the end of the Game-Turn
 
-| Place | Hex | Held by |
-|---|---|---|
-| Tobruk | C4807 | Axis |
-| Bardia | C4321 | Axis |
-| Sollum | C4021 | Axis |
-| Halfaya Pass | C3922 | Axis |
-| Fort Maddalena | C3019 | Axis (empty) |
-| Sidi Omar | C3618 | - |
-| Giarabub | C1014 | Axis (empty) |
-| Siwa | C0127 | - |
-| Sidi Barrani | C4131 | Axis |
-| Mersa Matruh | D3714 | Commonwealth |
+| Place | Held by |
+|---|---|
+| Tobruk | Axis |
+| Bardia | Axis |
+| Sollum | Axis |
+| Halfaya Pass | Axis |
+| Fort Maddalena | Axis |
+| Sidi Omar | - |
+| Giarabub | Axis (empty) |
+| Siwa | Commonwealth |
+| Sidi Barrani | Axis |
+| Mersa Matruh | Commonwealth |
