@@ -1,36 +1,36 @@
 # Game-Turn 5
 
-The Commonwealth has the Initiative.
+The Allies have the Initiative.
 
 ## Operations Stage 1
 
-Normal weather. The Axis moves first. <details><summary>Details</summary>Units moved: Axis 0, Commonwealth 0. 0 hexes changed hands.</details>
+Normal weather. The Axis moves first. <details><summary>Details</summary>Units moved: Axis 0, Allies 0. 0 hexes changed hands.</details>
 
 - Axis barrage near Halfaya Pass, no effect.
 - The Axis spotted 2 enemy units around Halfaya Pass.
-- The Commonwealth spotted 17 enemy units around Halfaya Pass and Mersa Matruh.
-- Commonwealth patrols: 1 patrol (2 Patrol Points) around Mersa Matruh.
+- The Allies spotted 17 enemy units around Halfaya Pass and Mersa Matruh.
+- Allied patrols: 1 patrol (2 Patrol Points) around Mersa Matruh.
 
 ## Operations Stage 2
 
-Sandstorms. The Axis moves first. <details><summary>Details</summary>Units moved: Axis 0, Commonwealth 0. 0 hexes changed hands.</details>
+Sandstorms. The Axis moves first. <details><summary>Details</summary>Units moved: Axis 0, Allies 0. 0 hexes changed hands.</details>
 
 - Axis patrols: 2 patrols (4 Patrol Points) around Halfaya Pass and Sidi Barrani.
 - The Axis spotted 1 enemy unit around Halfaya Pass.
 
 ## Operations Stage 3
 
-Normal weather. The Axis moves first. <details><summary>Details</summary>Units moved: Axis 0, Commonwealth 0. 0 hexes changed hands.</details>
+Normal weather. The Axis moves first. <details><summary>Details</summary>Units moved: Axis 0, Allies 0. 0 hexes changed hands.</details>
 
 - Axis patrols: 2 patrols (4 Patrol Points) around Halfaya Pass and Mersa Matruh.
-- Commonwealth patrols: 1 patrol (2 Patrol Points) around Mersa Matruh.
-- The Commonwealth spotted 1 enemy unit around Mersa Matruh.
+- Allied patrols: 1 patrol (2 Patrol Points) around Mersa Matruh.
+- The Allies spotted 1 enemy unit around Mersa Matruh.
 
 ## Losses and cohesion
 
-Strength points lost: Axis 3, Commonwealth 2.
-Disorganization Points: Axis 0, Commonwealth 0. Reorganization Points: Axis 60, Commonwealth 5.
-Eliminated: 3rd Coldstream Guards (Commonwealth); 7th Medium Artillery Regt (Commonwealth); 1st Royal Tank Regt (Commonwealth).
+Strength points lost: Axis 3, Allies 2.
+Disorganization Points: Axis 0, Allies 0. Reorganization Points: Axis 60, Allies 5.
+Eliminated: 3rd Coldstream Guards (Allies); 7th Medium Artillery Regt (Allies); 1st Royal Tank Regt (Allies).
 Surrendered: 3rd Coldstream Guards; 7th Medium Artillery Regt.
 
 ## Supply and reinforcements
@@ -49,6 +49,6 @@ Surrendered: 3rd Coldstream Guards; 7th Medium Artillery Regt.
 | Fort Maddalena | Axis |
 | Sidi Omar | - |
 | Giarabub | Axis (empty) |
-| Siwa | Commonwealth |
+| Siwa | Allies |
 | Sidi Barrani | Axis |
-| Mersa Matruh | Commonwealth |
+| Mersa Matruh | Allies |

@@ -21,5 +21,21 @@
   "closeAssaults": 13,
   "events": 11995,
   "ms": 62257
+ },
+ "sides": {
+  "axis": {
+   "name": "Axis",
+   "people": "Italian",
+   "hq": "Comando Superiore, Libya",
+   "troops": "Italians"
+  },
+  "commonwealth": {
+   "name": "Allies",
+   "people": "British",
+   "hq": "GHQ Middle East, Cairo",
+   "plural": true,
+   "adjective": "Allied",
+   "troops": "British"
+  }
  }
 }
