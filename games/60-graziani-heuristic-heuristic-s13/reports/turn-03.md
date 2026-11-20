@@ -4,8 +4,7 @@ The Commonwealth has the Initiative.
 
 ## Operations Stage 1
 
-Rainstorms. The Axis moves first.
-Units moved: Axis 94, Commonwealth 5. 16 hexes changed hands.
+Rainstorms. The Axis moves first. <details><summary>Details</summary>Units moved: Axis 94, Commonwealth 5. 16 hexes changed hands.</details>
 
 - 5 Axis barrages near Halfaya Pass, no effect.
 - 2 Axis barrages near Halfaya Pass, target pinned.
@@ -18,8 +17,7 @@ Units moved: Axis 94, Commonwealth 5. 16 hexes changed hands.
 
 ## Operations Stage 2
 
-Normal weather. The Axis moves first.
-Units moved: Axis 112, Commonwealth 1. 21 hexes changed hands.
+Normal weather. The Axis moves first. <details><summary>Details</summary>Units moved: Axis 112, Commonwealth 1. 21 hexes changed hands.</details>
 
 - 6 Axis barrages near Halfaya Pass, no effect.
 - Axis barrage near Halfaya Pass, target pinned.
@@ -27,14 +25,13 @@ Units moved: Axis 112, Commonwealth 1. 21 hexes changed hands.
 - The Commonwealth spotted 35 enemy units around Halfaya Pass.
 - Commonwealth anti-armor fire near Halfaya Pass, 1 enemy armor point destroyed.
 - The Axis assaulted 2nd Rifle Brigade and Replacement Points (A9 Cruiser) near Halfaya Pass with 1st CCNN Div HQ, 201st Engineer Bn, 233rd Legion HQ and 21 other units. The attackers took no losses; the defenders lost 15% of their strength and retreated 1 hex. <details><summary>Details</summary>Close Assault (15.7): attack 45 Raw Points v defence 0; differential 3, column 17; attacker dice 32, defender dice 63; Axis morale roll 15, modifier 2 (17.2); Commonwealth morale roll 13, modifier 0 (17.2).</details>
-- Axis barrage near Halfaya Pass, 1 TOE Strength Point lost.
+- Axis barrage near Halfaya Pass, 1 strength point lost.
 - Axis anti-armor fire near Halfaya Pass, 2 enemy armor points destroyed.
 - The Commonwealth assaulted 1st CCNN Div HQ, 129th Infantry Bn, 233rd Legion HQ and 8 other units near Halfaya Pass with 2nd Rifle Brigade, Replacement Points (A9 Cruiser) and 3rd Coldstream Guards. The attackers lost 5% of their strength and were left Engaged; the defenders lost 5% of their strength. <details><summary>Details</summary>Close Assault (15.7): attack 9 Raw Points v defence 1; differential 9, column 11; attacker dice 35, defender dice 55; Commonwealth morale roll 23, modifier 0 (17.2); Axis morale roll 24, modifier 4 (17.2).</details>
 
 ## Operations Stage 3
 
-Hot weather. The Axis moves first.
-Units moved: Axis 3, Commonwealth 1. 2 hexes changed hands.
+Hot weather. The Axis moves first. <details><summary>Details</summary>Units moved: Axis 3, Commonwealth 1. 2 hexes changed hands.</details>
 
 - Axis barrage near Halfaya Pass, target pinned.
 - 6 Axis barrages near Halfaya Pass, no effect.
@@ -46,7 +43,7 @@ Units moved: Axis 3, Commonwealth 1. 2 hexes changed hands.
 
 ## Losses and cohesion
 
-TOE Strength Points lost: Axis 16, Commonwealth 11.
+Strength points lost: Axis 16, Commonwealth 11.
 Disorganization Points: Axis 80, Commonwealth 18. Reorganization Points: Axis 50, Commonwealth 15.
 Eliminated: 3rd Ryl Horse Arty (Commonwealth); 1st RNF MG Bn (Commonwealth); Replacement Points (A9 Cruiser) (Commonwealth).
 

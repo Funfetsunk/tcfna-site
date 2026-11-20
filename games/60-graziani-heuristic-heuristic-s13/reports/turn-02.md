@@ -4,16 +4,14 @@ The Commonwealth has the Initiative.
 
 ## Operations Stage 1
 
-Normal weather. The Axis moves first.
-Units moved: Axis 69, Commonwealth 0. 2 hexes changed hands.
+Normal weather. The Axis moves first. <details><summary>Details</summary>Units moved: Axis 69, Commonwealth 0. 2 hexes changed hands.</details>
 
 - Axis patrols: 4 patrols (7 Patrol Points) around Halfaya Pass and Sidi Barrani.
 - The Axis spotted 3 enemy units around Halfaya Pass.
 
 ## Operations Stage 2
 
-Normal weather. The Axis moves first.
-Units moved: Axis 46, Commonwealth 0. 2 hexes changed hands.
+Normal weather. The Axis moves first. <details><summary>Details</summary>Units moved: Axis 46, Commonwealth 0. 2 hexes changed hands.</details>
 
 - The Axis spotted 2 enemy units around Sidi Barrani.
 - The Commonwealth spotted 12 enemy units around Sidi Barrani.
@@ -22,8 +20,7 @@ Units moved: Axis 46, Commonwealth 0. 2 hexes changed hands.
 
 ## Operations Stage 3
 
-Rainstorms. The Axis moves first.
-Units moved: Axis 133, Commonwealth 7. 31 hexes changed hands. Taken: Sidi Barrani (Axis) and Halfaya Pass (Axis).
+Rainstorms. The Axis moves first. Taken: Sidi Barrani (Axis) and Halfaya Pass (Axis). <details><summary>Details</summary>Units moved: Axis 133, Commonwealth 7. 31 hexes changed hands.</details>
 
 - 4 Axis barrages near Halfaya Pass, no effect.
 - The Axis spotted 7 enemy units around Halfaya Pass.
@@ -35,7 +32,7 @@ Units moved: Axis 133, Commonwealth 7. 31 hexes changed hands. Taken: Sidi Barra
 
 ## Losses and cohesion
 
-TOE Strength Points lost: Axis 10, Commonwealth 12.
+Strength points lost: Axis 10, Commonwealth 12.
 Disorganization Points: Axis 31, Commonwealth 9. Reorganization Points: Axis 99, Commonwealth 5.
 Eliminated: EGUG Garrison Bn (Axis); Giariabub Oasis Anti-tank Coy (Axis); 2nd Scots Guards (Commonwealth); 219th Legion HQ (Axis); 1st Company, Fr Mtr Marine (Commonwealth).
 Surrendered: 2nd Scots Guards.

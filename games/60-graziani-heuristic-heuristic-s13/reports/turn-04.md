@@ -4,8 +4,7 @@ The Axis has the Initiative.
 
 ## Operations Stage 1
 
-Normal weather. The Axis moves first.
-Units moved: Axis 2, Commonwealth 1. 0 hexes changed hands.
+Normal weather. The Axis moves first. <details><summary>Details</summary>Units moved: Axis 2, Commonwealth 1. 0 hexes changed hands.</details>
 
 - 5 Axis barrages near Halfaya Pass, no effect.
 - 2 Axis barrages near Halfaya Pass, target pinned.
@@ -15,8 +14,7 @@ Units moved: Axis 2, Commonwealth 1. 0 hexes changed hands.
 
 ## Operations Stage 2
 
-Hot weather. The Axis moves first.
-Units moved: Axis 2, Commonwealth 0. 0 hexes changed hands.
+Hot weather. The Axis moves first. <details><summary>Details</summary>Units moved: Axis 2, Commonwealth 0. 0 hexes changed hands.</details>
 
 - 4 Axis barrages near Halfaya Pass, no effect.
 - Axis barrage near Halfaya Pass, target pinned.
@@ -28,8 +26,7 @@ Units moved: Axis 2, Commonwealth 0. 0 hexes changed hands.
 
 ## Operations Stage 3
 
-Hot weather. The Axis moves first.
-Units moved: Axis 0, Commonwealth 0. 0 hexes changed hands.
+Hot weather. The Axis moves first. <details><summary>Details</summary>Units moved: Axis 0, Commonwealth 0. 0 hexes changed hands.</details>
 
 - 3 Axis barrages near Halfaya Pass, no effect.
 - Axis patrols: 3 patrols (6 Patrol Points) around Halfaya Pass, Sidi Barrani and Mersa Matruh.
@@ -41,7 +38,7 @@ Units moved: Axis 0, Commonwealth 0. 0 hexes changed hands.
 
 ## Losses and cohesion
 
-TOE Strength Points lost: Axis 3, Commonwealth 6.
+Strength points lost: Axis 3, Commonwealth 6.
 Disorganization Points: Axis 0, Commonwealth 6. Reorganization Points: Axis 51, Commonwealth 20.
 Eliminated: 2nd Rifle Brigade (Commonwealth); 31st Field Artillery Regt (Commonwealth); 4th Ryl Horse Arty (Commonwealth).
 Surrendered: 2nd Rifle Brigade; 31st Field Artillery Regt.

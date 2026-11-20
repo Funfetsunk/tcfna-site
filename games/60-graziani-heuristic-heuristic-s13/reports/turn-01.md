@@ -4,8 +4,7 @@ The Axis has the Initiative.
 
 ## Operations Stage 1
 
-Hot weather. The Axis moves first.
-Units moved: Axis 165, Commonwealth 9. 161 hexes changed hands. Taken: Sollum (Axis).
+Hot weather. The Axis moves first. Taken: Sollum (Axis). <details><summary>Details</summary>Units moved: Axis 165, Commonwealth 9. 161 hexes changed hands.</details>
 
 - 5 Axis barrages on Halfaya Pass, no effect.
 - The Axis spotted 4 enemy units around Halfaya Pass.
@@ -15,23 +14,21 @@ Units moved: Axis 165, Commonwealth 9. 161 hexes changed hands. Taken: Sollum (A
 
 ## Operations Stage 2
 
-Normal weather. The Axis moves first.
-Units moved: Axis 89, Commonwealth 2. 76 hexes changed hands. Taken: Siwa (Commonwealth).
+Normal weather. The Axis moves first. Taken: Siwa (Commonwealth). <details><summary>Details</summary>Units moved: Axis 89, Commonwealth 2. 76 hexes changed hands.</details>
 
 - Axis patrols: 4 patrols (4 Patrol Points) around Halfaya Pass and Sidi Barrani.
 - The Axis spotted 1 enemy unit around Sidi Barrani.
 
 ## Operations Stage 3
 
-Normal weather. The Axis moves first.
-Units moved: Axis 83, Commonwealth 0. 13 hexes changed hands.
+Normal weather. The Axis moves first. <details><summary>Details</summary>Units moved: Axis 83, Commonwealth 0. 13 hexes changed hands.</details>
 
 - Axis patrols: 4 patrols (7 Patrol Points) around Halfaya Pass and Sidi Barrani.
 - The Axis spotted 4 enemy units around Halfaya Pass and Sidi Barrani.
 
 ## Losses and cohesion
 
-TOE Strength Points lost: Axis 4, Commonwealth 7.
+Strength points lost: Axis 4, Commonwealth 7.
 Disorganization Points: Axis 6, Commonwealth 0. Reorganization Points: Axis 90, Commonwealth 0.
 Eliminated: 201st Bersaglieri Mitrg Coy (Axis); 63rd Bersaglieri Mitrg Coy (Axis); Sceferzen Oasis Garrison Bn (Axis).
 
