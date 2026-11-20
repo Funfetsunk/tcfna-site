@@ -1,25 +1,25 @@
 {
  "scenario": "60-graziani",
- "seed": 1,
+ "seed": 13,
  "controllers": {
   "axis": "heuristic",
   "commonwealth": "heuristic"
  },
  "outcome": {
-  "seed": 1,
+  "seed": 13,
   "result": "axis tactical",
-  "axisEastRow": 100,
+  "axisEastRow": 113,
   "axisAtSidiBarrani": true,
   "axisAtMatruh": false,
   "cwHolds": [
    "Siwa"
   ],
   "toeLost": {
-   "axis": 57,
-   "commonwealth": 26
+   "axis": 41,
+   "commonwealth": 39
   },
-  "closeAssaults": 18,
-  "events": 13093,
-  "ms": 106469
+  "closeAssaults": 13,
+  "events": 11995,
+  "ms": 62257
  }
 }
